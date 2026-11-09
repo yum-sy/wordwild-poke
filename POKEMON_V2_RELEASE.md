@@ -47,3 +47,11 @@ PokeAPI 고정 pokemon.csv의 251종 키(height, dm)를 미터로 저장. 전투
 ## 그림자 통일 — 2026-11-09
 
 시작 카드 외부의 고정 타원 그림자 제거. 모든 포켓몬 렌더러에서 88/96 발 기준점에 작은 접지 그림자 하나를 사용한다. 전/후면별 에셋 투명 경계 폭을 측정해 그림자 폭을 정하고, 일반/shiny 및 정적/애니메이션 사이에서 흔들리지 않게 고정한다. 전투 상대 크기 배율과 그림자도 함께 변한다. 10개 화면 크기 × 홈/전투/보스/도감/팀/포획/보상대상 70조합에서 기준점·폭·중복·스크롤 검사 통과. 기존 103개 테스트 통과.
+
+## Poké Ball capture update
+
+- PokeAPI's published sprite catalog supplies Pokémon and item sprites, but no move-specific attack-effect animation set was found. Existing attack effects remain pending a separate pixel-style art pass. Reference: https://github.com/PokeAPI/sprites#sprites
+- Capture now throws a pixel Poké Ball, absorbs the Pokémon, drops and shakes three times, then locks with stars or releases the Pokémon. Reduced motion uses static states and text cues.
+- Golden Net is displayed as Master Ball; old saved `goldenNets` and reward identifiers remain compatible. Chances and three-attempt limit are unchanged.
+- Result and item consumption commit before presentation, so reloading cannot refund a ball or reroll that attempt. Full-party captures retain the swap candidate.
+- Capture animation pauses while the page is hidden; input stays locked through the result.

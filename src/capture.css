@@ -1,0 +1,40 @@
+/* Pixel ball assets + original motion choreography, not imported battle frames. */
+.capture-icon{image-rendering:pixelated;object-fit:contain}
+.capture-ball{position:absolute;left:50%;top:72%;width:28%;aspect-ratio:1;transform:translate(-50%,-50%);transform-origin:50% 75%;z-index:5;filter:drop-shadow(0 3px 1px #10202b66)}
+.capture-ball img{width:100%;height:100%;image-rendering:pixelated}
+.ball-button{position:absolute;width:14%;height:14%;border-radius:50%;top:44%;left:43%;background:transparent}
+.capture-flash{position:absolute;inset:20%;border-radius:50%;opacity:0;background:#fff6d0;pointer-events:none;z-index:6}
+.capture-stars{position:absolute;top:42%;left:20%;width:60%;text-align:center;opacity:0;color:#ffe279;font-size:clamp(20px,4vw,38px);z-index:7}
+.catch-throw .capture-ball{animation:ball-throw 650ms ease-out both}
+.catch-absorb .capture-ball{top:45%}
+.catch-absorb .capture-portrait>.monster-art{animation:ball-absorb 450ms ease-in both!important;transform-origin:50% 45%}
+.catch-absorb .capture-flash{animation:ball-flash 450ms ease-out both}
+.catch-drop .capture-ball{animation:ball-drop 400ms ease-in both}
+.catch-drop .capture-portrait>.monster-art,.catch-shake1 .capture-portrait>.monster-art,.catch-shake2 .capture-portrait>.monster-art,.catch-shake3 .capture-portrait>.monster-art,.catch-result.caught .capture-portrait>.monster-art,.capture-complete .capture-portrait>.monster-art{opacity:0!important;visibility:hidden}
+.catch-shake1 .capture-ball,.catch-shake2 .capture-ball,.catch-shake3 .capture-ball{animation:ball-wobble 500ms ease-in-out both}
+.catch-shake1 .ball-button,.catch-shake2 .ball-button,.catch-shake3 .ball-button{animation:ball-light 500ms steps(2) both}
+.catch-result.caught .capture-ball{animation:ball-lock 300ms ease-out both}
+.catch-result.caught .capture-stars{animation:ball-stars 1000ms ease-out both}
+.catch-result.escaped .capture-ball{animation:ball-open 240ms ease-out both}
+.catch-result.escaped .capture-flash{animation:ball-flash 400ms ease-out both}
+.catch-result.escaped .capture-portrait>.monster-art{visibility:visible!important;animation:ball-release 600ms ease-out both!important}
+.capture-complete .capture-ball{filter:drop-shadow(0 0 5px #e7f2a5)}
+.capture-complete .ball-button{background:#a3ec89}
+.presentation-paused .capture-portrait *{animation-play-state:paused!important}
+@keyframes ball-throw{0%{left:-20%;top:100%;transform:translate(-50%,-50%) rotate(-240deg) scale(.65)}55%{left:20%;top:8%}100%{left:50%;top:45%;transform:translate(-50%,-50%) rotate(0) scale(1)}}
+@keyframes ball-absorb{0%{opacity:1;transform:scale(1);filter:brightness(1)}35%{filter:brightness(3)}100%{opacity:0;transform:scale(.05);filter:brightness(4)}}
+@keyframes ball-drop{0%{top:45%}70%{top:78%}85%{top:65%}100%{top:72%}}
+@keyframes ball-wobble{0%,100%{transform:translate(-50%,-50%) rotate(0)}25%{transform:translate(-58%,-50%) rotate(-18deg)}65%{transform:translate(-42%,-50%) rotate(18deg)}}
+@keyframes ball-light{0%,100%{background:transparent}35%,70%{background:#ffe283;box-shadow:0 0 5px #ffe283}}
+@keyframes ball-lock{0%{transform:translate(-50%,-50%) scale(1.1)}100%{transform:translate(-50%,-50%) scale(1)}}
+@keyframes ball-open{to{opacity:0;transform:translate(-50%,-65%) scale(1.4)}}
+@keyframes ball-release{0%{opacity:0;transform:translateY(25%) scale(.05);filter:brightness(4)}65%{opacity:1;transform:translateY(-8%) scale(1.05);filter:brightness(1.5)}100%{opacity:1;transform:none;filter:none}}
+@keyframes ball-flash{0%{opacity:0;transform:scale(.2)}35%{opacity:.85}100%{opacity:0;transform:scale(1.5)}}
+@keyframes ball-stars{0%{opacity:0;transform:translateY(25%) scale(.6)}30%{opacity:1}100%{opacity:0;transform:translateY(-45%) scale(1.2)}}
+@media(prefers-reduced-motion:reduce){
+ .capture-ball,.capture-flash,.capture-stars,.capture-portrait>.monster-art,.ball-button{animation:none!important}
+ .catch-throw .capture-ball,.catch-absorb .capture-ball{top:45%}
+ .catch-absorb .capture-portrait>.monster-art{opacity:0!important}
+ .catch-result.escaped .capture-ball{opacity:0}.catch-result.escaped .capture-portrait>.monster-art{opacity:1!important;transform:none!important}
+ .catch-result.caught .capture-stars{opacity:1}.catch-shake1 .ball-button,.catch-shake2 .ball-button,.catch-shake3 .ball-button{background:#ffe283}
+}

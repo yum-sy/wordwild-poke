@@ -1,0 +1,18 @@
+[
+  {
+    "file": "poke-ball.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/items/poke-ball.png",
+    "sourceSha256": "a4c7b9e8ff5727d10e6f679bcf16a963a95b2a36480d3bd9156d9808bdf54dff",
+    "sha256": "8c7a2125bd7ee457cf60829d852f7ccec1afc1a1b7d3bdbe5f39ca333b57d500",
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; excluded from code license",
+    "processing": "alpha crop, integer nearest-neighbor scale, centered 32px canvas"
+  },
+  {
+    "file": "master-ball.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/items/master-ball.png",
+    "sourceSha256": "a702e5700d83d28cfbdefeb4cdb70e7ec82a4903133355b87fbac5cae4c98c9e",
+    "sha256": "093f3f2b5b9b4cdbd6c6592768f408405c205193baedf98ea9ece90736cd2c61",
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; excluded from code license",
+    "processing": "alpha crop, integer nearest-neighbor scale, centered 32px canvas"
+  }
+]

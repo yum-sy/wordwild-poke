@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {newGame,createMonster} from '../src/game.js';
+import {startCaptureAttempt,CAPTURE_TIMING} from '../src/capture-sequence.js';
+import {createBattleSequence} from '../src/battle-sequence.js';
+import {saveRun,loadRun} from '../src/run-store.js';
+const game=()=>{const g=newGame('p004',null,()=>.1);g.phase='capture';return g;};
+const roundtrip=g=>{const m=new Map(),s={getItem:k=>m.get(k),setItem:(k,v)=>m.set(k,v),removeItem:k=>m.delete(k)};saveRun(s,g);return loadRun(s);};
+test('capture result is durable before the throw and cannot duplicate a caught teammate',()=>{const g=game();assert.equal(startCaptureAttempt(g,()=>0).success,true);const r=roundtrip(g);assert.equal(r.attempts,1);assert.equal(r.party.length,2);assert.equal(r.captureResult,'success');assert.equal(startCaptureAttempt(r),null);});
+test('failed throws survive reload and stop at three',()=>{let g=game();for(let i=1;i<=3;i++){assert.equal(startCaptureAttempt(g,()=>.999).success,false);g=roundtrip(g);assert.equal(g.attempts,i);}assert.equal(startCaptureAttempt(g),null);assert.equal(g.party.length,1);});
+test('Master Ball consumes one legacy saved item and preserves a full-team candidate',()=>{const g=game();g.party.push(createMonster('p001'),createMonster('p007'));g.goldenNets=2;assert.deepEqual(startCaptureAttempt(g,()=>.999),{ball:'master-ball',success:true});const r=roundtrip(g);assert.equal(r.goldenNets,1);assert.equal(r.phase,'party-management');assert.equal(r.candidate.speciesId,g.enemy.speciesId);assert.equal(r.captureBall,'master-ball');assert.equal(startCaptureAttempt(r),null);});
+test('presentation performs exactly three shakes, rejects restart, then completes once',()=>{const jobs=[];const frames=[];let done=0;const seq=createBattleSequence({timing:CAPTURE_TIMING,setTimer:fn=>{jobs.push(fn);return jobs.length;},clearTimer:()=>{},onFrame:f=>frames.push(f),onDone:()=>done++});seq.start();assert.equal(seq.start(),false);while(jobs.length)jobs.shift()();assert.deepEqual(frames,['throw','absorb','drop','shake1','shake2','shake3','result']);assert.equal(done,1);assert.equal(seq.running,false);});

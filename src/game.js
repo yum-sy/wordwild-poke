@@ -176,7 +176,7 @@ export const REWARDS={
   'attack-two':{name:'Great Power Stone',description:'Attack +2',icon:'💪',rarity:'Epic',effect:'attack',value:2},
   'shield-all':{name:'Team Shield',description:'Team max shield and shield +1',icon:'🛡️',rarity:'Epic',effect:'shield',value:1,scope:'team'},
   'restore-all':{name:'Team Full Restore',description:'Fill all team HP and shields',icon:'❤️ 🛡️',rarity:'Epic',effect:'restore',scope:'team'},
-  'golden-net':{name:'Golden Net',description:'Your next catch always works!',icon:'🥅',rarity:'Epic',effect:'golden-net',scope:'run'},
+  'golden-net':{name:'Master Ball',description:'Your next catch always works!',icon:'◉',rarity:'Epic',effect:'golden-net',scope:'run'},
 };
 export function rollRewards(g,rng=Math.random){
   // Roll once per victory. Backing out of the target screen keeps the same loot.

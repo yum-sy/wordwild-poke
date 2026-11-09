@@ -18,3 +18,7 @@ Original generated monster atlases are preserved, inactive, for rollback. Existi
 ## Species metadata
 
 Names, current primary types, evolution links and classifications derive from pinned PokeAPI/pokeapi CSVs. That repository uses BSD-3-Clause. Its exact notice is retained in assets/pokemon/UPSTREAM-DATA-LICENSE.txt; source URLs and SHA-256 are in data-manifest.json. This data repository license does not grant Pokémon trademark or image rights.
+
+## Capture item sprites
+
+`assets/capture/poke-ball.png` and `master-ball.png` use PokeAPI's item sprites at the pinned revision in `assets/capture/sources.json`. Pokémon artwork remains © Nintendo / Creatures Inc. / GAME FREAK inc.; it is not covered by this project's MIT license. The local copies are alpha-cropped and nearest-neighbor scaled. Throw, absorption, three shakes, release and capture effects are original CSS choreography, not official game animation frames.

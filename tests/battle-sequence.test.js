@@ -21,10 +21,3 @@ test('cancelled sequences cannot advance or complete a later run',()=>{
  turn.start();c.tick(400);turn.cancel();c.tick(10000);assert.equal(done,0);assert.equal(seen.at(-1),'cast');
  turn.start();c.tick(2200);assert.equal(done,1);
 });
-test('capture resolves once after struggling and holds the outcome before continuing',()=>{
- const c=clock(),seen=[];let attempts=0,done=0;
- const sequence=createBattleSequence({...c,timing:{throw:650,struggle:1300,result:1400},onFrame:f=>{seen.push(f);if(f==='result')attempts++;},onDone:()=>done++});
- sequence.start();assert.equal(sequence.start(),false);c.tick(650);assert.equal(seen.at(-1),'struggle');assert.equal(attempts,0);
- c.tick(1300);assert.equal(attempts,1);assert.equal(done,0);assert.ok(sequence.running);
- c.tick(1399);assert.equal(done,0);c.tick(1);assert.equal(done,1);assert.equal(attempts,1);
-});
