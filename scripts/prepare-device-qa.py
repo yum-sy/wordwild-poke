@@ -10,7 +10,7 @@ if(qaPhase==='reading'){game.phase='battle';game.question=QUESTIONS.filter(q=>q.
 if(qaPhase==='game-over')game.party.forEach(m=>m.currentHp=0);
 if(qaPhase==='lucky-event'){game.luckyEvent={reward:'golden-net',claimed:false};}
 if(qaPhase==='failed'){game.phase='capture';game.attempts=3;game.captureResult='failed';}
-view=['home','dex','party'].includes(qaPhase)?qaPhase:'game';
+view=['home','dex','party','parents','learning','hall'].includes(qaPhase)?qaPhase:'game';
 if(qaPhase==='dex')game.phase='battle';
 if(qaPhase==='boss'){game.phase='battle';game.stage=100;game.enemy=createMonster('p250',100);game.enemy.rareForm='shiny';}
 if(qaPhase==='evolution'){game.party[0].speciesId='p002';game.party[0].lastEvolution={fromSpeciesId:'p001',toSpeciesId:'p002',route:'shield',before:{shield:3},after:{shield:4},threshold:12};}

@@ -24,3 +24,5 @@ Names, current primary types, evolution links and classifications derive from pi
 `assets/capture/poke-ball.png`, `great-ball.png`, `ultra-ball.png` and `master-ball.png` use PokeAPI's item sprites at the pinned revision in `assets/capture/sources.json`. Pokémon artwork remains © Nintendo / Creatures Inc. / GAME FREAK inc.; it is not covered by this project's MIT license. The local copies are alpha-cropped and nearest-neighbor scaled. Throw, absorption, three shakes, release and capture effects are original CSS choreography, not official game animation frames.
 
 Install icons `assets/icons/pichu-back-*.png` package the cached PokeAPI Pichu back sprite (`assets/pokemon/172-back.png`) on an opaque background with maskable safe padding. The same Pokémon artwork rights apply. Regenerate with `python3 scripts/build-install-icons.py`.
+
+`assets/icons/pichu-close-*.png` are nearest-neighbor crops of the same cached Pichu back sprite, with an ivory/yellow background. These serve as the app logo, install icons and favicons; Pokémon artwork attribution above applies.
