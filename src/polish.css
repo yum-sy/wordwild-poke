@@ -349,3 +349,10 @@ html{background:#101821}body{background:#101821}.topbar{background:#101821!impor
    Scale the whole body/shadow together around the normalized 88/96 foot line. */
 .playing .combatant>.pokemon-art{scale:var(--battle-scale,1);transform-origin:50% 91.6667%}
 .playing .combatant>.pokemon-art .sprite-pixels{transform:none}
+/* One footprint per portrait, anchored to the asset's normalized 88/96 baseline.
+   It follows the Pokémon box, never the surrounding card's height. */
+.monster-art.pokemon-art>.monster-ground{display:block;left:50%;top:91.6667%;bottom:auto;width:var(--ground-width,32%);height:5%;transform:translate(-50%,-50%);border:0;background:radial-gradient(ellipse,#07151b66 0%,#07151b3d 45%,transparent 74%);filter:none;z-index:0;pointer-events:none}
+.pokemon-art>.sprite-pixels{z-index:1}
+.combatant.player .pokemon-art>.monster-ground{background:radial-gradient(ellipse,#12271580 0%,#12271550 45%,transparent 74%);border:0}
+/* UI thumbnails need only a subtle contact shadow. Battle uses the same footprint. */
+.starter-portrait .pokemon-art>.monster-ground,.dex-card .pokemon-art>.monster-ground{opacity:.7}

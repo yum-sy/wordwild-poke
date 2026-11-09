@@ -14,7 +14,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p002",
@@ -30,7 +34,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p003",
@@ -44,7 +52,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.0
+    "heightM": 2.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p004",
@@ -60,7 +72,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 38.64,
+      "back": 39.58
+    }
   },
   {
     "id": "p005",
@@ -76,7 +92,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p006",
@@ -90,7 +110,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.7
+    "heightM": 1.7,
+    "groundWidth": {
+      "front": 38.69,
+      "back": 39.58
+    }
   },
   {
     "id": "p007",
@@ -106,7 +130,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 38.57,
+      "back": 38.57
+    }
   },
   {
     "id": "p008",
@@ -122,7 +150,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 35.75
+    }
   },
   {
     "id": "p009",
@@ -136,7 +168,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p010",
@@ -152,7 +188,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 38.51,
+      "back": 39.58
+    }
   },
   {
     "id": "p011",
@@ -168,7 +208,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 38.54,
+      "back": 39.58
+    }
   },
   {
     "id": "p012",
@@ -182,7 +226,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p013",
@@ -198,7 +246,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 33.29,
+      "back": 37.5
+    }
   },
   {
     "id": "p014",
@@ -214,7 +266,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 30.68,
+      "back": 30.89
+    }
   },
   {
     "id": "p015",
@@ -228,7 +284,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p016",
@@ -244,7 +304,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 35.72,
+      "back": 39.58
+    }
   },
   {
     "id": "p017",
@@ -260,7 +324,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 33.65,
+      "back": 39.58
+    }
   },
   {
     "id": "p018",
@@ -274,7 +342,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 33.76,
+      "back": 39.58
+    }
   },
   {
     "id": "p019",
@@ -290,7 +362,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p020",
@@ -304,7 +380,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p021",
@@ -320,7 +400,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 32.66,
+      "back": 33.65
+    }
   },
   {
     "id": "p022",
@@ -334,7 +418,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 35.98
+    }
   },
   {
     "id": "p023",
@@ -350,7 +438,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.0
+    "heightM": 2.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p024",
@@ -364,7 +456,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 3.5
+    "heightM": 3.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p025",
@@ -380,7 +476,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 34.53
+    }
   },
   {
     "id": "p026",
@@ -394,7 +494,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p027",
@@ -410,7 +514,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 36.54,
+      "back": 39.58
+    }
   },
   {
     "id": "p028",
@@ -424,7 +532,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p029",
@@ -440,7 +552,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 36.28
+    }
   },
   {
     "id": "p030",
@@ -456,7 +572,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p031",
@@ -470,7 +590,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p032",
@@ -486,7 +610,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 36.61
+    }
   },
   {
     "id": "p033",
@@ -502,7 +630,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p034",
@@ -516,7 +648,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p035",
@@ -532,7 +668,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p036",
@@ -546,7 +686,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p037",
@@ -562,7 +706,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p038",
@@ -576,7 +724,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p039",
@@ -592,7 +744,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p040",
@@ -606,7 +762,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 27.78,
+      "back": 29.32
+    }
   },
   {
     "id": "p041",
@@ -622,7 +782,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p042",
@@ -638,7 +802,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p043",
@@ -654,7 +822,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 38.45,
+      "back": 39.58
+    }
   },
   {
     "id": "p044",
@@ -671,7 +843,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p045",
@@ -685,7 +861,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p046",
@@ -701,7 +881,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p047",
@@ -715,7 +899,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p048",
@@ -731,7 +919,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 31.37,
+      "back": 31.97
+    }
   },
   {
     "id": "p049",
@@ -745,7 +937,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p050",
@@ -761,7 +957,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.2
+    "heightM": 0.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p051",
@@ -775,7 +975,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p052",
@@ -791,7 +995,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 33.12,
+      "back": 39.58
+    }
   },
   {
     "id": "p053",
@@ -805,7 +1013,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p054",
@@ -821,7 +1033,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 33.56,
+      "back": 32.55
+    }
   },
   {
     "id": "p055",
@@ -835,7 +1051,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.7
+    "heightM": 1.7,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 38.19
+    }
   },
   {
     "id": "p056",
@@ -851,7 +1071,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p057",
@@ -865,7 +1089,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p058",
@@ -881,7 +1109,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p059",
@@ -895,7 +1127,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.9
+    "heightM": 1.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p060",
@@ -911,7 +1147,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p061",
@@ -928,7 +1168,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p062",
@@ -942,7 +1186,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p063",
@@ -958,7 +1206,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p064",
@@ -974,7 +1226,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p065",
@@ -988,7 +1244,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p066",
@@ -1004,7 +1264,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p067",
@@ -1020,7 +1284,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 34.01,
+      "back": 33.54
+    }
   },
   {
     "id": "p068",
@@ -1034,7 +1302,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 36.67,
+      "back": 38.44
+    }
   },
   {
     "id": "p069",
@@ -1050,7 +1322,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 36.88,
+      "back": 36.14
+    }
   },
   {
     "id": "p070",
@@ -1066,7 +1342,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p071",
@@ -1080,7 +1360,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.7
+    "heightM": 1.7,
+    "groundWidth": {
+      "front": 36.24,
+      "back": 39.02
+    }
   },
   {
     "id": "p072",
@@ -1096,7 +1380,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 37.34,
+      "back": 37.34
+    }
   },
   {
     "id": "p073",
@@ -1110,7 +1398,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p074",
@@ -1126,7 +1418,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p075",
@@ -1142,7 +1438,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p076",
@@ -1156,7 +1456,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p077",
@@ -1172,7 +1476,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 38.91
+    }
   },
   {
     "id": "p078",
@@ -1186,7 +1494,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.7
+    "heightM": 1.7,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p079",
@@ -1203,7 +1515,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p080",
@@ -1217,7 +1533,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p081",
@@ -1233,7 +1553,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p082",
@@ -1247,7 +1571,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p083",
@@ -1261,7 +1589,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 37.11,
+      "back": 36.42
+    }
   },
   {
     "id": "p084",
@@ -1277,7 +1609,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p085",
@@ -1291,7 +1627,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 35.47,
+      "back": 38.02
+    }
   },
   {
     "id": "p086",
@@ -1307,7 +1647,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p087",
@@ -1321,7 +1665,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.7
+    "heightM": 1.7,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p088",
@@ -1337,7 +1685,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p089",
@@ -1351,7 +1703,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p090",
@@ -1367,7 +1723,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p091",
@@ -1381,7 +1741,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p092",
@@ -1397,7 +1761,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p093",
@@ -1413,7 +1781,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p094",
@@ -1427,7 +1799,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p095",
@@ -1443,7 +1819,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 8.8
+    "heightM": 8.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p096",
@@ -1459,7 +1839,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 38.82,
+      "back": 39.58
+    }
   },
   {
     "id": "p097",
@@ -1473,7 +1857,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p098",
@@ -1489,7 +1877,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p099",
@@ -1503,7 +1895,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p100",
@@ -1519,7 +1915,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p101",
@@ -1533,7 +1933,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 37.86,
+      "back": 37.86
+    }
   },
   {
     "id": "p102",
@@ -1549,7 +1953,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p103",
@@ -1563,7 +1971,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.0
+    "heightM": 2.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p104",
@@ -1579,7 +1991,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p105",
@@ -1593,7 +2009,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p106",
@@ -1607,7 +2027,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 34.0,
+      "back": 32.72
+    }
   },
   {
     "id": "p107",
@@ -1621,7 +2045,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 22.81,
+      "back": 31.1
+    }
   },
   {
     "id": "p108",
@@ -1635,7 +2063,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p109",
@@ -1651,7 +2083,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p110",
@@ -1665,7 +2101,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p111",
@@ -1681,7 +2121,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p112",
@@ -1695,7 +2139,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.9
+    "heightM": 1.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p113",
@@ -1711,7 +2159,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p114",
@@ -1725,7 +2177,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p115",
@@ -1739,7 +2195,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.2
+    "heightM": 2.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p116",
@@ -1755,7 +2215,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 33.93,
+      "back": 38.59
+    }
   },
   {
     "id": "p117",
@@ -1771,7 +2235,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p118",
@@ -1787,7 +2255,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p119",
@@ -1801,7 +2273,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p120",
@@ -1817,7 +2293,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p121",
@@ -1831,7 +2311,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p122",
@@ -1845,7 +2329,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p123",
@@ -1861,7 +2349,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 35.75,
+      "back": 39.58
+    }
   },
   {
     "id": "p124",
@@ -1875,7 +2367,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p125",
@@ -1889,7 +2385,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p126",
@@ -1903,7 +2403,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p127",
@@ -1917,7 +2421,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p128",
@@ -1931,7 +2439,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p129",
@@ -1947,7 +2459,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 30.56,
+      "back": 39.58
+    }
   },
   {
     "id": "p130",
@@ -1961,7 +2477,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 6.5
+    "heightM": 6.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p131",
@@ -1975,7 +2495,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.5
+    "heightM": 2.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p132",
@@ -1989,7 +2513,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p133",
@@ -2009,7 +2537,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 38.74,
+      "back": 38.79
+    }
   },
   {
     "id": "p134",
@@ -2023,7 +2555,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 35.1,
+      "back": 35.34
+    }
   },
   {
     "id": "p135",
@@ -2037,7 +2573,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 37.97,
+      "back": 39.58
+    }
   },
   {
     "id": "p136",
@@ -2051,7 +2591,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p137",
@@ -2067,7 +2611,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p138",
@@ -2083,7 +2631,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p139",
@@ -2097,7 +2649,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p140",
@@ -2113,7 +2669,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p141",
@@ -2127,7 +2687,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p142",
@@ -2141,7 +2705,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p143",
@@ -2155,7 +2723,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.1
+    "heightM": 2.1,
+    "groundWidth": {
+      "front": 39.06,
+      "back": 39.58
+    }
   },
   {
     "id": "p144",
@@ -2169,7 +2741,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 1.7
+    "heightM": 1.7,
+    "groundWidth": {
+      "front": 35.67,
+      "back": 39.58
+    }
   },
   {
     "id": "p145",
@@ -2183,7 +2759,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p146",
@@ -2197,7 +2777,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 2.0
+    "heightM": 2.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p147",
@@ -2213,7 +2797,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 34.15,
+      "back": 34.42
+    }
   },
   {
     "id": "p148",
@@ -2229,7 +2817,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 4.0
+    "heightM": 4.0,
+    "groundWidth": {
+      "front": 34.93,
+      "back": 34.19
+    }
   },
   {
     "id": "p149",
@@ -2243,7 +2835,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.2
+    "heightM": 2.2,
+    "groundWidth": {
+      "front": 38.62,
+      "back": 39.58
+    }
   },
   {
     "id": "p150",
@@ -2257,7 +2853,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 2.0
+    "heightM": 2.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p151",
@@ -2271,7 +2871,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": true,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p152",
@@ -2287,7 +2891,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 35.09,
+      "back": 34.31
+    }
   },
   {
     "id": "p153",
@@ -2303,7 +2911,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 29.85,
+      "back": 29.03
+    }
   },
   {
     "id": "p154",
@@ -2317,7 +2929,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 28.48,
+      "back": 31.67
+    }
   },
   {
     "id": "p155",
@@ -2333,7 +2949,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p156",
@@ -2349,7 +2969,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p157",
@@ -2363,7 +2987,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.7
+    "heightM": 1.7,
+    "groundWidth": {
+      "front": 32.44,
+      "back": 32.99
+    }
   },
   {
     "id": "p158",
@@ -2379,7 +3007,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p159",
@@ -2395,7 +3027,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 30.19,
+      "back": 31.39
+    }
   },
   {
     "id": "p160",
@@ -2409,7 +3045,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.3
+    "heightM": 2.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p161",
@@ -2425,7 +3065,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 29.11,
+      "back": 29.23
+    }
   },
   {
     "id": "p162",
@@ -2439,7 +3083,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 37.54,
+      "back": 39.58
+    }
   },
   {
     "id": "p163",
@@ -2455,7 +3103,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 38.68
+    }
   },
   {
     "id": "p164",
@@ -2469,7 +3121,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.6
+    "heightM": 1.6,
+    "groundWidth": {
+      "front": 26.0,
+      "back": 23.28
+    }
   },
   {
     "id": "p165",
@@ -2485,7 +3141,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 34.64,
+      "back": 39.58
+    }
   },
   {
     "id": "p166",
@@ -2499,7 +3159,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 33.49,
+      "back": 36.49
+    }
   },
   {
     "id": "p167",
@@ -2515,7 +3179,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p168",
@@ -2529,7 +3197,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p169",
@@ -2543,7 +3215,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p170",
@@ -2559,7 +3235,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p171",
@@ -2573,7 +3253,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p172",
@@ -2589,7 +3273,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 35.54,
+      "back": 34.74
+    }
   },
   {
     "id": "p173",
@@ -2605,7 +3293,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p174",
@@ -2621,7 +3313,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p175",
@@ -2637,7 +3333,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 38.54
+    }
   },
   {
     "id": "p176",
@@ -2651,7 +3351,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 23.43,
+      "back": 23.28
+    }
   },
   {
     "id": "p177",
@@ -2667,7 +3371,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.2
+    "heightM": 0.2,
+    "groundWidth": {
+      "front": 35.72,
+      "back": 39.58
+    }
   },
   {
     "id": "p178",
@@ -2681,7 +3389,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 29.69,
+      "back": 39.58
+    }
   },
   {
     "id": "p179",
@@ -2697,7 +3409,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p180",
@@ -2713,7 +3429,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 31.05,
+      "back": 34.25
+    }
   },
   {
     "id": "p181",
@@ -2727,7 +3447,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 35.51,
+      "back": 39.58
+    }
   },
   {
     "id": "p182",
@@ -2741,7 +3465,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 34.51,
+      "back": 38.45
+    }
   },
   {
     "id": "p183",
@@ -2757,7 +3485,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p184",
@@ -2771,7 +3503,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p185",
@@ -2785,7 +3521,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p186",
@@ -2799,7 +3539,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 31.39,
+      "back": 27.08
+    }
   },
   {
     "id": "p187",
@@ -2815,7 +3559,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p188",
@@ -2831,7 +3579,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p189",
@@ -2845,7 +3597,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p190",
@@ -2859,7 +3615,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 24.74,
+      "back": 24.36
+    }
   },
   {
     "id": "p191",
@@ -2875,7 +3635,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.3
+    "heightM": 0.3,
+    "groundWidth": {
+      "front": 32.16,
+      "back": 33.4
+    }
   },
   {
     "id": "p192",
@@ -2889,7 +3653,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 32.16,
+      "back": 31.37
+    }
   },
   {
     "id": "p193",
@@ -2903,7 +3671,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p194",
@@ -2919,7 +3691,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p195",
@@ -2933,7 +3709,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p196",
@@ -2947,7 +3727,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p197",
@@ -2961,7 +3745,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.0
+    "heightM": 1.0,
+    "groundWidth": {
+      "front": 33.37,
+      "back": 38.03
+    }
   },
   {
     "id": "p198",
@@ -2975,7 +3763,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 37.82,
+      "back": 35.37
+    }
   },
   {
     "id": "p199",
@@ -2989,7 +3781,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.0
+    "heightM": 2.0,
+    "groundWidth": {
+      "front": 26.39,
+      "back": 28.52
+    }
   },
   {
     "id": "p200",
@@ -3003,7 +3799,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 38.64,
+      "back": 37.74
+    }
   },
   {
     "id": "p201",
@@ -3017,7 +3817,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 21.99,
+      "back": 21.68
+    }
   },
   {
     "id": "p202",
@@ -3031,7 +3835,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.3
+    "heightM": 1.3,
+    "groundWidth": {
+      "front": 36.17,
+      "back": 29.07
+    }
   },
   {
     "id": "p203",
@@ -3045,7 +3853,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 30.33,
+      "back": 31.46
+    }
   },
   {
     "id": "p204",
@@ -3061,7 +3873,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 33.79,
+      "back": 33.79
+    }
   },
   {
     "id": "p205",
@@ -3075,7 +3891,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p206",
@@ -3089,7 +3909,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 36.06,
+      "back": 39.58
+    }
   },
   {
     "id": "p207",
@@ -3103,7 +3927,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p208",
@@ -3117,7 +3945,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 9.2
+    "heightM": 9.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p209",
@@ -3133,7 +3965,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p210",
@@ -3147,7 +3983,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 32.99,
+      "back": 31.67
+    }
   },
   {
     "id": "p211",
@@ -3161,7 +4001,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 34.64,
+      "back": 39.58
+    }
   },
   {
     "id": "p212",
@@ -3175,7 +4019,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 35.89
+    }
   },
   {
     "id": "p213",
@@ -3189,7 +4037,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p214",
@@ -3203,7 +4055,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 36.44,
+      "back": 38.37
+    }
   },
   {
     "id": "p215",
@@ -3217,7 +4073,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p216",
@@ -3233,7 +4093,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 32.99,
+      "back": 31.89
+    }
   },
   {
     "id": "p217",
@@ -3247,7 +4111,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 35.51,
+      "back": 36.09
+    }
   },
   {
     "id": "p218",
@@ -3263,7 +4131,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 38.59,
+      "back": 31.1
+    }
   },
   {
     "id": "p219",
@@ -3277,7 +4149,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.8
+    "heightM": 0.8,
+    "groundWidth": {
+      "front": 36.23,
+      "back": 33.09
+    }
   },
   {
     "id": "p220",
@@ -3293,7 +4169,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p221",
@@ -3307,7 +4187,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 38.88,
+      "back": 36.76
+    }
   },
   {
     "id": "p222",
@@ -3321,7 +4205,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p223",
@@ -3337,7 +4225,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p224",
@@ -3351,7 +4243,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p225",
@@ -3365,7 +4261,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.9
+    "heightM": 0.9,
+    "groundWidth": {
+      "front": 37.3,
+      "back": 35.98
+    }
   },
   {
     "id": "p226",
@@ -3379,7 +4279,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.1
+    "heightM": 2.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p227",
@@ -3393,7 +4297,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.7
+    "heightM": 1.7,
+    "groundWidth": {
+      "front": 39.02,
+      "back": 39.58
+    }
   },
   {
     "id": "p228",
@@ -3409,7 +4317,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p229",
@@ -3423,7 +4335,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p230",
@@ -3437,7 +4353,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.8
+    "heightM": 1.8,
+    "groundWidth": {
+      "front": 32.39,
+      "back": 26.96
+    }
   },
   {
     "id": "p231",
@@ -3453,7 +4373,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.5
+    "heightM": 0.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p232",
@@ -3467,7 +4391,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.1
+    "heightM": 1.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p233",
@@ -3481,7 +4409,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p234",
@@ -3495,7 +4427,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 28.93,
+      "back": 32.57
+    }
   },
   {
     "id": "p235",
@@ -3509,7 +4445,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p236",
@@ -3527,7 +4467,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 31.67,
+      "back": 33.43
+    }
   },
   {
     "id": "p237",
@@ -3541,7 +4485,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.4
+    "heightM": 1.4,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p238",
@@ -3557,7 +4505,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.4
+    "heightM": 0.4,
+    "groundWidth": {
+      "front": 26.39,
+      "back": 26.75
+    }
   },
   {
     "id": "p239",
@@ -3573,7 +4525,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p240",
@@ -3589,7 +4545,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.7
+    "heightM": 0.7,
+    "groundWidth": {
+      "front": 29.43,
+      "back": 26.72
+    }
   },
   {
     "id": "p241",
@@ -3603,7 +4563,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p242",
@@ -3617,7 +4581,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.5
+    "heightM": 1.5,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p243",
@@ -3631,7 +4599,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 1.9
+    "heightM": 1.9,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p244",
@@ -3645,7 +4617,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 2.1
+    "heightM": 2.1,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p245",
@@ -3659,7 +4635,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 2.0
+    "heightM": 2.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p246",
@@ -3675,7 +4655,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 30.59,
+      "back": 27.89
+    }
   },
   {
     "id": "p247",
@@ -3691,7 +4675,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 1.2
+    "heightM": 1.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 35.92
+    }
   },
   {
     "id": "p248",
@@ -3705,7 +4693,11 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": false,
     "animated": true,
-    "heightM": 2.0
+    "heightM": 2.0,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 37.17
+    }
   },
   {
     "id": "p249",
@@ -3719,7 +4711,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 5.2
+    "heightM": 5.2,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p250",
@@ -3733,7 +4729,11 @@ export const POKEMON_DATA = [
     "legendary": true,
     "mythical": false,
     "animated": true,
-    "heightM": 3.8
+    "heightM": 3.8,
+    "groundWidth": {
+      "front": 39.58,
+      "back": 39.58
+    }
   },
   {
     "id": "p251",
@@ -3747,6 +4747,10 @@ export const POKEMON_DATA = [
     "legendary": false,
     "mythical": true,
     "animated": true,
-    "heightM": 0.6
+    "heightM": 0.6,
+    "groundWidth": {
+      "front": 31.67,
+      "back": 27.33
+    }
   }
 ];

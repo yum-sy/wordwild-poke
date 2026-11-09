@@ -149,6 +149,15 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
             print(f'Cached {len(records)}/{len(jobs)}', flush=True)
 for row in rows:
     row['animated'] = all(r['available'] for r in records if r['file'].startswith(str(row['pokemonId']) + '-') and r['file'].endswith('.gif'))
+for row in rows:
+    row['groundWidth'] = {}
+    for view in ['front', 'back']:
+        widths = []
+        for record in records:
+            if record.get('available') and record['file'].startswith(f'{row["pokemonId"]}-{view}'):
+                x, y, right, bottom = record['sourceAlphaBounds']
+                widths.append(76 * (right-x) / max(right-x, bottom-y) / 96 * 100 * .5)
+        row['groundWidth'][view] = round(max(14, min(40, max(widths))), 2)
 (ROOT / 'roster.json').write_text(json.dumps(rows, indent=2, ensure_ascii=False) + '\n')
 (ROOT / 'asset-manifest.json').write_text(json.dumps(records, indent=2, ensure_ascii=False) + '\n')
 data_license_url = f'https://raw.githubusercontent.com/PokeAPI/pokeapi/{lock["dataRevision"]}/LICENSE.md'
