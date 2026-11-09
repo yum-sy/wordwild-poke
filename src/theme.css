@@ -115,5 +115,6 @@ html{background:#f7f4ea}.topbar,.playing .topbar{background:#f7f4ea!important}
 @media(orientation:portrait) and (max-width:760px){
  .playing:has(.question-panel) .combatant.player{top:auto;left:10%;right:auto;bottom:3%!important}
  .playing:has(.question-panel) .combatant.opponent{top:auto;right:9%;left:auto;bottom:14%!important}
- .playing:has(.question-panel) .combatant>.pokemon-art{width:clamp(28px,calc(var(--learning-arena-height,120px) * .8 - 38px),150px);height:clamp(28px,calc(var(--learning-arena-height,120px) * .8 - 38px),150px)}
+ .playing:has(.question-panel) .combatant>.pokemon-art{width:clamp(32px,calc(var(--learning-arena-height,120px) * .8 - 20px),150px);height:clamp(32px,calc(var(--learning-arena-height,120px) * .8 - 20px),150px)}
 }
+@media(orientation:portrait) and (max-width:760px){.playing:has(.question-panel) .combatant>.pokemon-art{min-width:0;min-height:0}}
