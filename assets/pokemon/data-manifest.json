@@ -19,6 +19,11 @@
       "file": "pokemon_types.csv",
       "url": "https://raw.githubusercontent.com/PokeAPI/pokeapi/5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7/data/v2/csv/pokemon_types.csv",
       "sha256": "f1fc4bfd657a034ea3bf6972423b10276424aa068577b304a78a08996425ba05"
+    },
+    {
+      "file": "pokemon.csv",
+      "url": "https://raw.githubusercontent.com/PokeAPI/pokeapi/5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7/data/v2/csv/pokemon.csv",
+      "sha256": "16c81c33188b0eac403aa2f759fcbe9e42c611f722d263f5b5a6a5bff9f8ce6b"
     }
   ],
   "scope": "National Dex 1–251; original species and forms only",

@@ -13,7 +13,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p002",
@@ -28,7 +29,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p003",
@@ -41,7 +43,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.0
   },
   {
     "id": "p004",
@@ -56,7 +59,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p005",
@@ -71,7 +75,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p006",
@@ -84,7 +89,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.7
   },
   {
     "id": "p007",
@@ -99,7 +105,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p008",
@@ -114,7 +121,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p009",
@@ -127,7 +135,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p010",
@@ -142,7 +151,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p011",
@@ -157,7 +167,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p012",
@@ -170,7 +181,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p013",
@@ -185,7 +197,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p014",
@@ -200,7 +213,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p015",
@@ -213,7 +227,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p016",
@@ -228,7 +243,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p017",
@@ -243,7 +259,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p018",
@@ -256,7 +273,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p019",
@@ -271,7 +289,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p020",
@@ -284,7 +303,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p021",
@@ -299,7 +319,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p022",
@@ -312,7 +333,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p023",
@@ -327,7 +349,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.0
   },
   {
     "id": "p024",
@@ -340,7 +363,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 3.5
   },
   {
     "id": "p025",
@@ -355,7 +379,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p026",
@@ -368,7 +393,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p027",
@@ -383,7 +409,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p028",
@@ -396,7 +423,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p029",
@@ -411,7 +439,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p030",
@@ -426,7 +455,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p031",
@@ -439,7 +469,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p032",
@@ -454,7 +485,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p033",
@@ -469,7 +501,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p034",
@@ -482,7 +515,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p035",
@@ -497,7 +531,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p036",
@@ -510,7 +545,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p037",
@@ -525,7 +561,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p038",
@@ -538,7 +575,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p039",
@@ -553,7 +591,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p040",
@@ -566,7 +605,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p041",
@@ -581,7 +621,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p042",
@@ -596,7 +637,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p043",
@@ -611,7 +653,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p044",
@@ -627,7 +670,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p045",
@@ -640,7 +684,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p046",
@@ -655,7 +700,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p047",
@@ -668,7 +714,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p048",
@@ -683,7 +730,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p049",
@@ -696,7 +744,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p050",
@@ -711,7 +760,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.2
   },
   {
     "id": "p051",
@@ -724,7 +774,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p052",
@@ -739,7 +790,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p053",
@@ -752,7 +804,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p054",
@@ -767,7 +820,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p055",
@@ -780,7 +834,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.7
   },
   {
     "id": "p056",
@@ -795,7 +850,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p057",
@@ -808,7 +864,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p058",
@@ -823,7 +880,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p059",
@@ -836,7 +894,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.9
   },
   {
     "id": "p060",
@@ -851,7 +910,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p061",
@@ -867,7 +927,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p062",
@@ -880,7 +941,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p063",
@@ -895,7 +957,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p064",
@@ -910,7 +973,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p065",
@@ -923,7 +987,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p066",
@@ -938,7 +1003,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p067",
@@ -953,7 +1019,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p068",
@@ -966,7 +1033,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p069",
@@ -981,7 +1049,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p070",
@@ -996,7 +1065,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p071",
@@ -1009,7 +1079,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.7
   },
   {
     "id": "p072",
@@ -1024,7 +1095,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p073",
@@ -1037,7 +1109,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p074",
@@ -1052,7 +1125,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p075",
@@ -1067,7 +1141,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p076",
@@ -1080,7 +1155,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p077",
@@ -1095,7 +1171,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p078",
@@ -1108,7 +1185,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.7
   },
   {
     "id": "p079",
@@ -1124,7 +1202,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p080",
@@ -1137,7 +1216,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p081",
@@ -1152,7 +1232,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p082",
@@ -1165,7 +1246,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p083",
@@ -1178,7 +1260,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p084",
@@ -1193,7 +1276,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p085",
@@ -1206,7 +1290,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p086",
@@ -1221,7 +1306,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p087",
@@ -1234,7 +1320,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.7
   },
   {
     "id": "p088",
@@ -1249,7 +1336,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p089",
@@ -1262,7 +1350,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p090",
@@ -1277,7 +1366,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p091",
@@ -1290,7 +1380,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p092",
@@ -1305,7 +1396,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p093",
@@ -1320,7 +1412,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p094",
@@ -1333,7 +1426,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p095",
@@ -1348,7 +1442,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 8.8
   },
   {
     "id": "p096",
@@ -1363,7 +1458,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p097",
@@ -1376,7 +1472,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p098",
@@ -1391,7 +1488,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p099",
@@ -1404,7 +1502,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p100",
@@ -1419,7 +1518,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p101",
@@ -1432,7 +1532,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p102",
@@ -1447,7 +1548,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p103",
@@ -1460,7 +1562,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.0
   },
   {
     "id": "p104",
@@ -1475,7 +1578,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p105",
@@ -1488,7 +1592,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p106",
@@ -1501,7 +1606,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p107",
@@ -1514,7 +1620,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p108",
@@ -1527,7 +1634,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p109",
@@ -1542,7 +1650,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p110",
@@ -1555,7 +1664,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p111",
@@ -1570,7 +1680,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p112",
@@ -1583,7 +1694,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.9
   },
   {
     "id": "p113",
@@ -1598,7 +1710,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p114",
@@ -1611,7 +1724,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p115",
@@ -1624,7 +1738,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.2
   },
   {
     "id": "p116",
@@ -1639,7 +1754,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p117",
@@ -1654,7 +1770,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p118",
@@ -1669,7 +1786,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p119",
@@ -1682,7 +1800,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p120",
@@ -1697,7 +1816,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p121",
@@ -1710,7 +1830,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p122",
@@ -1723,7 +1844,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p123",
@@ -1738,7 +1860,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p124",
@@ -1751,7 +1874,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p125",
@@ -1764,7 +1888,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p126",
@@ -1777,7 +1902,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p127",
@@ -1790,7 +1916,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p128",
@@ -1803,7 +1930,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p129",
@@ -1818,7 +1946,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p130",
@@ -1831,7 +1960,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 6.5
   },
   {
     "id": "p131",
@@ -1844,7 +1974,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.5
   },
   {
     "id": "p132",
@@ -1857,7 +1988,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p133",
@@ -1876,7 +2008,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p134",
@@ -1889,7 +2022,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p135",
@@ -1902,7 +2036,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p136",
@@ -1915,7 +2050,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p137",
@@ -1930,7 +2066,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p138",
@@ -1945,7 +2082,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p139",
@@ -1958,7 +2096,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p140",
@@ -1973,7 +2112,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p141",
@@ -1986,7 +2126,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p142",
@@ -1999,7 +2140,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p143",
@@ -2012,7 +2154,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.1
   },
   {
     "id": "p144",
@@ -2025,7 +2168,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.7
   },
   {
     "id": "p145",
@@ -2038,7 +2182,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p146",
@@ -2051,7 +2196,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.0
   },
   {
     "id": "p147",
@@ -2066,7 +2212,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p148",
@@ -2081,7 +2228,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 4.0
   },
   {
     "id": "p149",
@@ -2094,7 +2242,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.2
   },
   {
     "id": "p150",
@@ -2107,7 +2256,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.0
   },
   {
     "id": "p151",
@@ -2120,7 +2270,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": false,
     "mythical": true,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p152",
@@ -2135,7 +2286,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p153",
@@ -2150,7 +2302,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p154",
@@ -2163,7 +2316,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p155",
@@ -2178,7 +2332,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p156",
@@ -2193,7 +2348,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p157",
@@ -2206,7 +2362,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.7
   },
   {
     "id": "p158",
@@ -2221,7 +2378,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p159",
@@ -2236,7 +2394,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p160",
@@ -2249,7 +2408,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.3
   },
   {
     "id": "p161",
@@ -2264,7 +2424,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p162",
@@ -2277,7 +2438,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p163",
@@ -2292,7 +2454,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p164",
@@ -2305,7 +2468,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.6
   },
   {
     "id": "p165",
@@ -2320,7 +2484,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p166",
@@ -2333,7 +2498,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p167",
@@ -2348,7 +2514,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p168",
@@ -2361,7 +2528,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p169",
@@ -2374,7 +2542,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p170",
@@ -2389,7 +2558,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p171",
@@ -2402,7 +2572,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p172",
@@ -2417,7 +2588,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p173",
@@ -2432,7 +2604,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p174",
@@ -2447,7 +2620,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p175",
@@ -2462,7 +2636,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p176",
@@ -2475,7 +2650,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p177",
@@ -2490,7 +2666,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.2
   },
   {
     "id": "p178",
@@ -2503,7 +2680,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p179",
@@ -2518,7 +2696,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p180",
@@ -2533,7 +2712,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p181",
@@ -2546,7 +2726,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p182",
@@ -2559,7 +2740,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p183",
@@ -2574,7 +2756,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p184",
@@ -2587,7 +2770,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p185",
@@ -2600,7 +2784,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p186",
@@ -2613,7 +2798,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p187",
@@ -2628,7 +2814,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p188",
@@ -2643,7 +2830,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p189",
@@ -2656,7 +2844,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p190",
@@ -2669,7 +2858,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p191",
@@ -2684,7 +2874,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.3
   },
   {
     "id": "p192",
@@ -2697,7 +2888,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p193",
@@ -2710,7 +2902,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p194",
@@ -2725,7 +2918,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p195",
@@ -2738,7 +2932,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p196",
@@ -2751,7 +2946,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p197",
@@ -2764,7 +2960,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.0
   },
   {
     "id": "p198",
@@ -2777,7 +2974,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p199",
@@ -2790,7 +2988,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.0
   },
   {
     "id": "p200",
@@ -2803,7 +3002,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p201",
@@ -2816,7 +3016,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p202",
@@ -2829,7 +3030,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.3
   },
   {
     "id": "p203",
@@ -2842,7 +3044,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p204",
@@ -2857,7 +3060,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p205",
@@ -2870,7 +3074,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p206",
@@ -2883,7 +3088,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p207",
@@ -2896,7 +3102,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p208",
@@ -2909,7 +3116,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 9.2
   },
   {
     "id": "p209",
@@ -2924,7 +3132,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p210",
@@ -2937,7 +3146,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p211",
@@ -2950,7 +3160,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p212",
@@ -2963,7 +3174,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p213",
@@ -2976,7 +3188,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p214",
@@ -2989,7 +3202,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p215",
@@ -3002,7 +3216,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p216",
@@ -3017,7 +3232,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p217",
@@ -3030,7 +3246,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p218",
@@ -3045,7 +3262,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p219",
@@ -3058,7 +3276,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.8
   },
   {
     "id": "p220",
@@ -3073,7 +3292,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p221",
@@ -3086,7 +3306,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p222",
@@ -3099,7 +3320,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p223",
@@ -3114,7 +3336,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p224",
@@ -3127,7 +3350,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p225",
@@ -3140,7 +3364,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.9
   },
   {
     "id": "p226",
@@ -3153,7 +3378,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.1
   },
   {
     "id": "p227",
@@ -3166,7 +3392,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.7
   },
   {
     "id": "p228",
@@ -3181,7 +3408,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p229",
@@ -3194,7 +3422,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p230",
@@ -3207,7 +3436,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.8
   },
   {
     "id": "p231",
@@ -3222,7 +3452,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.5
   },
   {
     "id": "p232",
@@ -3235,7 +3466,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.1
   },
   {
     "id": "p233",
@@ -3248,7 +3480,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p234",
@@ -3261,7 +3494,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p235",
@@ -3274,7 +3508,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p236",
@@ -3291,7 +3526,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p237",
@@ -3304,7 +3540,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.4
   },
   {
     "id": "p238",
@@ -3319,7 +3556,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.4
   },
   {
     "id": "p239",
@@ -3334,7 +3572,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p240",
@@ -3349,7 +3588,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.7
   },
   {
     "id": "p241",
@@ -3362,7 +3602,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p242",
@@ -3375,7 +3616,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.5
   },
   {
     "id": "p243",
@@ -3388,7 +3630,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.9
   },
   {
     "id": "p244",
@@ -3401,7 +3644,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.1
   },
   {
     "id": "p245",
@@ -3414,7 +3658,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.0
   },
   {
     "id": "p246",
@@ -3429,7 +3674,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   },
   {
     "id": "p247",
@@ -3444,7 +3690,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 1.2
   },
   {
     "id": "p248",
@@ -3457,7 +3704,8 @@ export const POKEMON_DATA = [
     "isBoss": false,
     "legendary": false,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 2.0
   },
   {
     "id": "p249",
@@ -3470,7 +3718,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 5.2
   },
   {
     "id": "p250",
@@ -3483,7 +3732,8 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": true,
     "mythical": false,
-    "animated": true
+    "animated": true,
+    "heightM": 3.8
   },
   {
     "id": "p251",
@@ -3496,6 +3746,7 @@ export const POKEMON_DATA = [
     "isBoss": true,
     "legendary": false,
     "mythical": true,
-    "animated": true
+    "animated": true,
+    "heightM": 0.6
   }
 ];

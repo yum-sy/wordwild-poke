@@ -9,7 +9,7 @@ Generated with `python3 scripts/cache-pokemon.py` (Python 3 + Pillow). Runtime m
 - PNG/GIF are 96×96 transparent canvases. The alpha-bound union across every animation frame is fit inside 76px, centered, at bottom baseline 88px. Nearest-neighbor resizing preserves pixel edges. GIF frame timing and total duration are retained; full-frame transparency uses disposal=2.
 - Source downloads are cached only under ignored `work/pokemon-source-cache/` for reproducibility and retries.
 - `source-lock.json` pins immutable sprite and data revisions; `asset-manifest.json` records individual URLs, original/output hashes, dimensions, bounds, durations and frame counts; `data-manifest.json` records CSV URLs and hashes.
-- English names, current primary canonical types, direct evolution links, family roots (including Gen II babies), depth, legendary/mythical classification come from pinned PokeAPI CSV data. Future-generation evolutions are excluded.
+- English names, current primary canonical types, direct evolution links, family roots (including Gen II babies), depth, height in metres, legendary/mythical classification come from pinned PokeAPI CSV data. Future-generation evolutions are excluded.
 
 ## Runtime guidance
 

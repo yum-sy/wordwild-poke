@@ -51,6 +51,7 @@ species = {int(r['id']): r for r in csv_rows('pokemon_species') if int(r['id']) 
 names = {int(r['pokemon_species_id']): r['name'] for r in csv_rows('pokemon_species_names') if r['local_language_id'] == '9'}
 types = {r['id']: r['identifier'].upper() for r in csv_rows('types')}
 primary_types = {int(r['pokemon_id']): types[r['type_id']] for r in csv_rows('pokemon_types') if r['slot'] == '1' and int(r['pokemon_id']) <= 251}
+heights = {int(r['id']): int(r['height']) / 10 for r in csv_rows('pokemon') if int(r['id']) <= 251}
 def key(n): return f'p{n:03d}'
 def ancestry(n):
     lineage = [n]
@@ -64,7 +65,7 @@ def ancestry(n):
 rows = []
 for n, row in species.items():
     family, depth = ancestry(n)
-    rows.append({'id': key(n), 'pokemonId': n, 'name': names[n], 'type': primary_types[n],
+    rows.append({'id': key(n), 'pokemonId': n, 'heightM': heights[n], 'name': names[n], 'type': primary_types[n],
                  'evolvesTo': [key(i) for i, r in species.items() if r['evolves_from_species_id'] == str(n)],
                  'family': family, 'depth': depth,
                  'isBoss': row['is_legendary'] == '1' or row['is_mythical'] == '1',
