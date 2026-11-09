@@ -1,4 +1,4 @@
-export const LEARNING_KEY='wordwild-learning-v2';
+export const LEARNING_KEY='wordwild-pokemon-learning-v2';
 export function freshLearning(){return {version:2,sequence:0,session:0,items:{},skills:{},levels:{},recentFamilies:[],firstRight:0,firstTotal:0};}
 export function normalizeLearning(value){
  const p=freshLearning();if(!value||value.version!==2)return p;

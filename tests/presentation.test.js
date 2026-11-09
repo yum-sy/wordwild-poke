@@ -9,7 +9,7 @@ test('evolution preserves the species sprite and name at every rank and route',(
     const positions=new Set();
     for(const evolutionStage of [0,1,2])for(const evolutionRoute of [null,'hp','attack','shield']){
       const monster={speciesId:species.id,evolutionStage,evolutionRoute};
-      positions.add(monsterArt(monster).match(/--sprite-x:[^;]+;--sprite-y:[^;]+;/)[0]);
+      positions.add(monsterArt(monster).match(/src="([^"]+)"/)[1]);
       assert.equal(monsterName(monster),species.name);
     }
     assert.equal(positions.size,1,`${species.name} must reuse one base sprite`);

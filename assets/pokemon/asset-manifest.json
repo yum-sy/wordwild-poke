@@ -1,0 +1,5378 @@
+[
+  {
+    "file": "1-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/1.png",
+    "sourceSha256": "7307265558511ea080add119ab7e86b9f87aaab4cedef76df2a13290ca5ad8c9",
+    "sha256": "f0e26769ba90acc78388d7f0fdd1145d441571c9e48503d3f54924e8c451a258",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      28,
+      30,
+      63,
+      63
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "1-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/1.png",
+    "sourceSha256": "e17af2fb7820267fdb53e29eceedbcad49a25c53cc29eaf2b0dd2bf02134ae6a",
+    "sha256": "8218f040c2440c6f91584335b1f086bef8224d0f298870e282c9b1309c7ad3bd",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      28,
+      30,
+      63,
+      63
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "1-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/1.png",
+    "sourceSha256": "d7070e94a8857a86072d87137f985555dd810cf415f87493aa71f7006e19e345",
+    "sha256": "016966b0c1e132130b3853f80af99a7580ca3563c5744a769b119184a8ff39e2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      31,
+      33,
+      63,
+      63
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "1-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/1.png",
+    "sourceSha256": "b852585a6bcabe80013bbbf93d8cdda71287c814e93066dfd62b389ded70ddb0",
+    "sha256": "6cd8b39d143965283169640e432bb50f703794d39ed397fb9faf25978ffffdc0",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      31,
+      33,
+      63,
+      63
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "4-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/4.png",
+    "sourceSha256": "4e943ded73aff00aa8323800481412cf0912649d640f5ad5021e8e1e2b3e77c6",
+    "sha256": "9c6bd930e48e3c6ba84768d267fa10928233e5c8ee848eed6183da374daa4f08",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      30,
+      29,
+      68,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "4-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/4.png",
+    "sourceSha256": "03276b20facf397755c89ecf5e894c43972c0c0c24b4a5d3bba16ebe0748754e",
+    "sha256": "760a2abc037267c5f522f41fa795630426d7ccabbb416d48d87f2f62edc5e84b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      30,
+      29,
+      68,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "4-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/4.png",
+    "sourceSha256": "e0be9cacd9ef58bf496fb300b6ec1cf35027e34152b6d017739250836796abd7",
+    "sha256": "eea21c789fcc9d24e7e1f68eed1d5f0c84be1f625fcac95fd5009090d1c5b871",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      24,
+      30,
+      64,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "4-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/4.png",
+    "sourceSha256": "747ae13bb1981680c06c3986076d824db89a83680625955ba498361937fc3593",
+    "sha256": "0eb24db405f6f9e12e540e6993736dd86f6e8fbc9d464d5c2274c50903c19c58",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      24,
+      30,
+      64,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "7-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/7.png",
+    "sourceSha256": "1309dd0971ab7c5cd1699fa6ead8b00c9d8fa7f39e09313e697b3d31527f0517",
+    "sha256": "e739147a16dee3897e5b16ea541f783e85074995224e9627a0d70080a8a9c624",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      29,
+      29,
+      67,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "7-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/7.png",
+    "sourceSha256": "d310e2ef1b0c2e035ccc5415ca5abeeeadf20765e5237bd0fcebbe158898aa57",
+    "sha256": "b4b7ccd69f889054ced8618967a5317c24a35395554e196966b72b45042b9bcc",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      29,
+      29,
+      67,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "7-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/7.png",
+    "sourceSha256": "bc678a19df0e76968dbc97ecfb9b3864b55efdf0bc78cabe28eeaffa30933da3",
+    "sha256": "6ffa78feede6bc272f3fc231d369bc63cfaf024bd08a668cdf458cd948262f2b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      28,
+      64,
+      67
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "7-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/7.png",
+    "sourceSha256": "021a70a4de19ee086483710663f3bd791f6cd6de3b6302fedb9f713bddc1feb9",
+    "sha256": "b97260ef0133984c3613b04aaab154924c723b3e05b8601271446ad51173a1fc",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      28,
+      64,
+      67
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "285-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/285.png",
+    "sourceSha256": "ea7e167a97452e9611d09728c0108bc6d1ca2c42a6e5d99fb2c971cf1a1eb8b6",
+    "sha256": "bf2fb567ab806fbd5e78da20baf222c5bdd57e177da4850134508a646788a33c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      27,
+      31,
+      66,
+      64
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "285-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/285.png",
+    "sourceSha256": "8e5679c4d87156126280ccdfb858de9f743b7e8b6854f319479c55d44de76820",
+    "sha256": "863170d55cbff07bac631a1b3a492dd4892344369919080296ae98e51abb3b8e",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      27,
+      31,
+      66,
+      64
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "285-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/285.png",
+    "sourceSha256": "d6354728c95e7ca4df14af31d7680e29d0629904760825be0e5c5a2fc4cd2c08",
+    "sha256": "53435a2af865095fb48f084e46df25aec8972e275ef68132d9dff2578dfb5fae",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      28,
+      31,
+      67,
+      64
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "285-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/285.png",
+    "sourceSha256": "4b943a4abf2d24eb2f8215ca4b7f76ff8ef51f138e14f0aaf40403e1edbe017d",
+    "sha256": "95d15ae0b3bcca594dd41ee61e3d159f68c54d01e5c916340921ea392e1f7f0b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      28,
+      31,
+      67,
+      64
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "214-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/214.png",
+    "sourceSha256": "61064e7a06b3f3bb6793d32f96673b3759074cf865ae245a4454269c2d4ce4b0",
+    "sha256": "491ffc29732ae8c9d06c87f61e1f8545dd603bfd55e240e1326ce3156d915d25",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      20,
+      12,
+      78,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "214-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/214.png",
+    "sourceSha256": "a19836d2320e48cc7e5013dbfdebf4b0dba8fdc69a6f147c255a01bbaf9c7c85",
+    "sha256": "ed6f66703fdcc6eef0d63e07f3551bb93bfc732a6247eb5fd083084be568a7cf",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      20,
+      12,
+      78,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "214-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/214.png",
+    "sourceSha256": "3c69cc63b5934c5aa3e63675a4b4048ae3363c408c2022f43a033bb77e8613e3",
+    "sha256": "8d26a5a2423c34aa2c945e7e950d9cd78f1c952e2a1fb1bab7b6d828c40be235",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      11,
+      84,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "214-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/214.png",
+    "sourceSha256": "c508052eb08e220d642eb4e6c4166915cb936102f6e89e4b32bd5c1dbbae3f6b",
+    "sha256": "60b00789545a2145c7571fb04a0c79a5e90fd7347d2f9cfaf59812a944925e8c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      11,
+      84,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "398-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/398.png",
+    "sourceSha256": "978eb45c6de770423164f26437c34cc4ae6fc09a9b6492c02621546646895ef5",
+    "sha256": "4eb9bd2aa464d131bc744b4764d8a60e59b956c28b4126efedaea4f167cdac61",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      20,
+      12,
+      75,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "398-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/398.png",
+    "sourceSha256": "8df2ed766dc159ba6d0224002b71773536e47639e87964327d20d219a791d891",
+    "sha256": "fa0d1b65e05479d66da03a63f007792970add3f9a891214f4417aee3a4bf0e0a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      20,
+      12,
+      75,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "398-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/398.png",
+    "sourceSha256": "a433987723b03143dce0efc25200e694a3f5751792ed7802b4ed1f9fb39697ff",
+    "sha256": "259321be16d67ef804cc95cd564c510e2759f098ba59f9d0b4e9760eba04fcd6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      17,
+      75,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "398-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/398.png",
+    "sourceSha256": "1e9bc62aca7036dca846d48d9f61aadcc5d9c91364ad382e89e8a5b8dc67b84a",
+    "sha256": "214e19b073aa7a0ee1df03f4ff83cdd701477c2ecb4f74767829b05b275ca5bc",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      17,
+      75,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "6-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/6.png",
+    "sourceSha256": "53358b7e8be91014bd18285862bd56c0549b5d23af175deb59f0e6f6339c878f",
+    "sha256": "b1a5c4703346d7a7a32e4ce6acc43b1c9570829f638d81cdca2833122f64f2ef",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      8,
+      83,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "6-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/6.png",
+    "sourceSha256": "2d446ec06d760e87a1454d25e715443898742373c7e4bc9ed95e24b1f8ef985e",
+    "sha256": "8b6217fe5a57785c2a526e2a5afb80625e801aeb62485b45b7b64c979fceaf25",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      8,
+      83,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "6-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/6.png",
+    "sourceSha256": "4379d6d2702e49ef34c39c2ee9f962d60cebdd8c1d30c16dadf927a97d2523d9",
+    "sha256": "0578e8f64fe6823f4cb52ec0681b9c16ca79d00e226a195a1334ce771e7732b0",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      4,
+      88,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "6-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/6.png",
+    "sourceSha256": "cf5a94358daedd85630e3e86108b413081601db595d68fbeaf3e49b285e38cf5",
+    "sha256": "e5a258ddee3195a1f3d1a8405606c9cd72d14ea8eb8b1772c17efc44459817b1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      4,
+      88,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "149-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/149.png",
+    "sourceSha256": "09216753ae96a01d1444a7568548bbfcfb22fe5de7605151e1e01baac7cdda38",
+    "sha256": "59a55215563795c7261b6885cf2d0c71ec8fa5683870dea0af0e911a0b84da50",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      7,
+      82,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "149-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/149.png",
+    "sourceSha256": "d887f41ceb4ccd34e00edf5d0c2ddbb5a35a8aa8cc139e3ea3080648ffeedd3f",
+    "sha256": "e143e61919299bd016577ea68c2b323f25f1f9d010831eeb1ff5d2e9e6392caa",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      7,
+      82,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "149-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/149.png",
+    "sourceSha256": "33e3eedff32cbeec3ca3968624a617c15594fca61b48e95924d7772849c64a42",
+    "sha256": "89afb4f233a5cd9e4bab0b8f2addcba4d82e205d6fa14ca43510f539b0625b6f",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      10,
+      4,
+      79,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "149-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/149.png",
+    "sourceSha256": "a12338f4f5236a2a84df92546b7ab91491d1a84751b74dafb6278aba4874d534",
+    "sha256": "3c34cc631caaffa7d2e7603bd65764ffb4aa78c45bb8844ce1fa16d24af49a25",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      10,
+      4,
+      79,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "373-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/373.png",
+    "sourceSha256": "f94e5ea56b3b232cec2024f5323961eecad77052c65bbf609f86d222d7ee36cb",
+    "sha256": "4064d228877c1ee0d3a3e4302f48499e058470e2182a608fd35b964015e80163",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      12,
+      87,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "373-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/373.png",
+    "sourceSha256": "d6ea33f14c806b8f74bde06c5b9fdb41e36a3e4832e38a47762b1d981ccb89c7",
+    "sha256": "ccd9c0fabd9908bc4e08a8b839f9d36112d3abf41e9fbc5fb1cc77dc9a19b5a6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      12,
+      87,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "373-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/373.png",
+    "sourceSha256": "e02b51902c2f15a9b95fb47d18e48801401aca5eea2329a8bb1db0d7796fbe2c",
+    "sha256": "6ade6be95cb20e1809f897d81d58ba94e860fbea36752903d974f03d722ae5bb",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      7,
+      10,
+      90,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "373-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/373.png",
+    "sourceSha256": "65c11693adc07d5a769fbb14faba65b0d6f89fbe24323dad51f8f86e92ae8439",
+    "sha256": "286acbde17a3dd13e746ca9d3dc30f4b32f256653db133490b8916c2149b3e29",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      7,
+      10,
+      90,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "389-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/389.png",
+    "sourceSha256": "1d4e86ccc4c5726635c3b147c2fcfe6c07c122d493a07c270e02e498528b03e0",
+    "sha256": "fc4b237f189dbe6feb3271ac2812c29dd3c0f3c11c9ceb1cc470c880bc963291",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      12,
+      11,
+      84,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "389-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/389.png",
+    "sourceSha256": "c90bbb7ec082cfbdc24695e800a6ebc6ac13744efb21062b304ecc1b86ca000f",
+    "sha256": "158cf61aa374a58511d1c8640638ba24df1716a2ea7defeae6114d51099e66a2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      12,
+      11,
+      84,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "389-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/389.png",
+    "sourceSha256": "ddae91379f809400d67e619c2a6c745c88fa1dd2b8e72bd20bd7ab9cda464bda",
+    "sha256": "23abd86ad549dce6d26dceef4d28273088090e703f6dc0c72067e1a2577b4622",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      9,
+      87,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "389-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/389.png",
+    "sourceSha256": "0b6280bf9fa5116fd3e32a597c4be0024ef94e7a8a4f3e7eb6ce8ece5871eaf3",
+    "sha256": "4bc1a9e8c3a85ac6a04f0c4158846bd631c8cbc91925a441786ce6f8ff70ba1d",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      9,
+      87,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "384-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/384.png",
+    "sourceSha256": "2377f7a7be0f3fe2f164df5e24511216ab5a5bddc3bb23fd06cd7ae26a060875",
+    "sha256": "3a29a095c82ca6b6c966fd8a885fc4db54dbd71b4d3a628f1f017846f8d445f9",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      6,
+      93,
+      89
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "384-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/384.png",
+    "sourceSha256": "ddb03890714a8a3e774f66e2faccca279b300118a6b68df2e031b386cf65be10",
+    "sha256": "b9356b31eaa9ed110a99bb180b8fb3b9dbf6574203229b2b28b5a043fa700840",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      6,
+      93,
+      89
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "384-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/384.png",
+    "sourceSha256": "1bfd4fee91e09cc5cdd8b4a9f1ad95ec54ea04aa84e7e66c0af6431cf59ea2d2",
+    "sha256": "ff270d1680f10cdc2d5b5feb36f92c03d20276c9aa46feacc98aa49e72b43845",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      2,
+      86,
+      94
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "384-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/384.png",
+    "sourceSha256": "e92e1bdb47ba1b7511cf9632e1b26d4a3aff23be089408a1cc5765b10b4988bd",
+    "sha256": "848daa5c8ec3ebe1e11df151422c4018980248524feeac95abc2758ae58b5fad",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      2,
+      86,
+      94
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "330-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/330.png",
+    "sourceSha256": "390b8cc274d671c11445f5fd427efbaef5d48c00460c2437aaab41f47e587c43",
+    "sha256": "71bc540356c5429f87b2e30d7a863450bfd795c479191e76e7ef476cb0a123dc",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      12,
+      14,
+      81,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "330-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/330.png",
+    "sourceSha256": "b7501de728b0522f37d6347368a449cb7e1f8ce010afcc236a574a1cfb19fedd",
+    "sha256": "3d4905ce9d976cae4bf0ce3d19cc3c846e5547288cfc26c3751d62c0f9358b5c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      12,
+      14,
+      81,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "330-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/330.png",
+    "sourceSha256": "fb3e84b005012a1a216d64b54a64394d3c94cb6ff525225e8658ade334a82083",
+    "sha256": "c6ddaf41ed06df9b930ef8773b403462544b63d82e3b9be0302753d6336955a1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      11,
+      14,
+      85,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "330-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/330.png",
+    "sourceSha256": "63a071da021b57b3bdb3c3c6ceb0d93c12f296acdbe433d4ebdb8b8b890c8e5b",
+    "sha256": "353c806a10b7e3966d64f43dbaf17c9476413dea9eaa6c4b760a9923454aaf91",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      11,
+      14,
+      85,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "230-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/230.png",
+    "sourceSha256": "f99605bd0b9617c2fcefeee6830c81ac5789f60129a7edd40dc2213b5fe2eff1",
+    "sha256": "c936417aa1ce82d74f9b30bc8bdb474d4ea021225e4a9f9811513dd02e2805c2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      15,
+      75,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "230-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/230.png",
+    "sourceSha256": "47fec2d05306d4ff9b3e70c2611a1114160684acc83c65a85179a67db5db6b6a",
+    "sha256": "35c176ca369ce16d86e4508366d589f68332fe8f62257d6a7d12438bab67c3fb",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      15,
+      75,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "230-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/230.png",
+    "sourceSha256": "4db1245ccc1b135fce24df4a7c6e31b85b36476de5f8c57bc85a8b14c68110c8",
+    "sha256": "12502fc5a30133de331f02ab4deeafeb925cb69688727ce0a3fae1e5bb93bd42",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      25,
+      14,
+      72,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "230-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/230.png",
+    "sourceSha256": "d62800cd42e5b8b6255f02c10b6f6464dcc30d0b6e7f59633fce6efc80096470",
+    "sha256": "4647e946ac5f0bcd57c163c4cce7921f3e58533db9a224fcdaa4e9ed9a81431a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      25,
+      14,
+      72,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "635-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/635.png",
+    "sourceSha256": "2307eb6cfa64b5bc591719fb95e56fa5f0718c8868369c954894a2f1785d8fb5",
+    "sha256": "9038a6dd2ed2de7f8b8554b982f41a110fcb9cdde25ad2d6f62ce054980fa114",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      8,
+      89,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "635-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/635.png",
+    "sourceSha256": "f33fc263b23a69f46dc30948ccd170009bb73913b6317d7d0b24936dbdf6ea10",
+    "sha256": "ebd950276e5eb37e8adf268aa512128c2f0c7111adeb4289d30f58e12b75a536",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      8,
+      89,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "635-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/635.png",
+    "sourceSha256": "37cd4cac68b229c6e343786da66ffebf2019031173ae3becfa6f56ad37292fa5",
+    "sha256": "656fba630ebb96924e5302cfe4b2f1f22946b8fad7fd859b78351013862718fd",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      7,
+      8,
+      82,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "635-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/635.png",
+    "sourceSha256": "6181f5b12a6cbd30d5dc6d97f0934119d62e4d92cc5c922ef3676ec5efc055f1",
+    "sha256": "02375c2dd3bbe484663ea6eff635ff47777603cbadc80a2e10d1757376b7f47d",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      7,
+      8,
+      82,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "644-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/644.png",
+    "sourceSha256": "52097cba8e0bd8e1889e72802cd11c6f0e1a6f568e9150b8b1c26c21dd39cb12",
+    "sha256": "464265bf88bd2a5e2f2e868637616f3cec4a66ae6494226035a61ab00189693c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      0,
+      3,
+      95,
+      94
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "644-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/644.png",
+    "sourceSha256": "5e19b418f20f90359e9b18f78cf7f14628dea30d4e02c88d54456547e97b7ebd",
+    "sha256": "00ba6f4fd65a586f0fac08772318bcd9043566f311056f7eea6fd817e39011df",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      0,
+      3,
+      95,
+      94
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "644-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/644.png",
+    "sourceSha256": "e13a7dccffac054b5c7659d71187a1d5dd7d8e2d7602c5e6a4fbece389e21f42",
+    "sha256": "dacdce48ba05917356e7c149730ee53f7873dc1f62eb556d989f9e0d9388a1d4",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      0,
+      5,
+      96,
+      92
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "644-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/644.png",
+    "sourceSha256": "3f0d3fa99ee3f0e878d45f4e9f5e2b8b2f424b2c4782c7bea3260c80af467b51",
+    "sha256": "e292bda50ebfecd14041647dd3f3c666fc26d176a0c146ed7552063bc4181cc1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      0,
+      5,
+      96,
+      92
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "487-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/487.png",
+    "sourceSha256": "3cabb5dfe194e833596ea552226c429c923664f7351159edf931f78659c94292",
+    "sha256": "d7fb62ceb1b4878565170efbe316b8edc0ce889c084253e5f6b21b36baf73216",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      6,
+      90,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "487-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/487.png",
+    "sourceSha256": "10aa2ef29f73af29b972cc00b8206ca9e79c77cfeb01ddda20dbfe18037872fe",
+    "sha256": "af979a7f77e4d54166bc3c6129c811b2697adef5866e0427f6137c1b62523e7f",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      6,
+      90,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "487-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/487.png",
+    "sourceSha256": "5048092345fbdab4dcc3dcaa2930ef43b8912bc0943b1532aa2f7b3a28b9f41e",
+    "sha256": "242de1c2171ee6a18908c1aa2d4b2e53fdd88f8302bbe0f6a7b607f8bfbb801f",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      9,
+      94,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "487-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/487.png",
+    "sourceSha256": "f68c334dbdd12c170e52eda5c9a5e852df64df534e437ea333aa552b61d6d2f5",
+    "sha256": "87f4c9b7db276c482b46e6e373ddba9418c178060842b14992a9a1f97db18da6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      9,
+      94,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "461-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/461.png",
+    "sourceSha256": "7251b50e7d1f45683532d57026e555e0c1da8d3e59975ede11df311fd1318140",
+    "sha256": "3638cd25d1086101f950cc2e0680db5c989118092b4e2f8d30bd3a96fcc003b6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      23,
+      16,
+      74,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "461-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/461.png",
+    "sourceSha256": "30532ce29fa98662a08fc481e2b2009dc7e6812450eca5d647d224786dc9684c",
+    "sha256": "0ee8c19136ceadd9c670610b5e70e0dfd5bbeda53a9f21c701e87853b2205a31",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      23,
+      16,
+      74,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "461-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/461.png",
+    "sourceSha256": "bd26c45614c20515e344d7a9f6b478b15be0f6d6805457ca7dfeb958a1a6c192",
+    "sha256": "a238420522ec065da80d013e77f187a610d3da3a31e820f8519115d8023299a2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      24,
+      18,
+      68,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "461-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/461.png",
+    "sourceSha256": "71309d0e51afde04444775775acb810da83c39ace612eab30528623ec052a82f",
+    "sha256": "b2e54451638707dfafbd58361affc868d7b9ed1e99c2288f7fd3a65e81ec6271",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      24,
+      18,
+      68,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "28-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/28.png",
+    "sourceSha256": "418c4b6ce14c748f756a168f2311ad38f3b2d1335fd4a11a01f4516d3f2da901",
+    "sha256": "63f06a426980ee9eb8dd04a5ac52fb8ce16a773478abb2ee40f514041b966665",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      22,
+      74,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "28-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/28.png",
+    "sourceSha256": "824568e3bd5f102f0522e8e1f6405b89b82acf4c0bdb179ea124e50a971ccc9c",
+    "sha256": "aec019b6ada4d026a56bf7f83564138ce9c1663305b0d53d23fc0669cf4b65bc",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      22,
+      74,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "28-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/28.png",
+    "sourceSha256": "ca77455bb741d6239d4c540cb8f3407749dc74ee729bc1bf81122e082ee4890e",
+    "sha256": "b87aba6c0cf8b858ab2c9e7d7888c7fa09b3df44dad329177be161502555525c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      23,
+      24,
+      75,
+      72
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "28-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/28.png",
+    "sourceSha256": "7fda243aafb33b1ec66afde10c5bb31923737bfde12a38030359337cd21eca4d",
+    "sha256": "2b98bae3ed92f62e1a36fbc29580c8b6996355b1d90520c786c0b4c2dd9ca5e1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      23,
+      24,
+      75,
+      72
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "123-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/123.png",
+    "sourceSha256": "6e3b0710d037f586093f2c2a49e9c920c8c11e695f1e8a17b742fec8586ea577",
+    "sha256": "8c8e5a16eef053f5b5425476e4f7594b4efff0eefdcf46287b2ed34a739c621e",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      19,
+      72,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "123-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/123.png",
+    "sourceSha256": "087b6f5b379ecfcaba02aef2be4812b6c49ee806df729496aee2c70673730d56",
+    "sha256": "65ce17fa564e4b50a64a84ef8917f4e03fb50c8074f7acba277360ce623cf249",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      19,
+      72,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "123-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/123.png",
+    "sourceSha256": "a0ed39238355eb2a5f7800dbd3b3b1cf25e4678c202be951f382a445ce044e1a",
+    "sha256": "3a24a36cadceb9f32c2f6efb84e6a1339eb26c47f31b262f8ca784cb56ec0a33",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      20,
+      17,
+      82,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "123-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/123.png",
+    "sourceSha256": "09f717ec7921f64e0fba6f898e0193b105b8bf42406f5441f0823da86d1638c4",
+    "sha256": "fdcf0ba3a121eb144b960073939d0bdbcdc96912b44013d386ed0956b3e5195c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      20,
+      17,
+      82,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "452-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/452.png",
+    "sourceSha256": "124085cc8d1e309e006db9f21ade5520fbfd083e2c052854d8cb36a1f5157e60",
+    "sha256": "0f0f5f5623a200c11d49421da0ba5a5aaa064a97576e3a1bfd879b478251fdd1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      8,
+      17,
+      88,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "452-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/452.png",
+    "sourceSha256": "b33c443674acc6678a3b3ce4e34bbd23664001d60282eb8c4308834cd41ce3c3",
+    "sha256": "5f603f2d5d31a859cd927a9b421251ad25e7d0d4b966dda331c87596ad126f73",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      8,
+      17,
+      88,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "452-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/452.png",
+    "sourceSha256": "49e0cc26493666c33a1c1072a6b47cf1c9ebca69b3a229ef4d36afd1b20d8c7b",
+    "sha256": "35bc564bc31ca0a89cc04803db19ca310b2942f5d33ebaa4792c9da16973fe47",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      16,
+      93,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "452-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/452.png",
+    "sourceSha256": "830935a93767abf226bf7dcb4f2c6a066066d2c9d7d30bc5dc84dbb0fa1f7510",
+    "sha256": "047e66cc4197a80b53a872ae94826dc164937eb313524ad99ee89fb0901b8972",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      16,
+      93,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "222-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/222.png",
+    "sourceSha256": "0a343a429e66e1e18766dd97760f808dbf2f21ccaa5dd4519d668abe8e92ca82",
+    "sha256": "59ae52e068e200d2bb24467785f69cb89e447f3608d4015118812009d0b1ff86",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      28,
+      27,
+      69,
+      69
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "222-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/222.png",
+    "sourceSha256": "1bce101b323d8b75719110a4aff26b3cfaaafb035f69316d2179f7b8f7c449c9",
+    "sha256": "1da4f669461ea22e6618f98a6646b517480a35fd51b597de1a73bcefc0aab7c5",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      28,
+      27,
+      69,
+      69
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "222-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/222.png",
+    "sourceSha256": "c8791901e853ef11db57f59d0f845264b23f92320dbbbf1f6d87b91e0eed16e5",
+    "sha256": "baf4a9e631beedc6945595e752623c5095d7150965dd645d54bad5e18a86ea81",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      28,
+      71,
+      69
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "222-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/222.png",
+    "sourceSha256": "ee525cff3dcae0baec7d49357ba6effc1617eb30c6512fa95e86b33ee8271f34",
+    "sha256": "a3f9e1a95b71363ce3d4859ac689bfedfbacdd629ca6c594d340171ed1adfce1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      28,
+      71,
+      69
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "146-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/146.png",
+    "sourceSha256": "985ab0a99c18014f437bef4f2c04cf6c391f6e9d47af329604df814877c186ac",
+    "sha256": "bec2e9c425414e16dd14639e96f689eaab548711d7ea8ed08e9be0cc00bf9138",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      13,
+      91,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "146-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/146.png",
+    "sourceSha256": "9eea2fd9ef777c71fe9a1824ce89f2b1861c48cd233e8c2ed37192d21ba673a4",
+    "sha256": "b4e0ec9d31e6f82205df53e967b34c3d76f71b9d2c3f9f7c24777ceb3b4956b7",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      13,
+      91,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "146-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/146.png",
+    "sourceSha256": "8cbe54b65d4c5f07164d7fd1fb44264e4a60277c89c8a7f3bf375a5a735c7439",
+    "sha256": "3e16eb25853470c20f4304d97fd0da0c9cfede72fa204e72ced3d9fcd9e43380",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      0,
+      18,
+      96,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "146-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/146.png",
+    "sourceSha256": "c6cdff9d8d2ecd1318e4d8ca782b619301db392aea81af5d77cbd4f5b5507040",
+    "sha256": "15509237efc984e9a59560c5b5016d4716fc57e2d47ebc7519ae3ddad97ea833",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      0,
+      18,
+      96,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "169-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/169.png",
+    "sourceSha256": "1673ea011d86d22bb77a7515a8e7f615695a578fc8a50c61f6a8c0c81d155838",
+    "sha256": "46dff66576ed51f1ec536cbc263c4769f456bd49e8dac2052678259b9cd8b9e0",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      20,
+      92,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "169-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/169.png",
+    "sourceSha256": "8e77d993cb6f1f9d2c005a62764836d61a7e46d18df161a52bd1f328920fcf9d",
+    "sha256": "265e51fa9009500c55a60f1ef37351d3cdf8ad6bfaebe309797c40239a017ebf",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      20,
+      92,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "169-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/169.png",
+    "sourceSha256": "8b59add8e14358a3e35c06408997311b472b89464844b5faf71699fd153dd97f",
+    "sha256": "1d44c01db324c17d27681d3035cf0dec2eca455248fc06ebcb78e017d7b96a56",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      19,
+      91,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "169-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/169.png",
+    "sourceSha256": "14b21c57be96b2bd3a5f78154e277a065f6acb9fd0314bedaca8696e96b7aef3",
+    "sha256": "d16c8bb4f9f6c37b50f1cd6cb01097af2262f71ae7cd04434fa35dd9e8b631b8",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      19,
+      91,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "471-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/471.png",
+    "sourceSha256": "54d2d8cdc5f0ed5d2f5da3c4006e4defa226bdd196e30dd4f54c2dd5321de266",
+    "sha256": "d71763da6929b3d28504659050f67e4aef177ffa0ff6e6a7dc0745b8c3806565",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      22,
+      83,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "471-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/471.png",
+    "sourceSha256": "498f91cbb43159f730d5ec8b5cdbeb1d6562ebe171c033b7315dc07d8c6c2766",
+    "sha256": "f41ed8e61feee0a06c3cc6908edc9a824eb2899bfe27d694b86e8ae6a817b0e2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      22,
+      83,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "471-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/471.png",
+    "sourceSha256": "acbd20ebc9c1eba0d30e6e8eb972e5b2e54c54f716f28359c580c16b20655fb0",
+    "sha256": "e5092a7593d553b4d549a499de27f38b43fd1475a9226011c635c806c512210c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      21,
+      78,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "471-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/471.png",
+    "sourceSha256": "7fa2901358056651bcc75cb1a8585bb2dae7ade6c14274b371cbf015d5e485e9",
+    "sha256": "ea09376bfdcd40e8787b216366ac8f434feec328ed810638ea0634edbb5b5671",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      21,
+      78,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "112-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/112.png",
+    "sourceSha256": "219f6f5e22e598def13a22180a49eba3e4dc166abb33ce92b2a5e44b7ec22c82",
+    "sha256": "55a404acc274625aa6468681fd2bfcf7a38edae5dc9ccfe09c8c9a76d90668a9",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      10,
+      18,
+      83,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "112-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/112.png",
+    "sourceSha256": "4690d162f4d536cf83dde3fb7e6ef6a1d0578afd278598275291e8241e7dafdf",
+    "sha256": "f37c704029d64fe6472cdbfcb4cd3156dbd76f68b341994208a10f98d3878fe8",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      10,
+      18,
+      83,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "112-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/112.png",
+    "sourceSha256": "34ae46910d439f56003ae6651366c9bbcd5e4c603b0d1ef7b6d1383118e53ceb",
+    "sha256": "0e1fd28e240558a0bafe80ab77a9a4c8d41e8bd02c0d93e02b33b86bbe317d59",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      11,
+      17,
+      86,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "112-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/112.png",
+    "sourceSha256": "150ad81c4e74cda4fa74626ce23c77192ed2f6b6e603fd82aac7bc03c1a80911",
+    "sha256": "52a64f52245b07de87c8859e7876340e3d383e7e66e0ac219fb377b0bb9a2e92",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      11,
+      17,
+      86,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "194-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/194.png",
+    "sourceSha256": "75fd4dbf556a5a7ccd97214d03fc7c554bc2b56270e62624883abca46d9fd562",
+    "sha256": "0f83ece4c55742ac80a2eb2dbf38765093fbdeb926825ee44a6dfa56e83be8d3",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      34,
+      67,
+      65
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "194-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/194.png",
+    "sourceSha256": "416bf8a4a536629ceaa905558d62d7c9a1f89b4ebeadda29aa5b68a4288ac1c2",
+    "sha256": "84faa3dba79b0af3131464c59e5c54939e0035711f45619794041267444f3c25",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      34,
+      67,
+      65
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "194-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/194.png",
+    "sourceSha256": "92fe467530cfcaa96857f6b096aaa030275997e7d0f6f12f0c8b9898d3d35b68",
+    "sha256": "c82ae7add97d33736bfb996322c6ab0bc48a35ec9f29f4273d05c0e84a36af22",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      29,
+      33,
+      67,
+      63
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "194-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/194.png",
+    "sourceSha256": "1ba046d9ee7298addaaa086128fba2f5d3ec224c7241d29b003f36c2a7ef3ddd",
+    "sha256": "6ae5050e054b74c250094261549ef375444bacfac21667eb65aa875f65f67b59",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      29,
+      33,
+      67,
+      63
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "234-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/234.png",
+    "sourceSha256": "a17abefc65f11fe9ed5f9f219ffd442335db0d7886e7fee3c93360c6203390d3",
+    "sha256": "31085a06eb8e63dab263b995633d4408e19d89055dcb4d6db5357b23af8a2883",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      13,
+      67,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "234-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/234.png",
+    "sourceSha256": "9174ea2da562aedc4e86193e69a06db119922d5e36e827f18f94554dc4a99af7",
+    "sha256": "a38feb07ed89ed470d149c94d66d4f5dc452a32e88c56b672aecd4d4ce7daf9b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      13,
+      67,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "234-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/234.png",
+    "sourceSha256": "c0ab0db80234eac8f6c82c5053290a3f62a1c92fb62dfb725a7589bd249598bf",
+    "sha256": "3d1a088a41c2c31a40fff50268ed06335c4c5550f86ae7e6c53e0cc048e710f5",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      24,
+      10,
+      78,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "234-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/234.png",
+    "sourceSha256": "409fa5793c0286a8ca4a7621c8b327c3e15410e75a64ea300df3b8311386ab85",
+    "sha256": "dbb370909266637a73a27c9223a4a145c33ef57eea86913dc6aee0b3c091c9e4",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      24,
+      10,
+      78,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "497-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/497.png",
+    "sourceSha256": "89496db37e9ffb9fe30644c9e3a8764f9d8be7ce6cb614d785f8d5ab6682b565",
+    "sha256": "62781174fbb38166634ae8d04a7866f7f9b49b66cb7e50ecfa0b36590b7b9624",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      14,
+      86,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "497-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/497.png",
+    "sourceSha256": "20aad6d6f70f5f63488ef1cd936fc0d7729006358be7634ac1bf7dbc7beaf518",
+    "sha256": "f25297d19c0c5fe61721482b5ffdd0efaf15b6537c9efc69c7e279f682f63c88",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      14,
+      86,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "497-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/497.png",
+    "sourceSha256": "73f958a8facbfba34c5fe025877a866bb43200d688b2b7ca113973543a17a3e7",
+    "sha256": "7ded9d49c9c3ce94557e51e396df253ee01a8556d3dd5bfdde367987334f9587",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      10,
+      12,
+      86,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "497-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/497.png",
+    "sourceSha256": "95d173c4cbce7047c524b998d6cf4b0b67812321d591bd6552d4ffd1963370e3",
+    "sha256": "303285d6f6b048707b346551f0b2cb9230df4832184372696228b66e540acd49",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      10,
+      12,
+      86,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "553-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/553.png",
+    "sourceSha256": "9da863614d6ce956bc8887269a9c6d83673e2d84b5417476cded63b83a528fc3",
+    "sha256": "f0b7551adfb39c2c7f6fb494f63ad8d5edaea385e610896f40c1c915cedf3e28",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      7,
+      13,
+      85,
+      85
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "553-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/553.png",
+    "sourceSha256": "b142e7486ebc1c73dcb8206d7ab4351e399518140f0f744b8976941ffcb55489",
+    "sha256": "40f14fe118ffdb619dfbd233c0a214d923f05bd035116aefcebfdcb5c09fdf3b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      7,
+      13,
+      85,
+      85
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "553-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/553.png",
+    "sourceSha256": "e607e3a1a60655915b251cf3b54d8c60f9f0c533b83db39c2c09669433d3df00",
+    "sha256": "be2a69433ffe50d4a8de2f6082daa46d5d704c8a9a629a235dc4153cbdc2656d",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      12,
+      84,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "553-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/553.png",
+    "sourceSha256": "2e8d342683a21d837bf70915567f26bce67a18881d1b3e7259403db334119d8a",
+    "sha256": "39570895df32230672cf78bed3fea5be1baff318998b9ff1587b5bdf20d9638e",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      12,
+      84,
+      87
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "25-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/25.png",
+    "sourceSha256": "80d30eb1b9f2a05eb4a216d53034e2a0bb16f2619ec43d281f36d601e5819c2c",
+    "sha256": "af04c80fbfd9da1115bc10d9c07a21c0e419bb128e55bfd09c5347f915a09002",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      31,
+      24,
+      70,
+      70
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "25-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/25.png",
+    "sourceSha256": "13b49b22f304f0213bcc9680ff6417b74be0220c7cc8d8bb2b8df3ea6c38c0db",
+    "sha256": "68a130946589941048720726c635073648a2459fee7f5acf999ce982da191cf8",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      31,
+      24,
+      70,
+      70
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "25-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/25.png",
+    "sourceSha256": "a3a1bfcbdbcbf7a37619be62dd369f88785f9b601fa92816325cda036fc1d958",
+    "sha256": "4dabcba1a1d024c64fb62490b9b86ba9596e26a8679da414faebeca7ef29cdbc",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      22,
+      61,
+      69
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "25-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/25.png",
+    "sourceSha256": "a575a20f45dd94576025561b8eded85dd02919abbe167ee85907c8fc7d7e021b",
+    "sha256": "5462e1a280b8b8294113b31b2bcf188a34776e955a983833679b317f862efeab",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      22,
+      61,
+      69
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "49-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/49.png",
+    "sourceSha256": "96a0a9aeb1ff8968f6256c09f8e0e6ab016e285317de29af22af75062b310ae8",
+    "sha256": "7d4dc72cfa1cdd4406fef836d3824321a8639cd0846caedc665b0c0d22c85591",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      13,
+      73,
+      74
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "49-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/49.png",
+    "sourceSha256": "0c471b348354571b37e5bd2c9282ba72a9ec50dee4f71368e0b1bc6685260900",
+    "sha256": "2e766051e8a0dbc7e256a94c93ec8cac93047e70e18d5ff9463666e0b6a0d649",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      13,
+      73,
+      74
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "49-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/49.png",
+    "sourceSha256": "cae3022de0825d0fc555ceaed152ed1516453fb105c4f225afc2d2dd59885d5a",
+    "sha256": "4a69de338d15fc8f52eb33eb00ec4c9e17420a1518d3f53b0ca56809b797dfd2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      17,
+      82,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "49-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/49.png",
+    "sourceSha256": "76917c889c8605009afe28dd899fa71175becbb991a78cb186155a90e9b9f1d4",
+    "sha256": "f1244957ca8988bf5d61c2c9ebd9dc4ba87c2c3541c5e27bc4418b78b4783db2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      17,
+      82,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "76-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/76.png",
+    "sourceSha256": "068a5547fdaa24c87b84144baad7bb8a6da6ea8065de2f3eeb252ea8bc415250",
+    "sha256": "79907725aa3bab3a37c1bf6f333b924c753fa67835a5850196fa31b7687f5c72",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      13,
+      22,
+      78,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "76-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/76.png",
+    "sourceSha256": "058ad5aac63c9da741c4de777d2d0f9ec18824512592bb7a5c9449cc95772c51",
+    "sha256": "de11c4bac70d3e66b96627917d6e1581cbf93e8ec67a0ece7eb536380837acae",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      13,
+      22,
+      78,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "76-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/76.png",
+    "sourceSha256": "945edcbdaa19f834cb74be16d9bf5716f0cb7333f6f14b1c5569d4f1ccf84a81",
+    "sha256": "e054648130db2da1e8d029580c87a26e3c6f0d10a2fc670200b555ae9d62d830",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      21,
+      81,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "76-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/76.png",
+    "sourceSha256": "82f598cd5b8c64f4c58792a839726fcc9ff727b4d8580a375a6b3b18cfcbc3b8",
+    "sha256": "65b7ac376662abe9d9268003df821e23ca4f082db9dfde54630ebb39f745e826",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      21,
+      81,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "405-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/405.png",
+    "sourceSha256": "37c047405d80fa40c877785fe6047cb3335ddd651eb8e1c875f639215f76befc",
+    "sha256": "989cccaa58e3ffd829b0d67571f390f2c203dce10a40f383c34e35a4c5534f80",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      17,
+      81,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "405-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/405.png",
+    "sourceSha256": "cd281c071e46d87bff01dcebd3917c3ea564b9158e30a910993aa7cd6671aa5d",
+    "sha256": "0b1091efd34f68c00ead09a3e98f51c73bd0b9b600df240a6b013f3c22714ba1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      17,
+      81,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "405-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/405.png",
+    "sourceSha256": "fb93c515d1eca25dd64b43c05b95bde264bc7256f1ea7bcb81d28001551175c3",
+    "sha256": "f66d70a044d0e0ca0f6b7991bcb81ce73bafdc65ea9b219fdfa4051e5e4092e7",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      15,
+      81,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "405-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/405.png",
+    "sourceSha256": "09ea434cbefc5a24d3efb74a3ee13f8a20c011d535779bec33b21ace4e4f9741",
+    "sha256": "e6e6beda9f12877a68cabe009d9ad49093efe69ad86c08241b229f04e1076565",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      15,
+      81,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "99-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/99.png",
+    "sourceSha256": "4a85b15721776767b4fea5b495d9bb74214cb8589615b9bc4cb866812f0b1107",
+    "sha256": "96ae6861b80846eef4eb85796568671df153ff955a7bde7cb2b76e5b3901d88c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      11,
+      19,
+      88,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "99-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/99.png",
+    "sourceSha256": "d0fd2bc457f83a28dcbfc7d063b44028b918dcf2ed96e7f15830ca4be245903c",
+    "sha256": "ef55cf3ef30e1734b76579dbab6e8f43cf23a47da7fed4a206519d4e8e5c0046",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      11,
+      19,
+      88,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "99-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/99.png",
+    "sourceSha256": "1f2c3339367b13afa0d9c51a7e7d818752ba98d718590ee219c2904b121cec7a",
+    "sha256": "d8c90ca73c15212ba67809fa4f9d6800987b6f749062df07c831b65a8253822d",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      16,
+      88,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "99-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/99.png",
+    "sourceSha256": "19b26beef92e74b88ea802130579755d4108588df07ba96707cc5a75cd13d5ac",
+    "sha256": "aad2db7cd31572733899929941ad20ba3e1d5265d534577bc3c25992f4cc801a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      16,
+      88,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "148-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/148.png",
+    "sourceSha256": "255717f7670719797a6a6db739641535a49c8b1f77e65fafed33be1642d10d39",
+    "sha256": "df3d797c648f47ec4e4a424ee7642af2f9c8828cbc62b8cf7f0a3c61813dc638",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      11,
+      78,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "148-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/148.png",
+    "sourceSha256": "b6596615bfe06310303a17ea6127e01f1914528557d6357340d62e85e5bc5e8f",
+    "sha256": "bd89397e1476ca50ecb18dbd092db4bb02ad26428cbe2c38617837999fbf4fa0",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      11,
+      78,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "148-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/148.png",
+    "sourceSha256": "074aaca91576b3b26a3daf6e57f334026ffd1be2ef5ef4a9338630ca440a3ae1",
+    "sha256": "78ea545c5bb99ea56a45c408b4e86a22be661c2dbda01680e0193b0ef610cba0",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      14,
+      71,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "148-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/148.png",
+    "sourceSha256": "6e62bb03ed0a1ac7fce4e57e88f6792ebc56832ee7938d14b0f99f684c1e1aab",
+    "sha256": "db1dbd85380b6903855fd92d31cfbbc9b0b87badca55729b6b5dc56b0efe9f3b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      14,
+      71,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "75-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/75.png",
+    "sourceSha256": "58920694b2313b2e33002b4f616a6e9f196319cddfbbd80438dafc95fbfad5e9",
+    "sha256": "debd02eda4234b111edfa5747001f4bef4958a6bea7049e3df6cbeb0436b5031",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      13,
+      26,
+      80,
+      70
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "75-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/75.png",
+    "sourceSha256": "97d8d5450052715a4f5470a154e16132798ec742effd9e1f1214f1597b80c6e8",
+    "sha256": "0f6fba33ac6fa07ca5f6eb25215effae6eff03d8d7b8fedac79b1843adf36893",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      13,
+      26,
+      80,
+      70
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "75-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/75.png",
+    "sourceSha256": "32794258fb3f37b113e264689dd5bb4849111407e81bddee103517441315560a",
+    "sha256": "c5c37bf8c44414032db4d0ef33c490f2d03f3b8ea83fd2e2ac74e40e8ddba557",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      26,
+      84,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "75-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/75.png",
+    "sourceSha256": "3e3e2ab83585beb7c80e71dc326315f487111325f15f447937bfbf6f9924da6b",
+    "sha256": "7a9672e2fbbcfbe8666d5603f6307a4daefba30f49ace662ee928f4b21e9a0ae",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      26,
+      84,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "73-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/73.png",
+    "sourceSha256": "6fd0ce9b4abc247b8bebc7bbbad93748996285aae8d58dc8da610ae49e88fadd",
+    "sha256": "29404db0e32d9737cf0083598aa60ce3cd6d12c61402d444821cd23b581b58e3",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      2,
+      19,
+      73,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "73-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/73.png",
+    "sourceSha256": "bfb7d7e58082c874fe943279195542ba370c44f673a9cf6656af6b9191582bcf",
+    "sha256": "fb431bd1fece7c342cca12bae4378813d5c7eb06cadbb064cbefc1fa89d5eb22",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      2,
+      19,
+      73,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "73-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/73.png",
+    "sourceSha256": "14c04223fe088ff75af23ee59569095a731d7a69a3f4058df339e9806e2a664b",
+    "sha256": "b57a7d87f38c4872d581e12ef8b81ce45aae31fd24f07ce733805f5dd4e4ef9f",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      12,
+      17,
+      85,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "73-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/73.png",
+    "sourceSha256": "7a89f10146151a5c0f0229b29aaea7488d426b227ec1d0b0dbf510c3e4326005",
+    "sha256": "f462a67862e295071e545f9186e12b63b6a8b2470807cb7d6ff54b0c9647cb0b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      12,
+      17,
+      85,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "143-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/143.png",
+    "sourceSha256": "116f67650d9e2145e307fe153ba6a8fba3bdd02606ffb0364c05e71b5a0dba4b",
+    "sha256": "b67307f934b4c76dfe01b1f7475f57d449456398e21614478a1bf85679b5caa7",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      15,
+      80,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "143-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/143.png",
+    "sourceSha256": "dc95abd3778dc563e97a2261264f1ec3db867c25526322d6f2931e330004d956",
+    "sha256": "02c68eb6fa817725051c1f8220558b1d98fb79bbf364cda45fe42ed8a1aa345c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      15,
+      80,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "143-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/143.png",
+    "sourceSha256": "58b20a43839e1e32c48965c5ad03e25d9bbc05c56d77a0f23e8fb75c5a7b42f5",
+    "sha256": "40241c5cde989f1a623535f934a864af7e4886374e7181568bbd91cb66f42aae",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      16,
+      79,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "143-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/143.png",
+    "sourceSha256": "ea43246bb3e1ce155f14c8886129a2dbb3ba6e1bb5b7c1093bcb8fcd458ce8a2",
+    "sha256": "8f8e974331cb376a6e0ecb43d4446cd0ce4f01c836b07ae7d8d56b27613e3f1b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      16,
+      79,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "164-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/164.png",
+    "sourceSha256": "ba5cb282888d1ee6a9c4cd971deef905c1a80478d9ce3eabaa0d8811134cf98c",
+    "sha256": "0478b6c26c729c4b434874fc1ff361f34597a0f96d5076bc48fd7613e02dd632",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      27,
+      14,
+      69,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "164-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/164.png",
+    "sourceSha256": "3e2ac67f914d5dcf3a0df3e6e8ec6df3611cb4fff989dcf4033c16b3157bb3b4",
+    "sha256": "ef878aed5baacd9bc203b0908282269762a5d472021349a7f8e54d1e3a0bbc83",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      27,
+      14,
+      69,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "164-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/164.png",
+    "sourceSha256": "acac06ed205f858da08081c2dc0135a481de0096494fb8fec0dfce8393b06f91",
+    "sha256": "4bce2bdeee3f503a5f8bdb0a13127e5afc9eb322629464b225cdbfc4b23bfba5",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      32,
+      14,
+      64,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "164-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/164.png",
+    "sourceSha256": "6d04e4e641438a6934647fd7aca6e63a326ee0b66a748edf40fb23b8b54d83ab",
+    "sha256": "9ec600333b0b384f897dc59766e8a11ab231ff5a980e81a44fc421cb82907070",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      32,
+      14,
+      64,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "181-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/181.png",
+    "sourceSha256": "731acc5f1ad15a26a2dc851c8bfbbf5eb7c2d5ad53f3af1cf178e980f0723997",
+    "sha256": "abd67242da19ecadf934f12484984f10d069b82eff23548393659b96ccf89f16",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      24,
+      14,
+      79,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "181-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/181.png",
+    "sourceSha256": "f61b5eb6d9cbaec888f26e554f658ef8aa4ab73a72a83f2af257b653c13bb4c4",
+    "sha256": "477ac097b17bfc3a4b77788aef12052bbd54378453c0d0a8dfc6bbba72468981",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      24,
+      14,
+      79,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "181-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/181.png",
+    "sourceSha256": "0fd0a33c1f547f13e5f40942ca9911be73da56b3a24eef0dc9350ff4592b0ed0",
+    "sha256": "084067afaa9bc621e9575aaf6b9aa18e66fd2deb4d5a6d974b0ef4937f0a37f0",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      16,
+      73,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "181-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/181.png",
+    "sourceSha256": "5545f648183f92a974445472f914d46b300db2ba3e0b712c22599089da259702",
+    "sha256": "cf29518c6a822e0016d88669a3c858bb61fce349360897ddf5e8783c46499596",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      16,
+      73,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "24-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/24.png",
+    "sourceSha256": "bc7e2f3765edb5f4ff07c4e469e4ec1b457e79afc8cfb8a269ad16e0c5b00019",
+    "sha256": "21c6d263ad286e8d3281e55550ccac18ad1ed5a8692476c42d180e79a177e24b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      10,
+      14,
+      71,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "24-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/24.png",
+    "sourceSha256": "7fe1a28f950b95b5956ac229e9a16eaf5e5f2f0837d625b0777def67b074a0a6",
+    "sha256": "a3cf6ee323eb6c92bf88bd04cbe7780ae3f4d6feb83c478c5b1827bf2d2984ed",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      10,
+      14,
+      71,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "24-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/24.png",
+    "sourceSha256": "ef68c4fb1d487b4ed8d7e47976e5d045648a26c6af08b38e6b4a3ed26f984e97",
+    "sha256": "d1ac16358d083939e0a76e4bda76a2ae8ea76254cbdd77fda809ccf31e8230f1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      15,
+      79,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "24-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/24.png",
+    "sourceSha256": "790223c1c4aecfdac21d175654b18c589bce395f84ca6987ce8e2ded981e9f68",
+    "sha256": "db8026bd5c68ff7937546dfef130bb7636a5299014168813a2e799d027b300b2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      15,
+      79,
+      81
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "502-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/502.png",
+    "sourceSha256": "6d0a5c44f66628c9a1474fc9ec851752783839096e9894b70db28fad4b494e1f",
+    "sha256": "2ccee54cf87cd9a0d8a352e77f6ebbe300ef4aadbed80a2dc736896de0ab93b3",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      30,
+      20,
+      65,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "502-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/502.png",
+    "sourceSha256": "1b024da12196641a4c2480dc5a417920a827513dd7d6e0cbd3c40d7304cf521a",
+    "sha256": "a0ea0d08657b294f6baf86ab4849bfe396e8beb6e141386e7f88daaab23c0dd6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      30,
+      20,
+      65,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "502-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/502.png",
+    "sourceSha256": "17320e9c4db93f811411d03125dcc9f0b1048977a628014c6580d826f5bdbccf",
+    "sha256": "15061388b08123b8adff4a4e2a1e3a70ba7fa5f833d56358fe427a2e9cbf8063",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      31,
+      20,
+      65,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "502-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/502.png",
+    "sourceSha256": "9d32df2455bd3bf47892004c2e4b7feb062d29d9044ae355632e88431f8a9945",
+    "sha256": "ef1f1cdee7829b91d689e258b9634ecd137cfee0ec0f36e6b6b65603e72c1a6a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      31,
+      20,
+      65,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "352-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/352.png",
+    "sourceSha256": "ca76d392b7ed87ad4d4382714147953aa0a46d2d8cf6bf07061e4aa8f9c525fd",
+    "sha256": "56421865de80554e8ef6aab8377f48d345b1dba232f631fc8f4b1de7a946dd7d",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      25,
+      21,
+      71,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "352-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/352.png",
+    "sourceSha256": "2e95f72f6fffdb21f2806ea2af699b5c52e7ac82b0f587de6d45f74a6126efcd",
+    "sha256": "e9b0882f6ab8bc8baf2a77e11fd1b0a7b87fd1b41bae974ba05abe346fbc2902",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      25,
+      21,
+      71,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "352-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/352.png",
+    "sourceSha256": "a4c39d5d82172b67fab98d416829a58c4f10c3c68e9564877bce30dd78bb0c68",
+    "sha256": "d8d78c8eaf0938e9d41b77c98b3f6e780a4b09ccafb19b790861ce5f5f7cd1d4",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      25,
+      23,
+      72,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "352-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/352.png",
+    "sourceSha256": "f5a0698666376a364a198dc2a7f5ebb3213ab6be7bc416d08332ac6fbe9cbdcd",
+    "sha256": "d3d183e7ffd662ecd9eae861645d3330c84a1e9d97dee11fdc3eb2d11a1db0c9",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      25,
+      23,
+      72,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "324-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/324.png",
+    "sourceSha256": "f679c46f081ce5c4554336e04aa74f4a1539625543ec0f5b9b3c779abce15125",
+    "sha256": "6a67cb2909bcc30403b2009e35cbc358bf4a9d34adbfd2cabe1e867aaa5dccef",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      17,
+      80,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "324-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/324.png",
+    "sourceSha256": "c26a0fd27304688863df1d8392d6101e2c951e0864e0c43862358904c1990343",
+    "sha256": "50489312ea4603bcbff01b9dc5871de6f6bca98fac2e409c5e85fef6cfa63a0b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      17,
+      80,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "324-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/324.png",
+    "sourceSha256": "977ac31002bee18a9bd4f5b3b9490ee5a57adfd8fdc2cc4ac640450e720850fd",
+    "sha256": "a9eeaa2f81f1b0f3031d81886cc76abce36a89b36ea86e2afa2d4016b4b17aec",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      17,
+      78,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "324-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/324.png",
+    "sourceSha256": "8d368808c8cebc8a0cad0b7916039b5d1f58a5046517d718932145ed3e22ba3c",
+    "sha256": "22cbc782b893fcf7debbbb6a7a1573239a951e2ad23181871786cbc37107dad6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      17,
+      78,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "473-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/473.png",
+    "sourceSha256": "fdb4900138b06285b949ae72cffa41b53feaa2d2861c5aa2e6966b1a8d6c013c",
+    "sha256": "bccc93cb2c3baac7c5be985ab5af4ec037bf9a850e797d48dc87f1ca978bd3bf",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      8,
+      13,
+      88,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "473-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/473.png",
+    "sourceSha256": "5ec269d6b5d07d6dc2454842dfba0fe397e965cad8660dbe7b3d071fd5030c15",
+    "sha256": "0ca7a7e22e2bb61d0f545562ba19852dad3447a0b7559586908737975fd53bcc",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      8,
+      13,
+      88,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "473-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/473.png",
+    "sourceSha256": "2731d671d2a9562e7a44e4d995a318b541286a713d8a898a27044e04c61b81f9",
+    "sha256": "80e71e235d46979c1166f41247698f8019149a1a82c94f713cd4aab7dad8dd1a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      13,
+      86,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "473-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/473.png",
+    "sourceSha256": "3a29dd3a5caf762bef6705d64041b1c71d9be10d8b2892bd203fd6f2fd391aa9",
+    "sha256": "6b85db15440f6981da0f6149fd0ab09a4d7aadd117341f63b7928d3e089e7a47",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      13,
+      86,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "545-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/545.png",
+    "sourceSha256": "7914d74a339ea03b4a26d5be0cc6b4ad60d76d93e000446e77d09accfdd9d4c6",
+    "sha256": "07d00b1d381af57b4c20630e03d673200847e6637a736dd5797bffd1fc39ce64",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      7,
+      93,
+      89
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "545-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/545.png",
+    "sourceSha256": "593100bff868ae6f283e6ec02913178bf7ca1c44eb55822547b3cc12246eb1cb",
+    "sha256": "b90969535f7bb48dfd8a35b42efb60bc1b81fb4a8049c1e1458bfb83e5fc3709",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      4,
+      7,
+      93,
+      89
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "545-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/545.png",
+    "sourceSha256": "08a102019b2334b5229f477b7cdd2f315f13e19c0016bf6d9e73ac6d59a8a231",
+    "sha256": "cb3eac114b36760fb8b31129db7ea7b0a256a30cadafc318c39890c6d632a2de",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      9,
+      93,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "545-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/545.png",
+    "sourceSha256": "781edd5c10ebbe3840cbfa71f4c1c9cb3b97d7dbaceb647fee05ea0bcba5fb77",
+    "sha256": "e4f52d56faa78b715a099ba0260630ad6543400a521e5c0aa320c37813d84c11",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      9,
+      93,
+      88
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "586-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/586.png",
+    "sourceSha256": "d908e5e81f96046ef60d573c8e3bc10c874776092368b8376e8fef3fdb92a389",
+    "sha256": "4aba824eb501644aa6b90d599fe2aa5eaa95726030a58122cb597e8ca42a1786",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      11,
+      71,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "586-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/586.png",
+    "sourceSha256": "221ea7b335a485b7b26f0cdd880d2ee1f1799dd2407f972ffb128d621ad21550",
+    "sha256": "506c7cefa3cae92b280eb992ba6825d35c2a6074b319f6ea6a296a469459c0af",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      26,
+      11,
+      71,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "586-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/586.png",
+    "sourceSha256": "9bd0d25015915574080faf3a9ccfce4aa643adb587f95ed4dd991ba9194f537b",
+    "sha256": "133c57c92a42dcddf1c6b2eccf5d8c10872594cbf4de7020987c1efbec6605ed",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      10,
+      73,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "586-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/586.png",
+    "sourceSha256": "4d9250575b2c89ec08b5737be02e9983f9c2d62676401f5a867047ede3e154be",
+    "sha256": "bd83d100f26313b1eba883e24b264a5b66ab74a4cdecf37c56deceb2b438f478",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      10,
+      73,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "142-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/142.png",
+    "sourceSha256": "d983e2e373898aafcfcd92f0ef9d7a80570b3a68e9e2fb6b0d9e724c41ed6d38",
+    "sha256": "399f17e122ac5f6f0d4b77d5b9642d3476bd7f013298077fa93a7383e091cefc",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      17,
+      85,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "142-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/142.png",
+    "sourceSha256": "eb54439d4319f101f4af0f6b21ccb42f0feba3f351989d14ec27f64985dbd8e0",
+    "sha256": "ccb22d00ea399739330ca8d9082c7a8f4c0a62f3f7ebf6ff5c62e0a28385fcd1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      17,
+      85,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "142-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/142.png",
+    "sourceSha256": "844e3f2a47fe7182463771d315e91b6c77b26a6703ee6b65b6aa8b23b297b207",
+    "sha256": "2e549fb9461be9626ef977b59e9ec0b59b346aaf7be3622c0ff4017789893867",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      15,
+      88,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "142-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/142.png",
+    "sourceSha256": "3c1987cf7bce4ac2e182c23bfd39e2c96b21b13878733bed6c49fdd1a23660f6",
+    "sha256": "efae581776205762ac8593f16504f2f3302314df27bfb4af25cebd31a279517e",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      9,
+      15,
+      88,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "342-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/342.png",
+    "sourceSha256": "8f585a04104f3d91e695a188a53cf07541cbe1a762c4a2dcd631b0361876815f",
+    "sha256": "895f0428f57b68aa0b9f9d127b8ed2d65444051346da3935e642a568d488a776",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      18,
+      80,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "342-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/342.png",
+    "sourceSha256": "285314f440099ba4d2032b6b1bec2b65d35e240f98cc16a4a8d8f044892ae400",
+    "sha256": "77a3ca7e8cc02c4f185d4d683ecbb168806423e2c154959f2a4b80cad55014bb",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      18,
+      80,
+      78
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "342-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/342.png",
+    "sourceSha256": "462bd6b4946854143ea63b57a14879e3c03c951ea13ef1ce302e1bcd42be4a60",
+    "sha256": "5d394c98c96c4e8422cea2c6bfdad3bf9af66afa4c0df6d55ec17318b7a8b2ac",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      17,
+      83,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "342-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/342.png",
+    "sourceSha256": "65cbd6b327a102d071133981b0e26e4e18c660a49ed41ffec45f1aa0560c5499",
+    "sha256": "5f013bab1d2911ac901f40a509a9ce676a5deed5a4010ab2c29c1072e01d44e6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      17,
+      83,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "319-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/319.png",
+    "sourceSha256": "dcad0a713e1c74e982d777bd4c2ba8ea035d1db88028da6a736172cee3950026",
+    "sha256": "5b8a4c1fef3a2b9f821a5cbdb511d23bdf8f195ceaf446f7bde9796d2c73bdd2",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      12,
+      80,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "319-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/319.png",
+    "sourceSha256": "e0cb1d94e564b9a7289e8a6423d09d9a2d435d18d2bda68bcb32a3fa25762bfa",
+    "sha256": "4aa2b71196c6e3d42b96eea9a7ba280a5b17e47d5021a428a8d38da2648aaa8a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      12,
+      80,
+      82
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "319-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/319.png",
+    "sourceSha256": "c3cc14ef3b3191ae3eccd04ee37e8df25b5a9927811bb6d8023b0e67dc1eb97e",
+    "sha256": "3decc988d11e05bb4940be74e70d0c5d8aa334878845eaceb7194e00921db988",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      14,
+      76,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "319-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/319.png",
+    "sourceSha256": "d9a08748c65a8be7f3e5dc13481b4f630760c809d20e9eee4131bab8ff6572c5",
+    "sha256": "a729b1638f86b5bfbb16dcd6a867baf2166fd86a2fc50be7b64ad4929c87fabd",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      14,
+      76,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "29-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/29.png",
+    "sourceSha256": "6fb8c8ce78edd5b148ad3fbc61cec9c6e6616127c9e7bb79a94e7f0a8b7b8518",
+    "sha256": "6470f4313910c8e9f0c3e307b0d0d368bbe46faf4c8b693b20e85135b1b3a354",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      29,
+      34,
+      63,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "29-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/29.png",
+    "sourceSha256": "456f841ba67a44d757a6cb1a0091bb6bee46ce4a67a7d53ef6433a0ac66fdf92",
+    "sha256": "43f1258b9ab0908fc692f9f292dd1dcf488988b9210e0c458fefb235dd7cf4f1",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      29,
+      34,
+      63,
+      68
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "29-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/29.png",
+    "sourceSha256": "d2f3ebe449f87e948b35c677b10a4bdea8fcc32afbba72a722715a363f628b57",
+    "sha256": "476188fa9568d1d0c920290f59db5d0cee9f1d2d9166f454380e8ae3c231d777",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      33,
+      30,
+      65,
+      66
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "29-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/29.png",
+    "sourceSha256": "a99318af3633fef497df40dd5a614a020d46febbb5934f1a9269f238c94460a3",
+    "sha256": "b612eb72801726b0fd72e049b84ca707321da2b3e23565e7274e35851967c38a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      33,
+      30,
+      65,
+      66
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "135-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/135.png",
+    "sourceSha256": "17a9215bd8276df8cdfc38709e956551b699188738bf628cab89a55bd384f85d",
+    "sha256": "4bee90584fb9a84e72205a85bcba487f9ea5162ed620296ec27680ae9b13b80e",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      28,
+      22,
+      74,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "135-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/135.png",
+    "sourceSha256": "5e265d83ab376bbf7cc4ee24de314e10f78c18be295877aabeecf54e2b0af621",
+    "sha256": "fe8283794d50acb8b5e18b260a58ea65593aa9575452227722abb6f4de8a82ec",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      28,
+      22,
+      74,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "135-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/135.png",
+    "sourceSha256": "7e09449887066ffebf7e4f384ccb0ce9ab236ae811dbdb175c00c0c14f42e8fc",
+    "sha256": "345403a3d11e7ad931c05042a7ff41ea4851f6883e0dd248fe966adcc5be4c99",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      23,
+      68,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "135-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/135.png",
+    "sourceSha256": "18cd02c8cdb4a8e5765629ba2491971a80a63cfabfccd59a6f5cdb62f0187ea3",
+    "sha256": "bbd7d206a026fb8211ce06b9e83c5366fbcf1c62c12f4ec4072964ff8f178071",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      23,
+      68,
+      71
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "168-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/168.png",
+    "sourceSha256": "c88765fb65246405c2bf0b0eefaba4aadaec9fa5dfb6e64af5a54c4f8667c2b0",
+    "sha256": "c17c85364278ac8a0baba37ab1d82e811484ee5befc2f5dafa830f541cc545dd",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      23,
+      71,
+      72
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "168-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/168.png",
+    "sourceSha256": "20feb44afa945d35643e894757562f5eee12c6c4534c99dfe88ff575c0f0e7ee",
+    "sha256": "5979a33e5313480883dfab37d99e1458bd0c4816e2bed08a3d324014562b37f5",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      15,
+      23,
+      71,
+      72
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "168-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/168.png",
+    "sourceSha256": "59f321e2096884f27bb04bd540a413bb06955ea584d779406fadecf27638bd92",
+    "sha256": "31a6d26f16450c7157d4d4a4a78b0996b01075609373d659a0b14fa57162e335",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      27,
+      72,
+      70
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "168-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/168.png",
+    "sourceSha256": "bcd179e7ef6784e77fbd904bec0c460bb228b29cb1521a5ddfbf54221d0735b3",
+    "sha256": "a171016210a0726bef06c9b70a4acb5f9ecabcec2a282f968740eaff298c88c7",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      27,
+      72,
+      70
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "257-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/257.png",
+    "sourceSha256": "3b310181ab42b7f7cb13ca6d168d4e82d8f25bf455dc69e3d0414f2138105c6e",
+    "sha256": "13ca9d74b04502634a36353a23ca3d46868d019c65fdcbd06db4a894a326bb0b",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      11,
+      78,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "257-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/257.png",
+    "sourceSha256": "f59ba0f1a29126ef4807a9171d434a671831d0bb85d461a70380607c59a223f5",
+    "sha256": "6f6f82a91ba6eceed2f0748f20b83ac1cb8763fd842ff5268fa87f1e4ea3da8a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      11,
+      78,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "257-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/257.png",
+    "sourceSha256": "cb13a53bd8e9a1eb5fed90d2e5c04124c69f4bc18b1a726bfd72c482ec0d75c5",
+    "sha256": "6b7a4871d5f80854c07001eaa566086f03e096015aed56ceeb589b737a2758d9",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      12,
+      81,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "257-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/257.png",
+    "sourceSha256": "82482f516f1853cd79f9a3365d5ce9d537796a2795caca50ea58fed360575909",
+    "sha256": "6053de1197a8e4abf1a3a6bd7353fa4b2f898a343c28465ede422e01f62e4d41",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      12,
+      81,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "224-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/224.png",
+    "sourceSha256": "4259655bb803ee470981d8274ad6d73abad7399b450313d251373a7d59d8a15e",
+    "sha256": "a629921624ddab66bd83df5863d2275b84bdcc1f969950d47836fc0ee20f9351",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      25,
+      71,
+      70
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "224-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/224.png",
+    "sourceSha256": "729a1225524709896277aa32fb1143f8445926349020fd5fa734b7a97390e828",
+    "sha256": "9cea7a183fd5a6173377f16caa1f3f2ef1a913e3c5adcda372b3a1bead88eaba",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      22,
+      25,
+      71,
+      70
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "224-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/224.png",
+    "sourceSha256": "e20537f87f5312eb40db7f252133dea83501aee861def8dd0bc3e002967fdcf0",
+    "sha256": "315b45339a15013ead8c812ead38c4e40ccd7c9eade624c203fde95902629c78",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      23,
+      76,
+      73
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "224-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/224.png",
+    "sourceSha256": "353666faf76e5d8412e5a8768dccb5900808203bc67727613262f0e42de867c7",
+    "sha256": "989d078be6993d8cca819e4075ce31959959c15f6f5309af0e859cb28b13b1b7",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      16,
+      23,
+      76,
+      73
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "393-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/393.png",
+    "sourceSha256": "adb8ebb111f895a0be76eccfd7ae24b188df3240002e7b0faa226d63fb136896",
+    "sha256": "5e4c70a29811e29e5d25482eb469120d3f0545a9a74241372118d7be80d8a977",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      33,
+      28,
+      60,
+      63
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "393-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/393.png",
+    "sourceSha256": "dddb39f7c18c310ca0aee82b87cba0ddf89599392f9384548433033e47e2b510",
+    "sha256": "c6442cf8f08edd5a427f0022aa1bc47e08be73c5f940d5419a113c82c63c6831",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      33,
+      28,
+      60,
+      63
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "393-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/393.png",
+    "sourceSha256": "44a45f856f0bec1893b80a1da231d4ec6f4d8edd23d732739b02b8ec3b9f7d15",
+    "sha256": "95fe7fc373e760250450c603bd5765333f5ca8068366587957e52027eff01bcd",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      33,
+      30,
+      59,
+      65
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "393-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/393.png",
+    "sourceSha256": "2bbc208d7b55c965d3e97eb09d0ce04aee96ad2c8e447f52925d90670cafd452",
+    "sha256": "0ab7e30b8d0398d050f8d305b1c530a9807a249c1c4d738fbe5c0cd6706bb845",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      33,
+      30,
+      59,
+      65
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "50-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/50.png",
+    "sourceSha256": "ea2beb66d724155983dc47c4b5d0cebcb5780d7268daaa06274fed7e31c2beb8",
+    "sha256": "8b67264b29e4a9ddfebe5f539ea747335b1bed1f483dd2716c93d221157d8645",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      31,
+      37,
+      69,
+      64
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "50-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/50.png",
+    "sourceSha256": "1d0c0d76ebab17af1279a5dd2f0039274f72e0934e17319fb7ab2a9796e1c26e",
+    "sha256": "57b5628307f58d981b04de8c6f6e1b253c0a679249959a49a393446cd4f3f590",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      31,
+      37,
+      69,
+      64
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "50-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/50.png",
+    "sourceSha256": "06e9e92b67b7c109fa9d0c5a5c09720dba07bf2a4353a6d95929b7318e1654bb",
+    "sha256": "f5c2e9289b25f3fb968e5b8e7a734f57a46d58ee1a86f417bd4b4000d1ed1430",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      25,
+      37,
+      63,
+      64
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "50-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/50.png",
+    "sourceSha256": "2fef01ac0d1f57c016e38d736c9bef10faa8d15b5943c364962e2ba12cade087",
+    "sha256": "3497b55d8f6e641dea94ceafc9046ec77f60d77b37e30789883592f0fbc1e08c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      25,
+      37,
+      63,
+      64
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "469-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/469.png",
+    "sourceSha256": "7281fc7624bcf53b2880b6a20afd4817291d2ed67be3f20c3d505cadd158f0b0",
+    "sha256": "2035f864a599d1b4110a42ab0df2e8d78dc6a71ab70577dec067b2fa9b6201f0",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      8,
+      19,
+      86,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "469-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/469.png",
+    "sourceSha256": "18d4e39d35b62cee970de33292f9a97dce58b37e409b9f46af41f05b9aa68b78",
+    "sha256": "a2730210126af32ef793a3982376ee6c17b12f743b1d2e473f9c8268e583c346",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      8,
+      19,
+      86,
+      79
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "469-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/469.png",
+    "sourceSha256": "6039c8bad174be0c1a32ad6a1af19653ffd54b851b35ca2ebed1f15cf4bd7a7b",
+    "sha256": "507f1f9c7c761a2e53ac07a368241d1d716b063ce5b5c54045fcef6efcc097f7",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      22,
+      90,
+      74
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "469-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/469.png",
+    "sourceSha256": "89ad9305f121a90cad5bbca871c21ff075c9d51afa4ed769ac5d33b574ca4b24",
+    "sha256": "664f350f6b7d79fa51d7599b81f13f2c3582e6b1342218ec8f7996428dd0a9ef",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      22,
+      90,
+      74
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "91-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/91.png",
+    "sourceSha256": "651f89d949275a7f1239d8b259b8c05307b7a885b4a0efb089bc39c2daa0284d",
+    "sha256": "255aef56876682daf3da8342189c68cde4d4db30eb88b737d5090dd7488f11c7",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      15,
+      75,
+      77
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "91-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/91.png",
+    "sourceSha256": "05a6c5fd03dccf713392423da4b1eb864bb5afc4d08140be01e12301aae7a39e",
+    "sha256": "c1738a530bb9492c3e234794386ac0ec3f1d1aa3f1b2f4a0537a79447bc6104a",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      15,
+      75,
+      77
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "91-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/91.png",
+    "sourceSha256": "ea9eb2a087e478ef0cf55c265fea144dff76bfa0150b179e6c79af75c1ffb464",
+    "sha256": "8ba124852006b19bb62d58ca811d9eb70740057822712ed7fbda00b5b8853bd4",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      20,
+      78,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "91-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/91.png",
+    "sourceSha256": "860c5208b2fcefbe57335b21ef947d3b2e631446b4b03017f296a6c1d77d9e07",
+    "sha256": "17ee90a9bf8a355760f99242b3003f1addefe071b12a61a207d4b47e52642872",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      19,
+      20,
+      78,
+      76
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "130-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/130.png",
+    "sourceSha256": "113668f60e8a1211c852af22903ebbec2072a91bdb8ddd957056498bd2b8e6f2",
+    "sha256": "ae69729324a0bd609d08adc216540304c6c8e388bd0b444f9b2848beedfeb3d8",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      5,
+      9,
+      86,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "130-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/130.png",
+    "sourceSha256": "6ccc6548b690e58f1eb1115f4dc41030589b724f44b8acdfe6faa5ac7ee87066",
+    "sha256": "0dd17d75699857e6ee66ee3e67fcbc87061b1ecb22282d59e16f8de2499c841c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      5,
+      9,
+      86,
+      86
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "130-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/130.png",
+    "sourceSha256": "fa59f530bf58b3fddf38f131587ec2a84336887dc3e1f3d57303762a4cfc1d1d",
+    "sha256": "f2f8784fc94ce2d45af3828b21e2d153490fa5eab5b5073cf68ecb6e6db3fe41",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      7,
+      94,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "130-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/130.png",
+    "sourceSha256": "d733d60d4090777d9693c70fa5e497a03191cfae14cd0ac26b6fc94b2c755812",
+    "sha256": "43490f3e3763aa67845625383415daab747a2ea5ff00fa9e7a3a2e3088e7421e",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      3,
+      7,
+      94,
+      84
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "512-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/512.png",
+    "sourceSha256": "53e57f631a424d1b24341a7aadd24dcdcfb22da66526de46ac7b3552dd8e404b",
+    "sha256": "794642380304a6132f43e392c9a30ce4c46b05a952ad412f09dfc991642b9bc7",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      10,
+      79,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "512-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/512.png",
+    "sourceSha256": "4d5cf32faf6f6b7a3505d318f30281e486b3bb2ede103cf3eda815682fac3300",
+    "sha256": "3c177465cab84fc2d611efefc488212c976d0138d96b2fd7b884a39481a89a10",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      18,
+      10,
+      79,
+      80
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "512-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/512.png",
+    "sourceSha256": "84c4e705411098a4274e06993fd0ceaa81a755b44e619a8960fe20717fa45f7c",
+    "sha256": "aa961bae117ef34e3ffdd96697cbc3adec70cfc636b728a649e059a7e6474b46",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      14,
+      70,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "512-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/512.png",
+    "sourceSha256": "0e9286cd22e637939580e1859f07b106941fcd5a139716c664116d77588550bf",
+    "sha256": "794b6655632479cac075f50b37fdd737e168219ac12b11aa11230748a596e0da",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      14,
+      70,
+      83
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "250-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/250.png",
+    "sourceSha256": "820f7733f223f6f93279c48ca93116213ae94a0433f0721e584349b975d14f1b",
+    "sha256": "5a07b73193691a90864879b95d4e928b7111a4866ed7b6be21ff177e07cc47ff",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      3,
+      89,
+      94
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "250-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/250.png",
+    "sourceSha256": "54988297c8a7c7812d9ae8cbd7950d62f393a8ae4e41d6123e653ea1e558ec8f",
+    "sha256": "846551a9773772596b973e76636dc3cf5aebfb94252c24ca5f4dccedffb828d6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      3,
+      89,
+      94
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "250-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/250.png",
+    "sourceSha256": "7808b93e4bb24d83cd27f0ecf990f98e8f0805de394d29b82e8c54a39296e967",
+    "sha256": "c97dd9622823f0360e1dc051cc7f0ccf3bc82ce514d69e1e8babf63dfb95773c",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      5,
+      89,
+      90
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "250-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/250.png",
+    "sourceSha256": "147bbcbc69dbc08471cb7f18828a1d76f5f152f13b879366108fb6d3bb09c594",
+    "sha256": "4793c401114c7b65841a5e39f0d8abb45ff6334dbf31390fbd01e8eb5e6ca2e5",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      6,
+      5,
+      89,
+      90
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "226-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/226.png",
+    "sourceSha256": "4e4030c38ba4ebe740d8cd8f084d3710587947aa941d477643f33bd2e47de43e",
+    "sha256": "7272ac3f062a086c152c414671c29c81dd24687e187de91ce5fba062c3688789",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      12,
+      20,
+      85,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "226-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/226.png",
+    "sourceSha256": "7a750bca9acc4eebbce78a14699c19484e4e456acf905fc3d1f259d2a3c34251",
+    "sha256": "a6b0f98279682219e68354de864ce3be9ea11d98f15d7d0b05cf8830a3f2b0d6",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      12,
+      20,
+      85,
+      75
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "226-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/226.png",
+    "sourceSha256": "11c739a3825455909c3b2f15d038798c0e0d4b6e585535c105b2cb19a87cb197",
+    "sha256": "8addee1a19dea99a9d45204ea031ce886020c4d30dee59ada528b16b10240933",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      8,
+      21,
+      88,
+      72
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "226-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/226.png",
+    "sourceSha256": "e908b3509a18a688be940da5294ea82b976d3ca831a902ec6a5b1411af619888",
+    "sha256": "887ad2fa6018582b62411fe111388118659c3580ed7c7dce3dfbd9658d0d94eb",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      8,
+      21,
+      88,
+      72
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "128-front.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/128.png",
+    "sourceSha256": "2d8ec658707a370288456a65f46c779c15002ed7bae29f3123ef7003870c49a3",
+    "sha256": "a722971582cb4b14cfd6152aed4b9564ac56d369ab3ca1aef2a4231636d07f83",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      18,
+      88,
+      77
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "128-front-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/shiny/128.png",
+    "sourceSha256": "b63dac297929d90ad995a5989e5e17acc5359ed6c9ef3b55a3ed912e052b5960",
+    "sha256": "ed6300cca7f7d7561760d4e398689040b17fd3bd3842d90ed2ab6b5a8c85ac59",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      21,
+      18,
+      88,
+      77
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "128-back.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/128.png",
+    "sourceSha256": "aa4b4945dc703174ff310c0f483f75e588fd8cea03d03be9137f71a7657cffd2",
+    "sha256": "917d86ab1a221a81428be039e4bfba27949657b9cf4b586f7c03e4913f5def77",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      24,
+      80,
+      77
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  },
+  {
+    "file": "128-back-shiny.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/pokemon/back/shiny/128.png",
+    "sourceSha256": "94cc0024d770bd5b8de6f2be715ed26b70494948a673b9610d4d9e09cdf5817a",
+    "sha256": "e5048cc5e2fd27c492111f741cce608d1cdd2af1564c5c62f8be99cb13b41e37",
+    "sourceSize": [
+      96,
+      96
+    ],
+    "sourceAlphaBounds": [
+      14,
+      24,
+      80,
+      77
+    ],
+    "outputSize": [
+      96,
+      96
+    ],
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; not covered by project code license"
+  }
+]

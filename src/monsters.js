@@ -1,3 +1,4 @@
+import { POKEMON_ROSTER } from './pokemon-roster.js';
 import { BOSS_DRAGONS } from './boss-dragons.js';
 import { MONSTER_FRAMES } from './monster-frames.js';
 import { EXPANSION_SPECIES } from './monster-expansion.js';
@@ -10,7 +11,7 @@ export const SPECIES = [
   { id:'cloud', name:'Stormwing', title:'The sky hunter', passive:'growth', color:'#9cbbff', dark:'#6589db', type:'SKY', cell:11, note:'Ride the wind. Rule the sky.' },
   ...BOSS_DRAGONS,
   ...EXPANSION_SPECIES,
-];
+].map(s => ({...s, ...POKEMON_ROSTER[s.id], title:'Your Pokémon friend', note:`Meet ${POKEMON_ROSTER[s.id].name}.`}));
 export const speciesOf = m => SPECIES.find(s=>s.id===m.speciesId)||SPECIES[0];
 export const monsterName = m => speciesOf(m).name;
 export const PASSIVES = {
@@ -19,12 +20,12 @@ export const PASSIVES = {
   growth:{name:'Grow',icon:'◆',description:'Get 2 right. Get more loot!'},
 };
 // One base sprite per species. Evolution reuses it with CSS scale, tint and aura only.
-export function monsterArt(m,size=160) {
-  const s=typeof m==='string'?SPECIES.find(s=>s.id===m):speciesOf(m);
+export function monsterArt(m,size=160,view='front') {
+  const s=typeof m==='string'?(SPECIES.find(s=>s.id===m)||SPECIES[0]):speciesOf(m);
   const evo=typeof m==='object'?m.evolutionStage||0:0;
   const sparkles=typeof m==='object'&&['gold','silver','large'].includes(m.rareForm)?'<i class="rare-sparkles">'+Array.from({length:6},(_,i)=>`<i class="rare-sparkle sparkle-${i}"></i>`).join('')+'</i>':'';
-  const atlas=s.atlas||'original';
-  const cell=s.cell,col=cell%4,row=Math.floor(cell/4);
-  const frame=MONSTER_FRAMES[atlas]?.[cell];
-  return `<span class="monster-art rare-${typeof m==='object'?m.rareForm||'normal':'normal'} atlas-${atlas} evo-${evo} ${typeof m==='object'?m.evolutionRoute||'':''}" style="--sprite-x:${frame?.x??col*100/3}%;--sprite-y:${frame?.y??row*100/3}%;--sprite-sheet-size:${frame?.zoom||400}%;--sprite-clip:${frame?.clip||'0%'};--sprite-size:${size}px;--ground-bottom:${frame?.clip?.split(' ')[2]||'5%'};--aura:${s.color}" aria-hidden="true"><i class="monster-ground"></i><span class="sprite-pixels"></span>${sparkles}</span>`;
+  const shiny=typeof m==='object'&&m.rareForm==='gold';
+  const facing=view==='back'?'back':'front';
+  const src='/assets/pokemon/'+`${s.pokemonId}-${facing}${shiny?'-shiny':''}.png`;
+  return `<span class="monster-art pokemon-art rare-${typeof m==='object'?m.rareForm||'normal':'normal'} atlas-${s.atlas||'original'} evo-${evo} ${typeof m==='object'?m.evolutionRoute||'':''}" style="--sprite-size:${size}px;--ground-bottom:8%;--aura:${s.color}" aria-hidden="true"><i class="monster-ground"></i><span class="sprite-pixels"><span class="pokemon-fallback">?</span><img class="pokemon-image" src="${src}" alt="" width="96" height="96" onerror="this.hidden=true" draggable="false"></span>${sparkles}</span>`;
 }

@@ -1,7 +1,5 @@
-name: Publish beta
+name: Publish separate fan game (manual)
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read

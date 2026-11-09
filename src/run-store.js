@@ -1,7 +1,7 @@
 import { normalizeLearning } from './learning-record.js';
 import { SPECIES } from './monsters.js';
 import { continueBattle, reserveMonsterIds, REWARDS } from './game.js';
-export const RUN_KEY='wordwild-run-v1';
+export const RUN_KEY='wordwild-pokemon-run-v1';
 const phases=['lucky-event','battle','capture','party-management','reward','reward-target','evolution','camp','clear'];
 export function saveRun(storage,game){try{if(!game||game.phase==='game-over'||game.pending==='game-over'){storage.removeItem(RUN_KEY);}else storage.setItem(RUN_KEY,JSON.stringify({version:1,game}));return true;}catch{return false;}}
 export function loadRun(storage){try{

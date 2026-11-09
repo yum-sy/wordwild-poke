@@ -1,7 +1,7 @@
 {
-  "id": "./",
-  "name": "Wordwild",
-  "short_name": "Wordwild",
+  "id": "./wordwild-pokemon",
+  "name": "Wordwild Pok\u00e9mon Fan Game",
+  "short_name": "Wordwild Fan",
   "description": "Learn words. Win battles. Build your team.",
   "start_url": "./",
   "scope": "./",

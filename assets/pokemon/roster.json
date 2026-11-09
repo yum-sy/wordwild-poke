@@ -1,0 +1,322 @@
+[
+  {
+    "legacyId": "sprout",
+    "pokemonId": 1,
+    "name": "Bulbasaur"
+  },
+  {
+    "legacyId": "ember",
+    "pokemonId": 4,
+    "name": "Charmander"
+  },
+  {
+    "legacyId": "aqua",
+    "pokemonId": 7,
+    "name": "Squirtle"
+  },
+  {
+    "legacyId": "mush",
+    "pokemonId": 285,
+    "name": "Shroomish"
+  },
+  {
+    "legacyId": "sun",
+    "pokemonId": 214,
+    "name": "Heracross"
+  },
+  {
+    "legacyId": "cloud",
+    "pokemonId": 398,
+    "name": "Staraptor"
+  },
+  {
+    "legacyId": "cinderwing",
+    "pokemonId": 6,
+    "name": "Charizard"
+  },
+  {
+    "legacyId": "rainlong",
+    "pokemonId": 149,
+    "name": "Dragonite"
+  },
+  {
+    "legacyId": "frostlance",
+    "pokemonId": 373,
+    "name": "Salamence"
+  },
+  {
+    "legacyId": "shellmount",
+    "pokemonId": 389,
+    "name": "Torterra"
+  },
+  {
+    "legacyId": "plumeserpent",
+    "pokemonId": 384,
+    "name": "Rayquaza"
+  },
+  {
+    "legacyId": "dunecoil",
+    "pokemonId": 330,
+    "name": "Flygon"
+  },
+  {
+    "legacyId": "deepcrown",
+    "pokemonId": 230,
+    "name": "Kingdra"
+  },
+  {
+    "legacyId": "trihydra",
+    "pokemonId": 635,
+    "name": "Hydreigon"
+  },
+  {
+    "legacyId": "stormlong",
+    "pokemonId": 644,
+    "name": "Zekrom"
+  },
+  {
+    "legacyId": "boss",
+    "pokemonId": 487,
+    "name": "Giratina"
+  },
+  {
+    "legacyId": "frostfang",
+    "pokemonId": 461,
+    "name": "Weavile"
+  },
+  {
+    "legacyId": "drillhide",
+    "pokemonId": 28,
+    "name": "Sandslash"
+  },
+  {
+    "legacyId": "leafscythe",
+    "pokemonId": 123,
+    "name": "Scyther"
+  },
+  {
+    "legacyId": "dunestinger",
+    "pokemonId": 452,
+    "name": "Drapion"
+  },
+  {
+    "legacyId": "reefshell",
+    "pokemonId": 222,
+    "name": "Corsola"
+  },
+  {
+    "legacyId": "flarefeather",
+    "pokemonId": 146,
+    "name": "Moltres"
+  },
+  {
+    "legacyId": "moonbat",
+    "pokemonId": 169,
+    "name": "Crobat"
+  },
+  {
+    "legacyId": "crystalram",
+    "pokemonId": 471,
+    "name": "Glaceon"
+  },
+  {
+    "legacyId": "magmahorn",
+    "pokemonId": 112,
+    "name": "Rhydon"
+  },
+  {
+    "legacyId": "wavefrill",
+    "pokemonId": 194,
+    "name": "Wooper"
+  },
+  {
+    "legacyId": "ironantler",
+    "pokemonId": 234,
+    "name": "Stantler"
+  },
+  {
+    "legacyId": "bloomcoil",
+    "pokemonId": 497,
+    "name": "Serperior"
+  },
+  {
+    "legacyId": "nightjaw",
+    "pokemonId": 553,
+    "name": "Krookodile"
+  },
+  {
+    "legacyId": "boltbunny",
+    "pokemonId": 25,
+    "name": "Pikachu"
+  },
+  {
+    "legacyId": "silkmist",
+    "pokemonId": 49,
+    "name": "Venomoth"
+  },
+  {
+    "legacyId": "mossfist",
+    "pokemonId": 76,
+    "name": "Golem"
+  },
+  {
+    "legacyId": "lunamane",
+    "pokemonId": 405,
+    "name": "Luxray"
+  },
+  {
+    "legacyId": "clawforge",
+    "pokemonId": 99,
+    "name": "Kingler"
+  },
+  {
+    "legacyId": "tidecrest",
+    "pokemonId": 148,
+    "name": "Dragonair"
+  },
+  {
+    "legacyId": "tuskrock",
+    "pokemonId": 75,
+    "name": "Graveler"
+  },
+  {
+    "legacyId": "glowbell",
+    "pokemonId": 73,
+    "name": "Tentacruel"
+  },
+  {
+    "legacyId": "bamboom",
+    "pokemonId": 143,
+    "name": "Snorlax"
+  },
+  {
+    "legacyId": "snowgaze",
+    "pokemonId": 164,
+    "name": "Noctowl"
+  },
+  {
+    "legacyId": "gemscarab",
+    "pokemonId": 181,
+    "name": "Ampharos"
+  },
+  {
+    "legacyId": "sandhood",
+    "pokemonId": 24,
+    "name": "Arbok"
+  },
+  {
+    "legacyId": "shellotter",
+    "pokemonId": 502,
+    "name": "Dewott"
+  },
+  {
+    "legacyId": "prismtail",
+    "pokemonId": 352,
+    "name": "Kecleon"
+  },
+  {
+    "legacyId": "embertoad",
+    "pokemonId": 324,
+    "name": "Torkoal"
+  },
+  {
+    "legacyId": "tundratusk",
+    "pokemonId": 473,
+    "name": "Mamoswine"
+  },
+  {
+    "legacyId": "ironcoil",
+    "pokemonId": 545,
+    "name": "Scolipede"
+  },
+  {
+    "legacyId": "jadehorn",
+    "pokemonId": 586,
+    "name": "Sawsbuck"
+  },
+  {
+    "legacyId": "flarewing",
+    "pokemonId": 142,
+    "name": "Aerodactyl"
+  },
+  {
+    "legacyId": "clawtide",
+    "pokemonId": 342,
+    "name": "Crawdaunt"
+  },
+  {
+    "legacyId": "spearfinn",
+    "pokemonId": 319,
+    "name": "Sharpedo"
+  },
+  {
+    "legacyId": "thorncurl",
+    "pokemonId": 29,
+    "name": "Nidoran\u2640"
+  },
+  {
+    "legacyId": "boltburrow",
+    "pokemonId": 135,
+    "name": "Jolteon"
+  },
+  {
+    "legacyId": "webgem",
+    "pokemonId": 168,
+    "name": "Ariados"
+  },
+  {
+    "legacyId": "bladecrest",
+    "pokemonId": 257,
+    "name": "Blaziken"
+  },
+  {
+    "legacyId": "coralarm",
+    "pokemonId": 224,
+    "name": "Octillery"
+  },
+  {
+    "legacyId": "icewaddle",
+    "pokemonId": 393,
+    "name": "Piplup"
+  },
+  {
+    "legacyId": "diggem",
+    "pokemonId": 50,
+    "name": "Diglett"
+  },
+  {
+    "legacyId": "glasswing",
+    "pokemonId": 469,
+    "name": "Yanmega"
+  },
+  {
+    "legacyId": "frostclub",
+    "pokemonId": 91,
+    "name": "Cloyster"
+  },
+  {
+    "legacyId": "koiflow",
+    "pokemonId": 130,
+    "name": "Gyarados"
+  },
+  {
+    "legacyId": "vineknuckle",
+    "pokemonId": 512,
+    "name": "Simisage"
+  },
+  {
+    "legacyId": "jewelplume",
+    "pokemonId": 250,
+    "name": "Ho-Oh"
+  },
+  {
+    "legacyId": "runeray",
+    "pokemonId": 226,
+    "name": "Mantine"
+  },
+  {
+    "legacyId": "peakhoof",
+    "pokemonId": 128,
+    "name": "Tauros"
+  }
+]

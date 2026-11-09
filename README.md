@@ -1,12 +1,14 @@
-# Public beta
+# Wordwild Pokémon Fan Game
 
-Play: https://yum-sy.github.io/wordwild/
+Free, noncommercial, unofficial English-learning fan game. Not affiliated with or endorsed by Nintendo, Game Freak, Creatures, or The Pokémon Company.
 
-Feedback: https://github.com/yum-sy/wordwild/issues
+This independent checkout has no remote and no public deployment. The original Wordwild site is not this project. Proposed separate repository/site slug: `wordwild-pokemon-fangame` (not registered).
 
-This beta saves progress in this browser only. Clearing site data may erase progress. Please report your device, browser, stage, what happened, and what you expected. Do not include children’s names or personal information.
+Run `npm run dev` at http://127.0.0.1:5174. Build with `BASE_PATH=/wordwild-pokemon-fangame/ npm run build`.
 
-Updates to main run checks and publish automatically with GitHub Pages. Run `BASE_PATH=/wordwild/ npm run build` to build the project site, or `npm run build` for root-domain hosting. Only runtime files from dist are deployed.
+64 Pokémon, 256 validated local front/back/normal/shiny PNGs. See `assets/pokemon/roster.json`, `asset-manifest.json`, and `source-lock.json`. Rebuild the cache with `python3 scripts/cache-pokemon.py` (Pillow required). No live Pokémon API is used during play.
+
+Code licensing is separate from media: see LICENSE and THIRD_PARTY_NOTICES.md. Free distribution and source availability do not grant Pokémon IP permission.
 
 ---
 
@@ -22,7 +24,7 @@ Node.js 22 이상에서 별도 패키지 설치 없이 실행합니다.
 npm run dev
 ```
 
-브라우저에서 http://127.0.0.1:5173 을 엽니다. 다른 포트는 `PORT=5174 npm run dev`로 지정합니다.
+브라우저에서 http://127.0.0.1:5174 을 엽니다. 다른 포트는 `PORT=5174 npm run dev`로 지정합니다.
 
 ```sh
 npm test

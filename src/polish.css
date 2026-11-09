@@ -240,3 +240,13 @@ html{background:#101821}body{background:#101821}.topbar{background:#101821!impor
  .playing .fighter-hud .side-label{padding:2px 5px;margin-bottom:2px}
  .playing .fighter-hud .hud-stats{margin-top:2px}
 }
+
+/* Local Pokémon art: normalized alpha bounds, common feet and shadow baseline. */
+.monster-art.pokemon-art>.sprite-pixels{background:none!important;clip-path:none!important;position:absolute;inset:0;width:100%;height:100%}
+.pokemon-image{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;image-rendering:pixelated;z-index:1}
+.pokemon-image[hidden]{display:none}
+.pokemon-fallback{position:absolute;left:40%;top:40%;color:var(--aura);font-size:24px;z-index:0}
+.sprite-pixels:has(.pokemon-image:not([hidden]))>.pokemon-fallback{display:none}
+.combatant.player>.pokemon-art{transform:none}
+.monster-art.pokemon-art.rare-gold>.sprite-pixels{filter:drop-shadow(0 0 7px #ffd66c)}
+.monster-art.pokemon-art .monster-ground{bottom:5%}

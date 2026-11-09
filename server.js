@@ -11,4 +11,4 @@ http.createServer(async (req, res) => {
     res.setHeader('Content-Type', (types[path.extname(file)] || 'text/plain') + '; charset=utf-8');
     res.end(await readFile(file));
   } catch { res.writeHead(404); res.end('Not found'); }
-}).listen(Number(process.env.PORT || 5173), '127.0.0.1', () => console.log('Wordwild: http://127.0.0.1:' + (process.env.PORT || 5173)));
+}).listen(Number(process.env.PORT || 5174), '127.0.0.1', () => console.log('Wordwild: http://127.0.0.1:' + (process.env.PORT || 5174)));
