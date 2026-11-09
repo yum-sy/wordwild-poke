@@ -111,3 +111,9 @@ html{background:#f7f4ea}.topbar,.playing .topbar{background:#f7f4ea!important}
  .playing:has(.question-panel) .play-column:not(.phase-layout),.playing:has(.question-panel) .play-column:has(.has-passage){grid-template-rows:var(--learning-arena-height,120px) minmax(0,1fr)}
  .playing:has(.question-panel) .combatant>.pokemon-art{width:clamp(70px,calc(var(--learning-arena-height,120px) * .7),150px);height:clamp(70px,calc(var(--learning-arena-height,120px) * .7),150px)}
 }
+/* Ground-anchored lanes; never inherit the desktop opponent's top offset. */
+@media(orientation:portrait) and (max-width:760px){
+ .playing:has(.question-panel) .combatant.player{top:auto;left:10%;right:auto;bottom:3%!important}
+ .playing:has(.question-panel) .combatant.opponent{top:auto;right:9%;left:auto;bottom:14%!important}
+ .playing:has(.question-panel) .combatant>.pokemon-art{width:clamp(28px,calc(var(--learning-arena-height,120px) * .8 - 38px),150px);height:clamp(28px,calc(var(--learning-arena-height,120px) * .8 - 38px),150px)}
+}
