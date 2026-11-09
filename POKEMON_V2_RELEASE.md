@@ -63,3 +63,7 @@ Real species evolution no longer grants the persistent power-up aura. A separate
 ## Capture ball tiers
 
 Existing probability remains unchanged. Ball appearance follows the current target's actual chance: below 65% Poké Ball, 65–under 80% Great Ball, 80–95% Ultra Ball; an available Master Ball overrides this at 100%. Boss difficulty still applies. Button displays the actual per-attempt chance to one decimal place. The thrown ball and announcement use the same selection, saved before the item is consumed. Great/Ultra Ball sprites are pinned PokeAPI assets recorded in the capture manifest.
+
+## Provisional game name
+
+Public-facing branding is PokeWord (FanGame). The home-screen short label is PokeWord. Repository URL, app identity and save keys stay stable.

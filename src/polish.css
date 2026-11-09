@@ -356,3 +356,5 @@ html{background:#101821}body{background:#101821}.topbar{background:#101821!impor
 .combatant.player .pokemon-art>.monster-ground{background:radial-gradient(ellipse,#12271580 0%,#12271550 45%,transparent 74%);border:0}
 /* UI thumbnails need only a subtle contact shadow. Battle uses the same footprint. */
 .starter-portrait .pokemon-art>.monster-ground,.dex-card .pokemon-art>.monster-ground{opacity:.7}
+
+.brand .brand-fangame{font-size:.45em;margin-left:5px;white-space:nowrap;color:#c6d4bd}

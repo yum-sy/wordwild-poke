@@ -1,7 +1,7 @@
 {
   "id": "./wordwild-pokemon",
-  "name": "Wordwild Pok\u00e9mon Fan Game",
-  "short_name": "Wordwild Fan",
+  "name": "PokeWord (FanGame)",
+  "short_name": "PokeWord",
   "description": "Learn words. Win battles. Build your team.",
   "start_url": "./",
   "scope": "./",
@@ -10,13 +10,13 @@
   "theme_color": "#101821",
   "icons": [
     {
-      "src": "assets/icons/icon-192.png",
+      "src": "assets/icons/pichu-back-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/icons/icon-512.png",
+      "src": "assets/icons/pichu-back-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

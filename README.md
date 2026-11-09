@@ -1,4 +1,4 @@
-# Wordwild Pokémon Fan Game
+# PokeWord (FanGame)
 
 최신 개발 설계: [Pokémon v2 명세](POKEMON_SPEC_V2.md). 구현 결과: [v2 릴리스 및 검증](POKEMON_V2_RELEASE.md).
 
@@ -20,7 +20,7 @@ Code licensing is separate from media: see LICENSE and THIRD_PARTY_NOTICES.md. F
 
 ---
 
-# Wordwild — 영어 학습 몬스터 로그라이크
+# PokeWord (FanGame) — 영어 학습 몬스터 로그라이크
 
 6세 영어 입문자를 위한 쉬운 영어 UI의 터치/마우스 게임. 영어 4지선다를 풀며 100스테이지를 탐험합니다. 
 
