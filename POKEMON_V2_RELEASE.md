@@ -67,3 +67,7 @@ Existing probability remains unchanged. Ball appearance follows the current targ
 ## Provisional game name
 
 Public-facing branding is PokeWord (FanGame). The home-screen short label is PokeWord. Repository URL, app identity and save keys stay stable.
+
+## Mobile report and help readability
+
+Parents uses responsive stat cards and a scrollable report instead of squeezing text into a fixed stage. Help has a fixed heading/close action, scrollable instructions and a fixed confirmation footer, with keyboard focus included in the dialog trap. PokeAPI docs provide Pokémon cries, but no BGM endpoint/catalog; existing music is retained.
