@@ -77,3 +77,7 @@ Parents uses responsive stat cards and a scrollable report instead of squeezing 
 Ivory surfaces, navy text, red primary actions and Pichu yellow replace green UI chrome. Existing regional scene backgrounds remain intact. Enlarged Pichu back/head artwork is shared by the top-bar logo, install icons and new 16/32px favicons. Close-up install icons use `any` purpose so launchers do not assume a maskable safe zone.
 
 Learning text takes priority: mobile questions ~28–32px, answers 28px, passages 24px; larger displays use up to 48px prompts, 40px choices and 32px passages. Long content scrolls within the learning panel instead of shrinking. Pokémon HUD labels and stats are compact. Browser checks covered home/battle/reading/Parents across five viewport sizes; no horizontal document overflow or broken images observed.
+
+## Mobile learning fit
+
+Portrait battle choices now use natural content height instead of stretching to fill the panel. Question and answer font sizes stay large; a layout pass reserves their measured height and gives the rest to the arena (65px minimum, 55% cap). Battle-only navigation/progress chrome is hidden; the home logo remains available. Representative stage-min 54/64/94 questions fit without learning-panel scroll at 390x650 and 360x560. Capture/reward/menu layouts are unaffected.

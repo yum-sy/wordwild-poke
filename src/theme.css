@@ -74,3 +74,40 @@ html{background:#f7f4ea}.topbar,.playing .topbar{background:#f7f4ea!important}
 .section-heading .eyebrow,.page-heading .eyebrow,.view-home .eyebrow{color:#596b7e}.type-badge{background:color-mix(in srgb,var(--type) 25%,#fffdf7);color:color-mix(in srgb,var(--type) 25%,#23344c);border-color:#bdc7d0}
 .playing .question-panel.has-passage .question-prompt h2{font-size:clamp(28px,2.7vw,38px);line-height:1.3}
 @media(min-width:761px) and (min-height:741px){.playing .question-prompt h2{font-size:clamp(36px,3.4vw,48px)}.playing .text-answers .answer,.playing .has-passage .text-answers .answer{font-size:clamp(30px,2.8vw,40px)}}
+
+/* Mobile battle: natural answer heights, remaining space goes to arena. */
+@media(orientation:portrait) and (max-width:760px){
+ .playing:has(.question-panel) .main-nav,.playing:has(.question-panel) .stage-path,.playing:has(.question-panel) .game-heading{display:none}
+ .playing:has(.question-panel) .topbar{height:40px;min-height:40px}
+ .playing:has(.question-panel) main{padding:5px 0;width:calc(100% - 16px);gap:0}
+ .playing:has(.question-panel) .play-column:not(.phase-layout),.playing:has(.question-panel) .play-column:has(.has-passage){grid-template-rows:90px minmax(0,1fr);gap:6px}
+ .playing:has(.question-panel) .arena{min-height:0}
+ .playing:has(.question-panel) .fighter-hud{width:38%;top:3px!important;padding:2px 4px!important}
+ .playing:has(.question-panel) .fighter-hud .side-label,.playing:has(.question-panel) .fighter-hud .hp-line,.playing:has(.question-panel) .fighter-hud .type-badge,.playing:has(.question-panel) .fighter-hud .hud-stats{display:none!important}
+ .playing:has(.question-panel) .fighter-hud .hud-title>strong{font-size:11px}
+ .playing:has(.question-panel) .fighter-hud .hp-track{height:4px}.playing:has(.question-panel) .arena-bottom,.playing:has(.question-panel) .arena-top{display:none}
+ .playing:has(.question-panel) .combatant>.pokemon-art{width:75px;height:75px}.playing:has(.question-panel) .combatant.player{left:18%;bottom:0}.playing:has(.question-panel) .combatant.enemy{right:16%;bottom:0}
+ .playing:has(.question-panel) .question-panel>.panel-heading{display:none}
+ .playing:has(.question-panel) .question-content,.playing:has(.question-panel) .has-passage .question-content{padding:8px;gap:8px}
+ .playing:has(.question-panel) .question-help,.playing:has(.question-panel) .question-hint{display:none}
+ .playing:has(.question-panel) .question-panel.has-scene .question-prompt{display:grid;grid-template-columns:90px minmax(0,1fr);align-items:center;gap:8px}
+ .playing:has(.question-panel) .question-panel.has-scene .context-scene{width:90px;height:75px;flex-basis:75px}.playing:has(.question-panel) .question-panel.has-scene .context-scene .scene-art{height:75px}
+ .playing:has(.question-panel) .question-prompt h2{font-size:32px}.playing:has(.question-panel) .question-panel.has-scene .question-prompt h2,.playing:has(.question-panel) .question-panel.long-prompt .question-prompt h2,.playing:has(.question-panel) .question-panel.has-passage .question-prompt h2{font-size:28px;line-height:1.2}
+ .playing:has(.question-panel) .reading-passage{font-size:24px;line-height:1.35;padding:8px}
+ .playing:has(.question-panel) .answers,.playing:has(.question-panel) .has-passage .answers{min-height:136px;grid-template-rows:repeat(2,minmax(64px,1fr));gap:8px}
+ .playing:has(.question-panel) .text-answers .answer,.playing:has(.question-panel) .has-passage .text-answers .answer{font-size:28px;line-height:1.2;min-height:64px;padding:17px 6px 8px}
+ .playing:has(.question-panel) .has-scene .text-answers .answer{font-size:26px}
+ .playing:has(.question-panel) .answer-number{font-size:12px;top:3px;left:6px}
+ .playing:has(.question-panel) .question-footnote{display:none}
+}
+@media(orientation:portrait) and (max-width:760px){
+ .playing:has(.question-panel) .play-column:not(.phase-layout),.playing:has(.question-panel) .play-column:has(.has-passage){grid-template-rows:120px minmax(0,1fr)}
+ .playing:has(.question-panel) .answers,.playing:has(.question-panel) .has-passage .answers{flex:0 0 auto;min-height:0;grid-template-rows:repeat(2,minmax(60px,auto));align-content:start;gap:8px}
+ .playing:has(.question-panel) .text-answers .answer,.playing:has(.question-panel) .has-passage .text-answers .answer{min-height:60px;padding:12px 8px 8px 23px}
+ .playing:has(.question-panel) .question-content,.playing:has(.question-panel) .has-passage .question-content{gap:10px}
+}
+
+@media(orientation:portrait) and (max-width:760px){
+ .playing:has(.question-panel) .play-column:not(.phase-layout),.playing:has(.question-panel) .play-column:has(.has-passage){grid-template-rows:var(--learning-arena-height,120px) minmax(0,1fr)}
+ .playing:has(.question-panel) .combatant>.pokemon-art{width:clamp(70px,calc(var(--learning-arena-height,120px) * .7),150px);height:clamp(70px,calc(var(--learning-arena-height,120px) * .7),150px)}
+}
