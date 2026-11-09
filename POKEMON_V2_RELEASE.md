@@ -55,3 +55,7 @@ PokeAPI 고정 pokemon.csv의 251종 키(height, dm)를 미터로 저장. 전투
 - Golden Net is displayed as Master Ball; old saved `goldenNets` and reward identifiers remain compatible. Chances and three-attempt limit are unchanged.
 - Result and item consumption commit before presentation, so reloading cannot refund a ball or reroll that attempt. Full-party captures retain the swap candidate.
 - Capture animation pauses while the page is hidden; input stays locked through the result.
+
+## Evolution aura correction
+
+Real species evolution no longer grants the persistent power-up aura. A separate `powerUpStage` increments only when growth has no next evolution. Eevee's first growth changes species with no aura; its second growth adds the first aura. Saved runs with last-evolution metadata are interpreted compatibly, and new heir/hall entries preserve the explicit aura rank. Growth limits and stat bonuses are unchanged.

@@ -3,7 +3,7 @@ import { freshLearning, noteSeen, noteAnswer } from './learning-record.js';
 import {growthGoals,shieldStat,addShield,applyGrowthStat} from './growth.js';
 export {shieldStat,addShield};
 import { BALANCE, budgetAt } from './balance.js';
-import { SPECIES } from './monsters.js';
+import { SPECIES, powerUpStage } from './monsters.js';
 import { generateQuestion, shuffle } from './learning.js';
 
 const baseline = m => ({ hp:m.maxHp, attack:m.attack, shieldStat:shieldStat(m) });
@@ -25,7 +25,7 @@ export function reserveMonsterIds(monsters){for(const m of monsters)serial=Math.
 export function createMonster(speciesId,stage=1,rng=Math.random) {
   const stats=allocateStats(budgetAt(stage),rng);
   const boss=!!SPECIES.find(s=>s.id===speciesId)?.isBoss;
-  const m={id:`m-${++serial}`,speciesId,isBoss:boss,passiveTypes:boss?[...SPECIES.find(s=>s.id===speciesId).bossPassives]:[SPECIES.find(s=>s.id===speciesId).passive], evolutionStage:0,evolutionRoute:null,maxHp:stats.hp,currentHp:stats.hp,attack:stats.attack,maxShield:Math.floor(stats.shield/4),currentShield:Math.floor(stats.shield/4),shieldFragments:stats.shield%4};
+  const m={id:`m-${++serial}`,speciesId,isBoss:boss,passiveTypes:boss?[...SPECIES.find(s=>s.id===speciesId).bossPassives]:[SPECIES.find(s=>s.id===speciesId).passive], evolutionStage:0,powerUpStage:0,evolutionRoute:null,maxHp:stats.hp,currentHp:stats.hp,attack:stats.attack,maxShield:Math.floor(stats.shield/4),currentShield:Math.floor(stats.shield/4),shieldFragments:stats.shield%4};
   m.evolutionBaseline=baseline(m);
   return m;
 }
@@ -40,9 +40,11 @@ export function evolve(m,route=null,force=false,rng=Math.random) {
   if(route==='hp') { m.maxHp+=Math.max(1,Math.ceil(m.maxHp*.2)); m.currentHp=m.maxHp; }
   if(route==='attack') { m.attack+=Math.max(1,Math.ceil(m.attack*.15)); m.currentHp=m.maxHp; }
   if(route==='shield') { addShield(m,0,1); m.currentShield=m.maxShield; }
+  m.powerUpStage=powerUpStage(m);
   const fromSpeciesId=m.speciesId;
   const next=SPECIES.find(s=>s.id===m.speciesId).evolvesTo;
   if(next.length)m.speciesId=next[Math.min(next.length-1,Math.floor(rng()*next.length))];
+  if(!next.length)m.powerUpStage++;
   m.lastEvolution={fromSpeciesId,toSpeciesId:m.speciesId,route,before,threshold,after:{hp:m.maxHp,attack:m.attack,shield:m.maxShield}};
   m.evolutionStage++;m.evolutionRoute=route;m.evolutionBaseline=baseline(m);
   return true;
@@ -74,7 +76,7 @@ export function makeEnemy(stage,rng=Math.random,recent=[],bossOrder=null) {
 }
 export function newGame(speciesId,inheritance=null,rng=Math.random,learning=freshLearning()) {
   const starter=createMonster(speciesId,1,rng);
-  if(inheritance) { starter.evolutionStage=inheritance.evolutionStage;starter.evolutionRoute=inheritance.evolutionRoute;starter.rareForm=inheritance.rareForm||null; }
+  if(inheritance) { starter.evolutionStage=inheritance.evolutionStage;starter.powerUpStage=powerUpStage(inheritance);starter.evolutionRoute=inheritance.evolutionRoute;starter.rareForm=inheritance.rareForm||null; }
   learning.session++;
   const g={runId:`run-${Date.now()}-${Math.random().toString(36).slice(2)}`,bossOrder:rollBossOrder(rng),dexCaught:[{speciesId:starter.speciesId,rareForm:starter.rareForm||null}],learning,firstRight:0,firstTotal:0,stage:1,party:[starter],activeMonsterId:starter.id,phase:'battle',recent:[],correct:0,total:0,captured:0,startedAt:Date.now()};
   beginBattle(g,rng);return g;
