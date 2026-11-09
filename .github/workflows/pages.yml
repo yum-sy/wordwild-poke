@@ -1,5 +1,7 @@
-name: Publish separate fan game (manual)
+name: Publish Wordwild Poke
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
