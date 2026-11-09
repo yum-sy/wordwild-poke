@@ -8,6 +8,22 @@
     "processing": "alpha crop, integer nearest-neighbor scale, centered 32px canvas"
   },
   {
+    "file": "great-ball.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/items/great-ball.png",
+    "sourceSha256": "4d0a614eebb4aef6b02a3620e4262f471b620cc8bc81cfeebeb3cbb995727ac6",
+    "sha256": "de641f6f86e252c65eee49da2db9285a3f54383779d37a2b6197db16ac038ee2",
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; excluded from code license",
+    "processing": "alpha crop, integer nearest-neighbor scale, centered 32px canvas"
+  },
+  {
+    "file": "ultra-ball.png",
+    "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/items/ultra-ball.png",
+    "sourceSha256": "4dbf6751968bd3b96d3036da1a55e5a764c792e780a5fa5cd2391bc155224a10",
+    "sha256": "788ef013d5088de0c75cbe7fada4a045535b24c1c14edf1e73d2c190aa13db38",
+    "rights": "Pok\u00e9mon imagery \u00a9 The Pok\u00e9mon Company; excluded from code license",
+    "processing": "alpha crop, integer nearest-neighbor scale, centered 32px canvas"
+  },
+  {
     "file": "master-ball.png",
     "url": "https://raw.githubusercontent.com/PokeAPI/sprites/1b3b7c0a538dd2226ae08d0d2f8955125075bbd4/sprites/items/master-ball.png",
     "sourceSha256": "a702e5700d83d28cfbdefeb4cdb70e7ec82a4903133355b87fbac5cae4c98c9e",

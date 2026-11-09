@@ -1,3 +1,4 @@
+import {captureChance} from './capture-balls.js';
 import { rollRareForm } from './rare-monsters.js';
 import { freshLearning, noteSeen, noteAnswer } from './learning-record.js';
 import {growthGoals,shieldStat,addShield,applyGrowthStat} from './growth.js';
@@ -140,7 +141,7 @@ export function continueBattle(g,rng=Math.random) {
 export function capture(g,rng=Math.random) {
   if(g.phase!=='capture'||g.attempts>=3||g.captureResult==='success') return false;
   g.attempts++;
-  const chance=Math.min(.95,(g.enemy.isBoss?BALANCE.captureBoss:BALANCE.captureNormal)+(g.captureBoost||0));
+  const chance=captureChance(g);
   const golden=(g.goldenNets||0)>0;
   if(golden)g.goldenNets--;
   if(golden||rng()<chance) {

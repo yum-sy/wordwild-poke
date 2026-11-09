@@ -4,7 +4,7 @@ from PIL import Image
 root=Path('assets/capture');root.mkdir(exist_ok=True)
 revision=json.loads(Path('assets/pokemon/source-lock.json').read_text())['revision']
 records=[]
-for name in ['poke-ball','master-ball']:
+for name in ['poke-ball','great-ball','ultra-ball','master-ball']:
  url=f'https://raw.githubusercontent.com/PokeAPI/sprites/{revision}/sprites/items/{name}.png'
  raw=urllib.request.urlopen(url).read();im=Image.open(io.BytesIO(raw)).convert('RGBA');box=im.getchannel('A').getbbox();assert box
  crop=im.crop(box);crop.thumbnail((28,28),Image.Resampling.NEAREST)

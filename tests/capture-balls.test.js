@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {captureChance,captureBallFor,captureBallLabel} from '../src/capture-balls.js';
+import {newGame,capture} from '../src/game.js';
+import {startCaptureAttempt,captureBallArt,captureFrameLabel} from '../src/capture-sequence.js';
+import {captureIcon} from '../src/stat-art.js';
+const g=(boost=0,boss=false)=>({enemy:{isBoss:boss},captureBoost:boost});
+test('ball thresholds use actual chance, including boss penalty and cap',()=>{const base=captureChance(g());for(const [chance,id] of [[.649999,'poke-ball'],[.65,'great-ball'],[.799999,'great-ball'],[.8,'ultra-ball'],[.95,'ultra-ball']])assert.equal(captureBallFor(g(chance-base)),id);assert.equal(captureChance(g(.5)),.95);assert.equal(captureBallFor(g(.5,true)),'great-ball');assert.equal(captureBallFor({...g(),goldenNets:1}),'master-ball');assert.equal(captureBallLabel({...g(),goldenNets:1}),'Master Ball · 100%');});
+test('selected ball persists through attempt and its name and images agree',()=>{for(const [boost,id] of [[0,'poke-ball'],[.2,'great-ball'],[.3,'ultra-ball']]){const game=newGame('p004',null,()=>.1);game.phase='capture';game.captureBoost=boost;assert.equal(startCaptureAttempt(game,()=>.999).ball,id);assert.equal(game.captureBall,id);assert.ok(captureBallArt(id).includes(id+'.png'));assert.ok(captureIcon(id).includes(id+'.png'));assert.ok(captureFrameLabel('throw',id).includes(id==='great-ball'?'Great Ball':id==='ultra-ball'?'Ultra Ball':'Poké Ball'));}});
+test('displayed chance and capture resolver share the same probability',()=>{for(const boost of [0,.1,.2,.3,.5]){const game=newGame('p004',null,()=>.1);game.phase='capture';game.captureBoost=boost;const p=captureChance(game);assert.equal(capture(structuredClone(game),()=>p-1e-9),true);assert.equal(capture(structuredClone(game),()=>p),false);}});

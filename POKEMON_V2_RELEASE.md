@@ -59,3 +59,7 @@ PokeAPI 고정 pokemon.csv의 251종 키(height, dm)를 미터로 저장. 전투
 ## Evolution aura correction
 
 Real species evolution no longer grants the persistent power-up aura. A separate `powerUpStage` increments only when growth has no next evolution. Eevee's first growth changes species with no aura; its second growth adds the first aura. Saved runs with last-evolution metadata are interpreted compatibly, and new heir/hall entries preserve the explicit aura rank. Growth limits and stat bonuses are unchanged.
+
+## Capture ball tiers
+
+Existing probability remains unchanged. Ball appearance follows the current target's actual chance: below 65% Poké Ball, 65–under 80% Great Ball, 80–95% Ultra Ball; an available Master Ball overrides this at 100%. Boss difficulty still applies. Button displays the actual per-attempt chance to one decimal place. The thrown ball and announcement use the same selection, saved before the item is consumed. Great/Ultra Ball sprites are pinned PokeAPI assets recorded in the capture manifest.

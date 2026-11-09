@@ -1,9 +1,10 @@
+import {ballId} from './capture-balls.js';
 const heart='M12 21C9 18 1 13 1 7C1 1 9-1 12 5C15-1 23 1 23 7C23 13 15 18 12 21Z';
 const sword='M16 1L23 1L23 8L12 19L9 16ZM6 13L15 22M3 22L9 16';
 export function statIcon(kind,fill=1){return `<svg class="stat-symbol ${kind}" viewBox="0 0 24 24" aria-hidden="true"><path d="${kind==='hp'?heart:sword}" fill="${kind==='hp'?'#493e48':'none'}" stroke="#69757d" stroke-width="2"/><svg width="${Math.max(0,Math.min(1,fill))*24}" height="24" viewBox="0 0 ${Math.max(.001,Math.min(1,fill)*24)} 24" overflow="hidden"><path d="${kind==='hp'?heart:sword}" fill="${kind==='hp'?'#f25e71':'none'}" stroke="${kind==='hp'?'#ff9aa5':'#ffe7a0'}" stroke-width="2"/></svg></svg>`;}
 export function shieldIcon(pieces=4){const paths=['M3 2H12V11H3Z','M12 2H21V11H12Z','M3 11H12V23Q3 18 3 11Z','M12 11H21Q21 18 12 23Z'];return `<svg class="stat-symbol shield" viewBox="0 0 24 26" aria-hidden="true">${paths.map((d,i)=>`<path d="${d}" fill="${i<pieces?'#8cc8ff':'#344552'}" stroke="#c3dfef" stroke-width="1.2"/>`).join('')}</svg>`;}
 export function statPips(kind,current,total=current,fragments=0){const unit=Math.max(1,Math.ceil(total/8)),count=Math.ceil(total/unit);return `<span class="stat-pips" aria-hidden="true">${Array.from({length:count},(_,i)=>kind==='shield'?shieldIcon(current>=Math.min(total,(i+1)*unit)?4:0):statIcon(kind,(current-i*unit)/unit)).join('')}${kind==='shield'&&fragments?shieldIcon(fragments):''}${count===0&&!fragments?kind==='shield'?shieldIcon(0):statIcon(kind,0):''}${unit>1?`<small>×${unit}</small>`:''}</span>`;}
-export function captureIcon(master=false){return `<img class="capture-icon" src="${'/assets/capture/'}${master?'master-ball':'poke-ball'}.png" alt="" width="32" height="32" aria-hidden="true">`;}
+export function captureIcon(ball='poke-ball'){return `<img class="capture-icon" src="${'/assets/capture/'}${ballId(ball===true?'master-ball':ball)}.png" alt="" width="32" height="32" aria-hidden="true">`;}
 
 
 // Compact selection cards show current resources, not only permanent maxima.
