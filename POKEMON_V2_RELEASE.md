@@ -83,3 +83,5 @@ Learning text takes priority: mobile questions ~28–32px, answers 28px, passage
 Portrait battle choices now use natural content height instead of stretching to fill the panel. Question and answer font sizes stay large; a layout pass reserves their measured height and gives the rest to the arena (65px minimum, 55% cap). Battle-only navigation/progress chrome is hidden; the home logo remains available. Representative stage-min 54/64/94 questions fit without learning-panel scroll at 390x650 and 360x560. Capture/reward/menu layouts are unaffected.
 
 Mobile combatants now explicitly clear the inherited desktop `top` offset and anchor to near/far ground lanes. Sprite bounds shrink with the arena's usable height, reserving HUD space even for a large boss in a short arena.
+
+The compact mobile sprite box grows with arena height and is bounded by viewport width (48vw, up to 280px), replacing the fixed 150px ceiling. Both sides retain the shared canonical-height scaling. Verified a 326px arena uses a ~187px sprite box at 390px viewport width, with four choices visible.
