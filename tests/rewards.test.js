@@ -2,18 +2,18 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {newGame,rollRewards,REWARDS,chooseReward,reward,activeMonster,capture,createMonster} from '../src/game.js';
 function seeded(){let s=91;return ()=>((s=(s*1664525+1013904223)>>>0)/2**32);}
-function fixture(){const g=newGame('ember',null,()=>.1);g.party.push(createMonster('aqua'));for(const m of g.party){m.evolutionStage=2;m.maxHp=20;m.currentHp=3;m.maxShield=3;m.currentShield=0;m.shieldFragments=0;m.attack=2;}return g;}
+function fixture(){const g=newGame('p004',null,()=>.1);g.party.push(createMonster('p007'));for(const m of g.party){m.evolutionStage=2;m.maxHp=20;m.currentHp=3;m.maxShield=3;m.currentShield=0;m.shieldFragments=0;m.attack=2;}return g;}
 function take(g,id){g.phase='reward-target';g.rewardChoices=[id];reward(g,id,g.party[0].id);}
 test('20 rewards have the requested rarity counts and fixed distribution',()=>{
  assert.equal(Object.keys(REWARDS).length,20);
- const rng=seeded(),g=newGame('sprout',null,rng),counts={Common:0,Uncommon:0,Rare:0,Epic:0},bonus={Rare:0,Epic:0};g.growthCombo=5;
+ const rng=seeded(),g=newGame('p001',null,rng),counts={Common:0,Uncommon:0,Rare:0,Epic:0},bonus={Rare:0,Epic:0};g.growthCombo=5;
  for(const [rarity,n] of Object.entries({Common:5,Uncommon:6,Rare:5,Epic:4}))assert.equal(Object.values(REWARDS).filter(r=>r.rarity===rarity).length,n);
  for(let i=0;i<20000;i++){g.rewardChoices=[];const choices=rollRewards(g,rng);choices.slice(0,3).forEach(id=>counts[REWARDS[id].rarity]++);bonus[REWARDS[choices[3]].rarity]++;assert.deepEqual(rollRewards(g,()=>0),choices);}
  for(const [rarity,expected] of Object.entries({Common:.5,Uncommon:.3,Rare:.15,Epic:.05}))assert.ok(Math.abs(counts[rarity]/60000-expected)<.01);
  assert.ok(Math.abs(bonus.Rare/20000-.9)<.01);
 });
 test('normal and bonus slots allow duplicates even with full resources',()=>{
- const g=newGame('sprout');assert.deepEqual(rollRewards(g,()=>0),['hp','hp','hp','heal-all']);
+ const g=newGame('p001');assert.deepEqual(rollRewards(g,()=>0),['hp','hp','hp','heal-all']);
  g.rewardChoices=[];g.growthCombo=5;assert.deepEqual(rollRewards(g,()=>.999),['golden-net','golden-net','golden-net','golden-net']);
 });
 test('single monster rewards grant exactly their listed base amounts',()=>{

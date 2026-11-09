@@ -1,3 +1,5 @@
+> Historical v1 conversion report. Superseded by POKEMON_SPEC_V2.md and POKEMON_V2_RELEASE.md.
+
 # Pokémon conversion — 2026-11-09
 
 Scope: 64 existing encounter slots, 54 wild + 10 bosses. No encounter eligibility, stats, curriculum, attack, capture, reward or evolution logic changed. Legacy IDs are the stable save/encounter identifiers. Mapping: assets/pokemon/roster.json and src/pokemon-roster.js. Original atlases remain intact for rollback.

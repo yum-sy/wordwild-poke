@@ -1,322 +1,3500 @@
 [
   {
-    "legacyId": "sprout",
+    "id": "p001",
     "pokemonId": 1,
-    "name": "Bulbasaur"
+    "name": "Bulbasaur",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p002"
+    ],
+    "family": "p001",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "ember",
+    "id": "p002",
+    "pokemonId": 2,
+    "name": "Ivysaur",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p003"
+    ],
+    "family": "p001",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p003",
+    "pokemonId": 3,
+    "name": "Venusaur",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p001",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p004",
     "pokemonId": 4,
-    "name": "Charmander"
+    "name": "Charmander",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p005"
+    ],
+    "family": "p004",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "aqua",
-    "pokemonId": 7,
-    "name": "Squirtle"
+    "id": "p005",
+    "pokemonId": 5,
+    "name": "Charmeleon",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p006"
+    ],
+    "family": "p004",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "mush",
-    "pokemonId": 285,
-    "name": "Shroomish"
-  },
-  {
-    "legacyId": "sun",
-    "pokemonId": 214,
-    "name": "Heracross"
-  },
-  {
-    "legacyId": "cloud",
-    "pokemonId": 398,
-    "name": "Staraptor"
-  },
-  {
-    "legacyId": "cinderwing",
+    "id": "p006",
     "pokemonId": 6,
-    "name": "Charizard"
+    "name": "Charizard",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p004",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "rainlong",
-    "pokemonId": 149,
-    "name": "Dragonite"
+    "id": "p007",
+    "pokemonId": 7,
+    "name": "Squirtle",
+    "type": "WATER",
+    "evolvesTo": [
+      "p008"
+    ],
+    "family": "p007",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "frostlance",
-    "pokemonId": 373,
-    "name": "Salamence"
+    "id": "p008",
+    "pokemonId": 8,
+    "name": "Wartortle",
+    "type": "WATER",
+    "evolvesTo": [
+      "p009"
+    ],
+    "family": "p007",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "shellmount",
-    "pokemonId": 389,
-    "name": "Torterra"
+    "id": "p009",
+    "pokemonId": 9,
+    "name": "Blastoise",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p007",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "plumeserpent",
-    "pokemonId": 384,
-    "name": "Rayquaza"
+    "id": "p010",
+    "pokemonId": 10,
+    "name": "Caterpie",
+    "type": "BUG",
+    "evolvesTo": [
+      "p011"
+    ],
+    "family": "p010",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "dunecoil",
-    "pokemonId": 330,
-    "name": "Flygon"
+    "id": "p011",
+    "pokemonId": 11,
+    "name": "Metapod",
+    "type": "BUG",
+    "evolvesTo": [
+      "p012"
+    ],
+    "family": "p010",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "deepcrown",
-    "pokemonId": 230,
-    "name": "Kingdra"
+    "id": "p012",
+    "pokemonId": 12,
+    "name": "Butterfree",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p010",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "trihydra",
-    "pokemonId": 635,
-    "name": "Hydreigon"
+    "id": "p013",
+    "pokemonId": 13,
+    "name": "Weedle",
+    "type": "BUG",
+    "evolvesTo": [
+      "p014"
+    ],
+    "family": "p013",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "stormlong",
-    "pokemonId": 644,
-    "name": "Zekrom"
+    "id": "p014",
+    "pokemonId": 14,
+    "name": "Kakuna",
+    "type": "BUG",
+    "evolvesTo": [
+      "p015"
+    ],
+    "family": "p013",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "boss",
-    "pokemonId": 487,
-    "name": "Giratina"
+    "id": "p015",
+    "pokemonId": 15,
+    "name": "Beedrill",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p013",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "frostfang",
-    "pokemonId": 461,
-    "name": "Weavile"
+    "id": "p016",
+    "pokemonId": 16,
+    "name": "Pidgey",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p017"
+    ],
+    "family": "p016",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "drillhide",
-    "pokemonId": 28,
-    "name": "Sandslash"
+    "id": "p017",
+    "pokemonId": 17,
+    "name": "Pidgeotto",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p018"
+    ],
+    "family": "p016",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "leafscythe",
-    "pokemonId": 123,
-    "name": "Scyther"
+    "id": "p018",
+    "pokemonId": 18,
+    "name": "Pidgeot",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p016",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "dunestinger",
-    "pokemonId": 452,
-    "name": "Drapion"
+    "id": "p019",
+    "pokemonId": 19,
+    "name": "Rattata",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p020"
+    ],
+    "family": "p019",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "reefshell",
-    "pokemonId": 222,
-    "name": "Corsola"
+    "id": "p020",
+    "pokemonId": 20,
+    "name": "Raticate",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p019",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "flarefeather",
-    "pokemonId": 146,
-    "name": "Moltres"
+    "id": "p021",
+    "pokemonId": 21,
+    "name": "Spearow",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p022"
+    ],
+    "family": "p021",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "moonbat",
-    "pokemonId": 169,
-    "name": "Crobat"
+    "id": "p022",
+    "pokemonId": 22,
+    "name": "Fearow",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p021",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "crystalram",
-    "pokemonId": 471,
-    "name": "Glaceon"
+    "id": "p023",
+    "pokemonId": 23,
+    "name": "Ekans",
+    "type": "POISON",
+    "evolvesTo": [
+      "p024"
+    ],
+    "family": "p023",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "magmahorn",
-    "pokemonId": 112,
-    "name": "Rhydon"
-  },
-  {
-    "legacyId": "wavefrill",
-    "pokemonId": 194,
-    "name": "Wooper"
-  },
-  {
-    "legacyId": "ironantler",
-    "pokemonId": 234,
-    "name": "Stantler"
-  },
-  {
-    "legacyId": "bloomcoil",
-    "pokemonId": 497,
-    "name": "Serperior"
-  },
-  {
-    "legacyId": "nightjaw",
-    "pokemonId": 553,
-    "name": "Krookodile"
-  },
-  {
-    "legacyId": "boltbunny",
-    "pokemonId": 25,
-    "name": "Pikachu"
-  },
-  {
-    "legacyId": "silkmist",
-    "pokemonId": 49,
-    "name": "Venomoth"
-  },
-  {
-    "legacyId": "mossfist",
-    "pokemonId": 76,
-    "name": "Golem"
-  },
-  {
-    "legacyId": "lunamane",
-    "pokemonId": 405,
-    "name": "Luxray"
-  },
-  {
-    "legacyId": "clawforge",
-    "pokemonId": 99,
-    "name": "Kingler"
-  },
-  {
-    "legacyId": "tidecrest",
-    "pokemonId": 148,
-    "name": "Dragonair"
-  },
-  {
-    "legacyId": "tuskrock",
-    "pokemonId": 75,
-    "name": "Graveler"
-  },
-  {
-    "legacyId": "glowbell",
-    "pokemonId": 73,
-    "name": "Tentacruel"
-  },
-  {
-    "legacyId": "bamboom",
-    "pokemonId": 143,
-    "name": "Snorlax"
-  },
-  {
-    "legacyId": "snowgaze",
-    "pokemonId": 164,
-    "name": "Noctowl"
-  },
-  {
-    "legacyId": "gemscarab",
-    "pokemonId": 181,
-    "name": "Ampharos"
-  },
-  {
-    "legacyId": "sandhood",
+    "id": "p024",
     "pokemonId": 24,
-    "name": "Arbok"
+    "name": "Arbok",
+    "type": "POISON",
+    "evolvesTo": [],
+    "family": "p023",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "shellotter",
-    "pokemonId": 502,
-    "name": "Dewott"
+    "id": "p025",
+    "pokemonId": 25,
+    "name": "Pikachu",
+    "type": "ELECTRIC",
+    "evolvesTo": [
+      "p026"
+    ],
+    "family": "p172",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "prismtail",
-    "pokemonId": 352,
-    "name": "Kecleon"
+    "id": "p026",
+    "pokemonId": 26,
+    "name": "Raichu",
+    "type": "ELECTRIC",
+    "evolvesTo": [],
+    "family": "p172",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "embertoad",
-    "pokemonId": 324,
-    "name": "Torkoal"
+    "id": "p027",
+    "pokemonId": 27,
+    "name": "Sandshrew",
+    "type": "GROUND",
+    "evolvesTo": [
+      "p028"
+    ],
+    "family": "p027",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "tundratusk",
-    "pokemonId": 473,
-    "name": "Mamoswine"
+    "id": "p028",
+    "pokemonId": 28,
+    "name": "Sandslash",
+    "type": "GROUND",
+    "evolvesTo": [],
+    "family": "p027",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "ironcoil",
-    "pokemonId": 545,
-    "name": "Scolipede"
-  },
-  {
-    "legacyId": "jadehorn",
-    "pokemonId": 586,
-    "name": "Sawsbuck"
-  },
-  {
-    "legacyId": "flarewing",
-    "pokemonId": 142,
-    "name": "Aerodactyl"
-  },
-  {
-    "legacyId": "clawtide",
-    "pokemonId": 342,
-    "name": "Crawdaunt"
-  },
-  {
-    "legacyId": "spearfinn",
-    "pokemonId": 319,
-    "name": "Sharpedo"
-  },
-  {
-    "legacyId": "thorncurl",
+    "id": "p029",
     "pokemonId": 29,
-    "name": "Nidoran\u2640"
+    "name": "Nidoran♀",
+    "type": "POISON",
+    "evolvesTo": [
+      "p030"
+    ],
+    "family": "p029",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "boltburrow",
-    "pokemonId": 135,
-    "name": "Jolteon"
+    "id": "p030",
+    "pokemonId": 30,
+    "name": "Nidorina",
+    "type": "POISON",
+    "evolvesTo": [
+      "p031"
+    ],
+    "family": "p029",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "webgem",
-    "pokemonId": 168,
-    "name": "Ariados"
+    "id": "p031",
+    "pokemonId": 31,
+    "name": "Nidoqueen",
+    "type": "POISON",
+    "evolvesTo": [],
+    "family": "p029",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "bladecrest",
-    "pokemonId": 257,
-    "name": "Blaziken"
+    "id": "p032",
+    "pokemonId": 32,
+    "name": "Nidoran♂",
+    "type": "POISON",
+    "evolvesTo": [
+      "p033"
+    ],
+    "family": "p032",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "coralarm",
-    "pokemonId": 224,
-    "name": "Octillery"
+    "id": "p033",
+    "pokemonId": 33,
+    "name": "Nidorino",
+    "type": "POISON",
+    "evolvesTo": [
+      "p034"
+    ],
+    "family": "p032",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "icewaddle",
-    "pokemonId": 393,
-    "name": "Piplup"
+    "id": "p034",
+    "pokemonId": 34,
+    "name": "Nidoking",
+    "type": "POISON",
+    "evolvesTo": [],
+    "family": "p032",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "diggem",
+    "id": "p035",
+    "pokemonId": 35,
+    "name": "Clefairy",
+    "type": "FAIRY",
+    "evolvesTo": [
+      "p036"
+    ],
+    "family": "p173",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p036",
+    "pokemonId": 36,
+    "name": "Clefable",
+    "type": "FAIRY",
+    "evolvesTo": [],
+    "family": "p173",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p037",
+    "pokemonId": 37,
+    "name": "Vulpix",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p038"
+    ],
+    "family": "p037",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p038",
+    "pokemonId": 38,
+    "name": "Ninetales",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p037",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p039",
+    "pokemonId": 39,
+    "name": "Jigglypuff",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p040"
+    ],
+    "family": "p174",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p040",
+    "pokemonId": 40,
+    "name": "Wigglytuff",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p174",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p041",
+    "pokemonId": 41,
+    "name": "Zubat",
+    "type": "POISON",
+    "evolvesTo": [
+      "p042"
+    ],
+    "family": "p041",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p042",
+    "pokemonId": 42,
+    "name": "Golbat",
+    "type": "POISON",
+    "evolvesTo": [
+      "p169"
+    ],
+    "family": "p041",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p043",
+    "pokemonId": 43,
+    "name": "Oddish",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p044"
+    ],
+    "family": "p043",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p044",
+    "pokemonId": 44,
+    "name": "Gloom",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p045",
+      "p182"
+    ],
+    "family": "p043",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p045",
+    "pokemonId": 45,
+    "name": "Vileplume",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p043",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p046",
+    "pokemonId": 46,
+    "name": "Paras",
+    "type": "BUG",
+    "evolvesTo": [
+      "p047"
+    ],
+    "family": "p046",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p047",
+    "pokemonId": 47,
+    "name": "Parasect",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p046",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p048",
+    "pokemonId": 48,
+    "name": "Venonat",
+    "type": "BUG",
+    "evolvesTo": [
+      "p049"
+    ],
+    "family": "p048",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p049",
+    "pokemonId": 49,
+    "name": "Venomoth",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p048",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p050",
     "pokemonId": 50,
-    "name": "Diglett"
+    "name": "Diglett",
+    "type": "GROUND",
+    "evolvesTo": [
+      "p051"
+    ],
+    "family": "p050",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "glasswing",
-    "pokemonId": 469,
-    "name": "Yanmega"
+    "id": "p051",
+    "pokemonId": 51,
+    "name": "Dugtrio",
+    "type": "GROUND",
+    "evolvesTo": [],
+    "family": "p050",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "frostclub",
+    "id": "p052",
+    "pokemonId": 52,
+    "name": "Meowth",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p053"
+    ],
+    "family": "p052",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p053",
+    "pokemonId": 53,
+    "name": "Persian",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p052",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p054",
+    "pokemonId": 54,
+    "name": "Psyduck",
+    "type": "WATER",
+    "evolvesTo": [
+      "p055"
+    ],
+    "family": "p054",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p055",
+    "pokemonId": 55,
+    "name": "Golduck",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p054",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p056",
+    "pokemonId": 56,
+    "name": "Mankey",
+    "type": "FIGHTING",
+    "evolvesTo": [
+      "p057"
+    ],
+    "family": "p056",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p057",
+    "pokemonId": 57,
+    "name": "Primeape",
+    "type": "FIGHTING",
+    "evolvesTo": [],
+    "family": "p056",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p058",
+    "pokemonId": 58,
+    "name": "Growlithe",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p059"
+    ],
+    "family": "p058",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p059",
+    "pokemonId": 59,
+    "name": "Arcanine",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p058",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p060",
+    "pokemonId": 60,
+    "name": "Poliwag",
+    "type": "WATER",
+    "evolvesTo": [
+      "p061"
+    ],
+    "family": "p060",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p061",
+    "pokemonId": 61,
+    "name": "Poliwhirl",
+    "type": "WATER",
+    "evolvesTo": [
+      "p062",
+      "p186"
+    ],
+    "family": "p060",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p062",
+    "pokemonId": 62,
+    "name": "Poliwrath",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p060",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p063",
+    "pokemonId": 63,
+    "name": "Abra",
+    "type": "PSYCHIC",
+    "evolvesTo": [
+      "p064"
+    ],
+    "family": "p063",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p064",
+    "pokemonId": 64,
+    "name": "Kadabra",
+    "type": "PSYCHIC",
+    "evolvesTo": [
+      "p065"
+    ],
+    "family": "p063",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p065",
+    "pokemonId": 65,
+    "name": "Alakazam",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p063",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p066",
+    "pokemonId": 66,
+    "name": "Machop",
+    "type": "FIGHTING",
+    "evolvesTo": [
+      "p067"
+    ],
+    "family": "p066",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p067",
+    "pokemonId": 67,
+    "name": "Machoke",
+    "type": "FIGHTING",
+    "evolvesTo": [
+      "p068"
+    ],
+    "family": "p066",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p068",
+    "pokemonId": 68,
+    "name": "Machamp",
+    "type": "FIGHTING",
+    "evolvesTo": [],
+    "family": "p066",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p069",
+    "pokemonId": 69,
+    "name": "Bellsprout",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p070"
+    ],
+    "family": "p069",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p070",
+    "pokemonId": 70,
+    "name": "Weepinbell",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p071"
+    ],
+    "family": "p069",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p071",
+    "pokemonId": 71,
+    "name": "Victreebel",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p069",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p072",
+    "pokemonId": 72,
+    "name": "Tentacool",
+    "type": "WATER",
+    "evolvesTo": [
+      "p073"
+    ],
+    "family": "p072",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p073",
+    "pokemonId": 73,
+    "name": "Tentacruel",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p072",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p074",
+    "pokemonId": 74,
+    "name": "Geodude",
+    "type": "ROCK",
+    "evolvesTo": [
+      "p075"
+    ],
+    "family": "p074",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p075",
+    "pokemonId": 75,
+    "name": "Graveler",
+    "type": "ROCK",
+    "evolvesTo": [
+      "p076"
+    ],
+    "family": "p074",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p076",
+    "pokemonId": 76,
+    "name": "Golem",
+    "type": "ROCK",
+    "evolvesTo": [],
+    "family": "p074",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p077",
+    "pokemonId": 77,
+    "name": "Ponyta",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p078"
+    ],
+    "family": "p077",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p078",
+    "pokemonId": 78,
+    "name": "Rapidash",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p077",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p079",
+    "pokemonId": 79,
+    "name": "Slowpoke",
+    "type": "WATER",
+    "evolvesTo": [
+      "p080",
+      "p199"
+    ],
+    "family": "p079",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p080",
+    "pokemonId": 80,
+    "name": "Slowbro",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p079",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p081",
+    "pokemonId": 81,
+    "name": "Magnemite",
+    "type": "ELECTRIC",
+    "evolvesTo": [
+      "p082"
+    ],
+    "family": "p081",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p082",
+    "pokemonId": 82,
+    "name": "Magneton",
+    "type": "ELECTRIC",
+    "evolvesTo": [],
+    "family": "p081",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p083",
+    "pokemonId": 83,
+    "name": "Farfetch’d",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p083",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p084",
+    "pokemonId": 84,
+    "name": "Doduo",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p085"
+    ],
+    "family": "p084",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p085",
+    "pokemonId": 85,
+    "name": "Dodrio",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p084",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p086",
+    "pokemonId": 86,
+    "name": "Seel",
+    "type": "WATER",
+    "evolvesTo": [
+      "p087"
+    ],
+    "family": "p086",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p087",
+    "pokemonId": 87,
+    "name": "Dewgong",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p086",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p088",
+    "pokemonId": 88,
+    "name": "Grimer",
+    "type": "POISON",
+    "evolvesTo": [
+      "p089"
+    ],
+    "family": "p088",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p089",
+    "pokemonId": 89,
+    "name": "Muk",
+    "type": "POISON",
+    "evolvesTo": [],
+    "family": "p088",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p090",
+    "pokemonId": 90,
+    "name": "Shellder",
+    "type": "WATER",
+    "evolvesTo": [
+      "p091"
+    ],
+    "family": "p090",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p091",
     "pokemonId": 91,
-    "name": "Cloyster"
+    "name": "Cloyster",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p090",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "koiflow",
-    "pokemonId": 130,
-    "name": "Gyarados"
+    "id": "p092",
+    "pokemonId": 92,
+    "name": "Gastly",
+    "type": "GHOST",
+    "evolvesTo": [
+      "p093"
+    ],
+    "family": "p092",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "vineknuckle",
-    "pokemonId": 512,
-    "name": "Simisage"
+    "id": "p093",
+    "pokemonId": 93,
+    "name": "Haunter",
+    "type": "GHOST",
+    "evolvesTo": [
+      "p094"
+    ],
+    "family": "p092",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "jewelplume",
-    "pokemonId": 250,
-    "name": "Ho-Oh"
+    "id": "p094",
+    "pokemonId": 94,
+    "name": "Gengar",
+    "type": "GHOST",
+    "evolvesTo": [],
+    "family": "p092",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "runeray",
-    "pokemonId": 226,
-    "name": "Mantine"
+    "id": "p095",
+    "pokemonId": 95,
+    "name": "Onix",
+    "type": "ROCK",
+    "evolvesTo": [
+      "p208"
+    ],
+    "family": "p095",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
   },
   {
-    "legacyId": "peakhoof",
+    "id": "p096",
+    "pokemonId": 96,
+    "name": "Drowzee",
+    "type": "PSYCHIC",
+    "evolvesTo": [
+      "p097"
+    ],
+    "family": "p096",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p097",
+    "pokemonId": 97,
+    "name": "Hypno",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p096",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p098",
+    "pokemonId": 98,
+    "name": "Krabby",
+    "type": "WATER",
+    "evolvesTo": [
+      "p099"
+    ],
+    "family": "p098",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p099",
+    "pokemonId": 99,
+    "name": "Kingler",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p098",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p100",
+    "pokemonId": 100,
+    "name": "Voltorb",
+    "type": "ELECTRIC",
+    "evolvesTo": [
+      "p101"
+    ],
+    "family": "p100",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p101",
+    "pokemonId": 101,
+    "name": "Electrode",
+    "type": "ELECTRIC",
+    "evolvesTo": [],
+    "family": "p100",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p102",
+    "pokemonId": 102,
+    "name": "Exeggcute",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p103"
+    ],
+    "family": "p102",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p103",
+    "pokemonId": 103,
+    "name": "Exeggutor",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p102",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p104",
+    "pokemonId": 104,
+    "name": "Cubone",
+    "type": "GROUND",
+    "evolvesTo": [
+      "p105"
+    ],
+    "family": "p104",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p105",
+    "pokemonId": 105,
+    "name": "Marowak",
+    "type": "GROUND",
+    "evolvesTo": [],
+    "family": "p104",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p106",
+    "pokemonId": 106,
+    "name": "Hitmonlee",
+    "type": "FIGHTING",
+    "evolvesTo": [],
+    "family": "p236",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p107",
+    "pokemonId": 107,
+    "name": "Hitmonchan",
+    "type": "FIGHTING",
+    "evolvesTo": [],
+    "family": "p236",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p108",
+    "pokemonId": 108,
+    "name": "Lickitung",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p108",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p109",
+    "pokemonId": 109,
+    "name": "Koffing",
+    "type": "POISON",
+    "evolvesTo": [
+      "p110"
+    ],
+    "family": "p109",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p110",
+    "pokemonId": 110,
+    "name": "Weezing",
+    "type": "POISON",
+    "evolvesTo": [],
+    "family": "p109",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p111",
+    "pokemonId": 111,
+    "name": "Rhyhorn",
+    "type": "GROUND",
+    "evolvesTo": [
+      "p112"
+    ],
+    "family": "p111",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p112",
+    "pokemonId": 112,
+    "name": "Rhydon",
+    "type": "GROUND",
+    "evolvesTo": [],
+    "family": "p111",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p113",
+    "pokemonId": 113,
+    "name": "Chansey",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p242"
+    ],
+    "family": "p113",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p114",
+    "pokemonId": 114,
+    "name": "Tangela",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p114",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p115",
+    "pokemonId": 115,
+    "name": "Kangaskhan",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p115",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p116",
+    "pokemonId": 116,
+    "name": "Horsea",
+    "type": "WATER",
+    "evolvesTo": [
+      "p117"
+    ],
+    "family": "p116",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p117",
+    "pokemonId": 117,
+    "name": "Seadra",
+    "type": "WATER",
+    "evolvesTo": [
+      "p230"
+    ],
+    "family": "p116",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p118",
+    "pokemonId": 118,
+    "name": "Goldeen",
+    "type": "WATER",
+    "evolvesTo": [
+      "p119"
+    ],
+    "family": "p118",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p119",
+    "pokemonId": 119,
+    "name": "Seaking",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p118",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p120",
+    "pokemonId": 120,
+    "name": "Staryu",
+    "type": "WATER",
+    "evolvesTo": [
+      "p121"
+    ],
+    "family": "p120",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p121",
+    "pokemonId": 121,
+    "name": "Starmie",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p120",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p122",
+    "pokemonId": 122,
+    "name": "Mr. Mime",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p122",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p123",
+    "pokemonId": 123,
+    "name": "Scyther",
+    "type": "BUG",
+    "evolvesTo": [
+      "p212"
+    ],
+    "family": "p123",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p124",
+    "pokemonId": 124,
+    "name": "Jynx",
+    "type": "ICE",
+    "evolvesTo": [],
+    "family": "p238",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p125",
+    "pokemonId": 125,
+    "name": "Electabuzz",
+    "type": "ELECTRIC",
+    "evolvesTo": [],
+    "family": "p239",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p126",
+    "pokemonId": 126,
+    "name": "Magmar",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p240",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p127",
+    "pokemonId": 127,
+    "name": "Pinsir",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p127",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p128",
     "pokemonId": 128,
-    "name": "Tauros"
+    "name": "Tauros",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p128",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p129",
+    "pokemonId": 129,
+    "name": "Magikarp",
+    "type": "WATER",
+    "evolvesTo": [
+      "p130"
+    ],
+    "family": "p129",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p130",
+    "pokemonId": 130,
+    "name": "Gyarados",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p129",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p131",
+    "pokemonId": 131,
+    "name": "Lapras",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p131",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p132",
+    "pokemonId": 132,
+    "name": "Ditto",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p132",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p133",
+    "pokemonId": 133,
+    "name": "Eevee",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p134",
+      "p135",
+      "p136",
+      "p196",
+      "p197"
+    ],
+    "family": "p133",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p134",
+    "pokemonId": 134,
+    "name": "Vaporeon",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p133",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p135",
+    "pokemonId": 135,
+    "name": "Jolteon",
+    "type": "ELECTRIC",
+    "evolvesTo": [],
+    "family": "p133",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p136",
+    "pokemonId": 136,
+    "name": "Flareon",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p133",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p137",
+    "pokemonId": 137,
+    "name": "Porygon",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p233"
+    ],
+    "family": "p137",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p138",
+    "pokemonId": 138,
+    "name": "Omanyte",
+    "type": "ROCK",
+    "evolvesTo": [
+      "p139"
+    ],
+    "family": "p138",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p139",
+    "pokemonId": 139,
+    "name": "Omastar",
+    "type": "ROCK",
+    "evolvesTo": [],
+    "family": "p138",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p140",
+    "pokemonId": 140,
+    "name": "Kabuto",
+    "type": "ROCK",
+    "evolvesTo": [
+      "p141"
+    ],
+    "family": "p140",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p141",
+    "pokemonId": 141,
+    "name": "Kabutops",
+    "type": "ROCK",
+    "evolvesTo": [],
+    "family": "p140",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p142",
+    "pokemonId": 142,
+    "name": "Aerodactyl",
+    "type": "ROCK",
+    "evolvesTo": [],
+    "family": "p142",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p143",
+    "pokemonId": 143,
+    "name": "Snorlax",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p143",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p144",
+    "pokemonId": 144,
+    "name": "Articuno",
+    "type": "ICE",
+    "evolvesTo": [],
+    "family": "p144",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p145",
+    "pokemonId": 145,
+    "name": "Zapdos",
+    "type": "ELECTRIC",
+    "evolvesTo": [],
+    "family": "p145",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p146",
+    "pokemonId": 146,
+    "name": "Moltres",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p146",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p147",
+    "pokemonId": 147,
+    "name": "Dratini",
+    "type": "DRAGON",
+    "evolvesTo": [
+      "p148"
+    ],
+    "family": "p147",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p148",
+    "pokemonId": 148,
+    "name": "Dragonair",
+    "type": "DRAGON",
+    "evolvesTo": [
+      "p149"
+    ],
+    "family": "p147",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p149",
+    "pokemonId": 149,
+    "name": "Dragonite",
+    "type": "DRAGON",
+    "evolvesTo": [],
+    "family": "p147",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p150",
+    "pokemonId": 150,
+    "name": "Mewtwo",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p150",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p151",
+    "pokemonId": 151,
+    "name": "Mew",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p151",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": false,
+    "mythical": true,
+    "animated": true
+  },
+  {
+    "id": "p152",
+    "pokemonId": 152,
+    "name": "Chikorita",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p153"
+    ],
+    "family": "p152",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p153",
+    "pokemonId": 153,
+    "name": "Bayleef",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p154"
+    ],
+    "family": "p152",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p154",
+    "pokemonId": 154,
+    "name": "Meganium",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p152",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p155",
+    "pokemonId": 155,
+    "name": "Cyndaquil",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p156"
+    ],
+    "family": "p155",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p156",
+    "pokemonId": 156,
+    "name": "Quilava",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p157"
+    ],
+    "family": "p155",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p157",
+    "pokemonId": 157,
+    "name": "Typhlosion",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p155",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p158",
+    "pokemonId": 158,
+    "name": "Totodile",
+    "type": "WATER",
+    "evolvesTo": [
+      "p159"
+    ],
+    "family": "p158",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p159",
+    "pokemonId": 159,
+    "name": "Croconaw",
+    "type": "WATER",
+    "evolvesTo": [
+      "p160"
+    ],
+    "family": "p158",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p160",
+    "pokemonId": 160,
+    "name": "Feraligatr",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p158",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p161",
+    "pokemonId": 161,
+    "name": "Sentret",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p162"
+    ],
+    "family": "p161",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p162",
+    "pokemonId": 162,
+    "name": "Furret",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p161",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p163",
+    "pokemonId": 163,
+    "name": "Hoothoot",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p164"
+    ],
+    "family": "p163",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p164",
+    "pokemonId": 164,
+    "name": "Noctowl",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p163",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p165",
+    "pokemonId": 165,
+    "name": "Ledyba",
+    "type": "BUG",
+    "evolvesTo": [
+      "p166"
+    ],
+    "family": "p165",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p166",
+    "pokemonId": 166,
+    "name": "Ledian",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p165",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p167",
+    "pokemonId": 167,
+    "name": "Spinarak",
+    "type": "BUG",
+    "evolvesTo": [
+      "p168"
+    ],
+    "family": "p167",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p168",
+    "pokemonId": 168,
+    "name": "Ariados",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p167",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p169",
+    "pokemonId": 169,
+    "name": "Crobat",
+    "type": "POISON",
+    "evolvesTo": [],
+    "family": "p041",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p170",
+    "pokemonId": 170,
+    "name": "Chinchou",
+    "type": "WATER",
+    "evolvesTo": [
+      "p171"
+    ],
+    "family": "p170",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p171",
+    "pokemonId": 171,
+    "name": "Lanturn",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p170",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p172",
+    "pokemonId": 172,
+    "name": "Pichu",
+    "type": "ELECTRIC",
+    "evolvesTo": [
+      "p025"
+    ],
+    "family": "p172",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p173",
+    "pokemonId": 173,
+    "name": "Cleffa",
+    "type": "FAIRY",
+    "evolvesTo": [
+      "p035"
+    ],
+    "family": "p173",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p174",
+    "pokemonId": 174,
+    "name": "Igglybuff",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p039"
+    ],
+    "family": "p174",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p175",
+    "pokemonId": 175,
+    "name": "Togepi",
+    "type": "FAIRY",
+    "evolvesTo": [
+      "p176"
+    ],
+    "family": "p175",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p176",
+    "pokemonId": 176,
+    "name": "Togetic",
+    "type": "FAIRY",
+    "evolvesTo": [],
+    "family": "p175",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p177",
+    "pokemonId": 177,
+    "name": "Natu",
+    "type": "PSYCHIC",
+    "evolvesTo": [
+      "p178"
+    ],
+    "family": "p177",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p178",
+    "pokemonId": 178,
+    "name": "Xatu",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p177",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p179",
+    "pokemonId": 179,
+    "name": "Mareep",
+    "type": "ELECTRIC",
+    "evolvesTo": [
+      "p180"
+    ],
+    "family": "p179",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p180",
+    "pokemonId": 180,
+    "name": "Flaaffy",
+    "type": "ELECTRIC",
+    "evolvesTo": [
+      "p181"
+    ],
+    "family": "p179",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p181",
+    "pokemonId": 181,
+    "name": "Ampharos",
+    "type": "ELECTRIC",
+    "evolvesTo": [],
+    "family": "p179",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p182",
+    "pokemonId": 182,
+    "name": "Bellossom",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p043",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p183",
+    "pokemonId": 183,
+    "name": "Marill",
+    "type": "WATER",
+    "evolvesTo": [
+      "p184"
+    ],
+    "family": "p183",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p184",
+    "pokemonId": 184,
+    "name": "Azumarill",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p183",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p185",
+    "pokemonId": 185,
+    "name": "Sudowoodo",
+    "type": "ROCK",
+    "evolvesTo": [],
+    "family": "p185",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p186",
+    "pokemonId": 186,
+    "name": "Politoed",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p060",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p187",
+    "pokemonId": 187,
+    "name": "Hoppip",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p188"
+    ],
+    "family": "p187",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p188",
+    "pokemonId": 188,
+    "name": "Skiploom",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p189"
+    ],
+    "family": "p187",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p189",
+    "pokemonId": 189,
+    "name": "Jumpluff",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p187",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p190",
+    "pokemonId": 190,
+    "name": "Aipom",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p190",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p191",
+    "pokemonId": 191,
+    "name": "Sunkern",
+    "type": "GRASS",
+    "evolvesTo": [
+      "p192"
+    ],
+    "family": "p191",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p192",
+    "pokemonId": 192,
+    "name": "Sunflora",
+    "type": "GRASS",
+    "evolvesTo": [],
+    "family": "p191",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p193",
+    "pokemonId": 193,
+    "name": "Yanma",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p193",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p194",
+    "pokemonId": 194,
+    "name": "Wooper",
+    "type": "WATER",
+    "evolvesTo": [
+      "p195"
+    ],
+    "family": "p194",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p195",
+    "pokemonId": 195,
+    "name": "Quagsire",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p194",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p196",
+    "pokemonId": 196,
+    "name": "Espeon",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p133",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p197",
+    "pokemonId": 197,
+    "name": "Umbreon",
+    "type": "DARK",
+    "evolvesTo": [],
+    "family": "p133",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p198",
+    "pokemonId": 198,
+    "name": "Murkrow",
+    "type": "DARK",
+    "evolvesTo": [],
+    "family": "p198",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p199",
+    "pokemonId": 199,
+    "name": "Slowking",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p079",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p200",
+    "pokemonId": 200,
+    "name": "Misdreavus",
+    "type": "GHOST",
+    "evolvesTo": [],
+    "family": "p200",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p201",
+    "pokemonId": 201,
+    "name": "Unown",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p201",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p202",
+    "pokemonId": 202,
+    "name": "Wobbuffet",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p202",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p203",
+    "pokemonId": 203,
+    "name": "Girafarig",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p203",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p204",
+    "pokemonId": 204,
+    "name": "Pineco",
+    "type": "BUG",
+    "evolvesTo": [
+      "p205"
+    ],
+    "family": "p204",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p205",
+    "pokemonId": 205,
+    "name": "Forretress",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p204",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p206",
+    "pokemonId": 206,
+    "name": "Dunsparce",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p206",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p207",
+    "pokemonId": 207,
+    "name": "Gligar",
+    "type": "GROUND",
+    "evolvesTo": [],
+    "family": "p207",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p208",
+    "pokemonId": 208,
+    "name": "Steelix",
+    "type": "STEEL",
+    "evolvesTo": [],
+    "family": "p095",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p209",
+    "pokemonId": 209,
+    "name": "Snubbull",
+    "type": "FAIRY",
+    "evolvesTo": [
+      "p210"
+    ],
+    "family": "p209",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p210",
+    "pokemonId": 210,
+    "name": "Granbull",
+    "type": "FAIRY",
+    "evolvesTo": [],
+    "family": "p209",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p211",
+    "pokemonId": 211,
+    "name": "Qwilfish",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p211",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p212",
+    "pokemonId": 212,
+    "name": "Scizor",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p123",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p213",
+    "pokemonId": 213,
+    "name": "Shuckle",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p213",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p214",
+    "pokemonId": 214,
+    "name": "Heracross",
+    "type": "BUG",
+    "evolvesTo": [],
+    "family": "p214",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p215",
+    "pokemonId": 215,
+    "name": "Sneasel",
+    "type": "DARK",
+    "evolvesTo": [],
+    "family": "p215",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p216",
+    "pokemonId": 216,
+    "name": "Teddiursa",
+    "type": "NORMAL",
+    "evolvesTo": [
+      "p217"
+    ],
+    "family": "p216",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p217",
+    "pokemonId": 217,
+    "name": "Ursaring",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p216",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p218",
+    "pokemonId": 218,
+    "name": "Slugma",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p219"
+    ],
+    "family": "p218",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p219",
+    "pokemonId": 219,
+    "name": "Magcargo",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p218",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p220",
+    "pokemonId": 220,
+    "name": "Swinub",
+    "type": "ICE",
+    "evolvesTo": [
+      "p221"
+    ],
+    "family": "p220",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p221",
+    "pokemonId": 221,
+    "name": "Piloswine",
+    "type": "ICE",
+    "evolvesTo": [],
+    "family": "p220",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p222",
+    "pokemonId": 222,
+    "name": "Corsola",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p222",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p223",
+    "pokemonId": 223,
+    "name": "Remoraid",
+    "type": "WATER",
+    "evolvesTo": [
+      "p224"
+    ],
+    "family": "p223",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p224",
+    "pokemonId": 224,
+    "name": "Octillery",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p223",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p225",
+    "pokemonId": 225,
+    "name": "Delibird",
+    "type": "ICE",
+    "evolvesTo": [],
+    "family": "p225",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p226",
+    "pokemonId": 226,
+    "name": "Mantine",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p226",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p227",
+    "pokemonId": 227,
+    "name": "Skarmory",
+    "type": "STEEL",
+    "evolvesTo": [],
+    "family": "p227",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p228",
+    "pokemonId": 228,
+    "name": "Houndour",
+    "type": "DARK",
+    "evolvesTo": [
+      "p229"
+    ],
+    "family": "p228",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p229",
+    "pokemonId": 229,
+    "name": "Houndoom",
+    "type": "DARK",
+    "evolvesTo": [],
+    "family": "p228",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p230",
+    "pokemonId": 230,
+    "name": "Kingdra",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p116",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p231",
+    "pokemonId": 231,
+    "name": "Phanpy",
+    "type": "GROUND",
+    "evolvesTo": [
+      "p232"
+    ],
+    "family": "p231",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p232",
+    "pokemonId": 232,
+    "name": "Donphan",
+    "type": "GROUND",
+    "evolvesTo": [],
+    "family": "p231",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p233",
+    "pokemonId": 233,
+    "name": "Porygon2",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p137",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p234",
+    "pokemonId": 234,
+    "name": "Stantler",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p234",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p235",
+    "pokemonId": 235,
+    "name": "Smeargle",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p235",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p236",
+    "pokemonId": 236,
+    "name": "Tyrogue",
+    "type": "FIGHTING",
+    "evolvesTo": [
+      "p106",
+      "p107",
+      "p237"
+    ],
+    "family": "p236",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p237",
+    "pokemonId": 237,
+    "name": "Hitmontop",
+    "type": "FIGHTING",
+    "evolvesTo": [],
+    "family": "p236",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p238",
+    "pokemonId": 238,
+    "name": "Smoochum",
+    "type": "ICE",
+    "evolvesTo": [
+      "p124"
+    ],
+    "family": "p238",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p239",
+    "pokemonId": 239,
+    "name": "Elekid",
+    "type": "ELECTRIC",
+    "evolvesTo": [
+      "p125"
+    ],
+    "family": "p239",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p240",
+    "pokemonId": 240,
+    "name": "Magby",
+    "type": "FIRE",
+    "evolvesTo": [
+      "p126"
+    ],
+    "family": "p240",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p241",
+    "pokemonId": 241,
+    "name": "Miltank",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p241",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p242",
+    "pokemonId": 242,
+    "name": "Blissey",
+    "type": "NORMAL",
+    "evolvesTo": [],
+    "family": "p113",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p243",
+    "pokemonId": 243,
+    "name": "Raikou",
+    "type": "ELECTRIC",
+    "evolvesTo": [],
+    "family": "p243",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p244",
+    "pokemonId": 244,
+    "name": "Entei",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p244",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p245",
+    "pokemonId": 245,
+    "name": "Suicune",
+    "type": "WATER",
+    "evolvesTo": [],
+    "family": "p245",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p246",
+    "pokemonId": 246,
+    "name": "Larvitar",
+    "type": "ROCK",
+    "evolvesTo": [
+      "p247"
+    ],
+    "family": "p246",
+    "depth": 0,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p247",
+    "pokemonId": 247,
+    "name": "Pupitar",
+    "type": "ROCK",
+    "evolvesTo": [
+      "p248"
+    ],
+    "family": "p246",
+    "depth": 1,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p248",
+    "pokemonId": 248,
+    "name": "Tyranitar",
+    "type": "ROCK",
+    "evolvesTo": [],
+    "family": "p246",
+    "depth": 2,
+    "isBoss": false,
+    "legendary": false,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p249",
+    "pokemonId": 249,
+    "name": "Lugia",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p249",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p250",
+    "pokemonId": 250,
+    "name": "Ho-Oh",
+    "type": "FIRE",
+    "evolvesTo": [],
+    "family": "p250",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": true,
+    "mythical": false,
+    "animated": true
+  },
+  {
+    "id": "p251",
+    "pokemonId": 251,
+    "name": "Celebi",
+    "type": "PSYCHIC",
+    "evolvesTo": [],
+    "family": "p251",
+    "depth": 0,
+    "isBoss": true,
+    "legendary": false,
+    "mythical": true,
+    "animated": true
   }
 ]

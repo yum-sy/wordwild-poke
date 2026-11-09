@@ -16,7 +16,7 @@ test('reading help depends on the question and passage, never the chosen or corr
 });
 test('reading support is available for every passage and never carries to the next question',()=>{
  for(const q of QUESTIONS.filter(q=>q.passage))assert.ok(readingHint(q));
- const g=newGame('ember',null,()=>.1);g.readingHelp=true;g.enemy.currentHp=999;g.enemy.currentShield=0;answer(g,g.question.correctIndex);continueBattle(g);assert.equal(g.readingHelp,false);
+ const g=newGame('p004',null,()=>.1);g.readingHelp=true;g.enemy.currentHp=999;g.enemy.currentShield=0;answer(g,g.question.correctIndex);continueBattle(g);assert.equal(g.readingHelp,false);
 });
 test('helped first-try answers do not count as independent review recovery',async()=>{
  const {noteSeen,noteAnswer}=await import('../src/learning-record.js');const p=freshLearning(),q=QUESTIONS[0];noteSeen(p,q);noteAnswer(p,q,false,1,1000);noteAnswer(p,q,true,1,86401000,true);assert.equal(p.skills[q.skillId].retryNeeded,1);assert.equal(p.skills[q.skillId].firstRight,undefined);assert.equal(p.firstRight,1);

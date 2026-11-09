@@ -1,10 +1,11 @@
 import { rollRareForm } from './rare-monsters.js';
 import { freshLearning, noteSeen, noteAnswer } from './learning-record.js';
-import { bossForStage } from './boss-dragons.js';
+import {growthGoals,shieldStat,addShield,applyGrowthStat} from './growth.js';
+export {shieldStat,addShield};
 import { BALANCE, budgetAt } from './balance.js';
 import { SPECIES } from './monsters.js';
 import { generateQuestion, shuffle } from './learning.js';
-export const shieldStat = m => m.maxShield*4+m.shieldFragments;
+
 const baseline = m => ({ hp:m.maxHp, attack:m.attack, shieldStat:shieldStat(m) });
 export function allocateStats(budget, rng=Math.random) {
   const candidates=[];
@@ -28,18 +29,10 @@ export function createMonster(speciesId,stage=1,rng=Math.random) {
   m.evolutionBaseline=baseline(m);
   return m;
 }
-export function addShield(m,fragments=0,whole=0) {
-  const total=m.shieldFragments+fragments;
-  const gain=Math.floor(total/4)+whole;
-  m.shieldFragments=total%4; m.maxShield+=gain; m.currentShield+=gain;
-}
-export function evolve(m,route=null,force=false) {
+export function evolve(m,route=null,force=false,rng=Math.random) {
   if(m.isBoss || m.evolutionStage>=2) return false;
   const b=m.evolutionBaseline;
-  const eligible=[];
-  if(m.maxHp>=b.hp*2) eligible.push('hp');
-  if(m.attack>=b.attack*2) eligible.push('attack');
-  if(m.maxShield>=3&&shieldStat(m)>=b.shieldStat*3) eligible.push('shield');
+  const eligible=growthGoals(m).filter(g=>g.ready).map(g=>g.route);
   route=route || BALANCE.evolutionPriority.find(r=>eligible.includes(r));
   if(!force&&!eligible.includes(route)) return false;
   const before={hp:m.maxHp,attack:m.attack,shield:m.maxShield};
@@ -47,21 +40,32 @@ export function evolve(m,route=null,force=false) {
   if(route==='hp') { m.maxHp+=Math.max(1,Math.ceil(m.maxHp*.2)); m.currentHp=m.maxHp; }
   if(route==='attack') { m.attack+=Math.max(1,Math.ceil(m.attack*.15)); m.currentHp=m.maxHp; }
   if(route==='shield') { addShield(m,0,1); m.currentShield=m.maxShield; }
-  m.lastEvolution={route,before,threshold,after:{hp:m.maxHp,attack:m.attack,shield:m.maxShield}};
+  const fromSpeciesId=m.speciesId;
+  const next=SPECIES.find(s=>s.id===m.speciesId).evolvesTo;
+  if(next.length)m.speciesId=next[Math.min(next.length-1,Math.floor(rng()*next.length))];
+  m.lastEvolution={fromSpeciesId,toSpeciesId:m.speciesId,route,before,threshold,after:{hp:m.maxHp,attack:m.attack,shield:m.maxShield}};
   m.evolutionStage++;m.evolutionRoute=route;m.evolutionBaseline=baseline(m);
   return true;
 }
-export function makeEnemy(stage,rng=Math.random,recent=[]) {
-  const boss=stage%10===0;
-  const available=SPECIES.filter(s=>!s.isBoss&&(s.stageMin||1)<=stage);
-  const fresh=available.filter(s=>!recent.includes(s.id));
-  const pool=fresh.length?fresh:available;
-  const species=boss?bossForStage(stage).id:pool[Math.floor(rng()*pool.length)].id;
-  const m=createMonster(species,stage,rng);
-  if(!boss&&stage>=BALANCE.wildEvolutionStart&&rng()<((stage-30)/70)*BALANCE.wildEvolutionMaxChance) {
-    evolve(m,['hp','attack','shield'][Math.floor(rng()*3)],true);
-    if(stage>=71&&rng()<.3) evolve(m,['hp','attack','shield'][Math.floor(rng()*3)],true);
-  }
+export const BOSS_IDS=SPECIES.filter(s=>s.isBoss).map(s=>s.id);
+export function rollBossOrder(rng=Math.random){const ids=[...BOSS_IDS];for(let i=ids.length-1;i>0;i--){const j=Math.min(i,Math.floor(rng()*(i+1)));[ids[i],ids[j]]=[ids[j],ids[i]];}return ids.slice(0,10);}
+export function pickWild(stage,rng=Math.random,recent=[]){
+ const weights=stage<=30?[1,0,0]:stage<=60?[.7,.3,0]:stage<=80?[.45,.4,.15]:[.3,.45,.25];
+ const n=rng();const depth=n<weights[0]?0:n<1-weights[2]?1:2;
+ const eligible=SPECIES.filter(s=>!s.isBoss&&s.depth===depth);
+ let excluded=recent.map(id=>SPECIES.find(s=>s.id===id)?.family||id);
+ let pool=eligible.filter(s=>!excluded.includes(s.family));
+ while(!pool.length&&excluded.length){excluded.shift();pool=eligible.filter(s=>!excluded.includes(s.family));}
+ if(!pool.length)pool=SPECIES.filter(s=>!s.isBoss&&s.depth===0);
+ const families=[...new Set(pool.map(s=>s.family))];
+ const family=families[Math.min(families.length-1,Math.floor(rng()*families.length))];
+ const members=pool.filter(s=>s.family===family);
+ return members[Math.min(members.length-1,Math.floor(rng()*members.length))].id;
+}
+export function makeEnemy(stage,rng=Math.random,recent=[],bossOrder=null) {
+ const boss=stage%10===0;
+ const species=boss?(bossOrder?.[stage/10-1]||BOSS_IDS[Math.min(BOSS_IDS.length-1,Math.floor(rng()*BOSS_IDS.length))]):pickWild(stage,rng,recent);
+ const m=createMonster(species,stage,rng);
   // Encounter HP tuning is separate from the valid initial stat allocation.
   // Persistent stats include this bonus, so captures keep this exact individual.
   m.maxHp=Math.max(m.maxHp,Math.ceil((BALANCE.encounterHpBase+stage*BALANCE.encounterHpPerStage)*(boss?BALANCE.bossHpMultiplier:1)));
@@ -72,7 +76,7 @@ export function newGame(speciesId,inheritance=null,rng=Math.random,learning=fres
   const starter=createMonster(speciesId,1,rng);
   if(inheritance) { starter.evolutionStage=inheritance.evolutionStage;starter.evolutionRoute=inheritance.evolutionRoute;starter.rareForm=inheritance.rareForm||null; }
   learning.session++;
-  const g={learning,firstRight:0,firstTotal:0,stage:1,party:[starter],activeMonsterId:starter.id,phase:'battle',recent:[],correct:0,total:0,captured:0,startedAt:Date.now()};
+  const g={runId:`run-${Date.now()}-${Math.random().toString(36).slice(2)}`,bossOrder:rollBossOrder(rng),dexCaught:[{speciesId:starter.speciesId,rareForm:starter.rareForm||null}],learning,firstRight:0,firstTotal:0,stage:1,party:[starter],activeMonsterId:starter.id,phase:'battle',recent:[],correct:0,total:0,captured:0,startedAt:Date.now()};
   beginBattle(g,rng);return g;
 }
 export const activeMonster = g => g.party.find(m=>m.id===g.activeMonsterId);
@@ -82,7 +86,7 @@ export function nextQuestion(g,rng=Math.random) {
   if(g.recent.length>BALANCE.recentQuestions) g.recent.shift();
 }
 export function beginBattle(g,rng=Math.random) {
-  g.pending=null;g.luckyEvent=null;g.phase='battle';g.enemy=makeEnemy(g.stage,rng,g.recentSpecies||[]);
+  g.pending=null;g.luckyEvent=null;g.phase='battle';g.enemy=makeEnemy(g.stage,rng,g.recentSpecies||[],g.bossOrder);
   g.recentSpecies=[...(g.recentSpecies||[]),g.enemy.speciesId].slice(-3);g.playerCombo=0;g.enemyCombo=0;g.highestCombo=0;g.growthCombo=0;g.attempts=0;g.feedback=null;g.captureResult=null;g.special=null;g.rewardChoices=[];g.evolved=[];
   if(g.stage%10!==0&&rng()<LUCKY_EVENT_CHANCE){g.phase='lucky-event';g.question=null;g.rejected=[];g.luckyEvent={reward:['golden-net','shield-all','restore-all'][Math.min(2,Math.floor(rng()*3))],claimed:false};return;}
   nextQuestion(g,rng);
@@ -140,6 +144,7 @@ export function capture(g,rng=Math.random) {
   if(golden||rng()<chance) {
     const m=structuredClone(g.enemy);m.currentHp=BALANCE.captureHealHp?m.maxHp:Math.max(1,m.currentHp);
     if(m.rareForm)g.rareFinds=[...(g.rareFinds||[]),{speciesId:m.speciesId,rareForm:m.rareForm,evolutionStage:0}];
+    g.dexCaught=[...(g.dexCaught||[]),{speciesId:m.speciesId,rareForm:m.rareForm||null}];
     g.captured++;g.captureResult='success';g.candidate=m;
     if(g.party.length<3) {g.party.push(m);g.candidate=null;} else g.phase='party-management';
     return true;
@@ -198,7 +203,7 @@ export function chooseReward(g,type) {
   g.phase='reward-target';
   if(REWARDS[type].scope)reward(g,type);
 }
-export function reward(g,type,targetId) {
+export function reward(g,type,targetId,rng=Math.random) {
   if(g.phase!=='reward-target'||!g.rewardChoices?.includes(type)) return;
   const item=REWARDS[type];if(!item)return;
   const m=g.party.find(m=>m.id===targetId);if(!item.scope&&!m)return;
@@ -209,16 +214,14 @@ export function reward(g,type,targetId) {
   if(item.effect==='catch')g.captureBoost=Math.min(.5,Number(((g.captureBoost||0)+item.value).toFixed(2)));
   else if(item.effect==='golden-net')g.goldenNets=(g.goldenNets||0)+1;
   else for(const target of targets){
-    if(item.effect==='hp'){const n=amount(item.value);target.maxHp+=n;target.currentHp+=n;}
-    if(item.effect==='attack')target.attack+=amount(item.value);
-    if(item.effect==='shards')addShield(target,amount(item.value));
-    if(item.effect==='shield')addShield(target,0,amount(item.value));
+    applyGrowthStat(target,item.effect,amount(item.value||0));
     if(item.effect==='half-heal')target.currentHp=Math.min(target.maxHp,target.currentHp+Math.ceil(target.maxHp/2));
     if(item.effect==='charge')target.currentShield=Math.min(target.maxShield,target.currentShield+item.value);
     if(['heal','restore'].includes(item.effect))target.currentHp=target.maxHp;
     if(['repair','restore'].includes(item.effect))target.currentShield=target.maxShield;
   }
-  g.evolved=changed.filter(p=>evolve(p)).map(p=>p.id);
+  g.evolved=changed.filter(p=>evolve(p,null,false,rng)).map(p=>p.id);
+  for(const p of changed)g.dexCaught=[...(g.dexCaught||[]),{speciesId:p.speciesId,rareForm:p.rareForm||null}];
   if(g.evolved.length) g.phase='evolution';else g.phase='camp';
 }
 export function nextStage(g,rng=Math.random) {
@@ -237,3 +240,5 @@ export function claimLuckyEvent(g){
  if(type==='restore-all')g.goldenNets=(g.goldenNets||0)+1;
  reward(g,type);return true;
 }
+
+export function previewGrowthReward(g,m){const clone=structuredClone(m),item=REWARDS[g.selectedReward];if(item)applyGrowthStat(clone,item.effect,Math.ceil((item.value||0)*rewardMultiplier(g)));return clone;}

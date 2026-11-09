@@ -4,9 +4,9 @@ import {statPips,shieldIcon} from '../src/stat-art.js';
 import {QUESTIONS} from '../src/learning.js';
 import {learningScene} from '../src/learning-scenes.js';
 test('shield awakening requires three complete permanent shields and the growth threshold',()=>{
- const m=createMonster('sprout');m.evolutionBaseline.shieldStat=1;m.maxShield=2;m.shieldFragments=3;assert.equal(evolve(m,'shield'),false);
+ const m=createMonster('p001');m.evolutionBaseline.shieldStat=1;m.maxShield=2;m.shieldFragments=3;assert.equal(evolve(m,'shield'),false);
  m.maxShield=3;m.shieldFragments=0;m.currentShield=0;assert.equal(evolve(m,'shield'),true);assert.equal(m.lastEvolution.before.shield,3);assert.equal(m.lastEvolution.after.shield,4);
- const n=createMonster('sprout');n.evolutionBaseline.shieldStat=8;n.maxShield=3;assert.equal(evolve(n,'shield'),false);
+ const n=createMonster('p001');n.evolutionBaseline.shieldStat=8;n.maxShield=3;assert.equal(evolve(n,'shield'),false);
 });
 test('noun questions isolate the requested object and remove marked-picture instructions',()=>{
  assert.ok(QUESTIONS.every(q=>!q.prompt.includes('marked picture')));

@@ -1,12 +1,16 @@
 # Wordwild Pokémon Fan Game
 
+최신 개발 설계: [Pokémon v2 명세](POKEMON_SPEC_V2.md). 구현 결과: [v2 릴리스 및 검증](POKEMON_V2_RELEASE.md).
+
 Free, noncommercial, unofficial English-learning fan game. Not affiliated with or endorsed by Nintendo, Game Freak, Creatures, or The Pokémon Company.
 
 This independent checkout has no remote and no public deployment. The original Wordwild site is not this project. Proposed separate repository/site slug: `wordwild-pokemon-fangame` (not registered).
 
 Run `npm run dev` at http://127.0.0.1:5174. Build with `BASE_PATH=/wordwild-pokemon-fangame/ npm run build`.
 
-64 Pokémon, 256 validated local front/back/normal/shiny PNGs. See `assets/pokemon/roster.json`, `asset-manifest.json`, and `source-lock.json`. Rebuild the cache with `python3 scripts/cache-pokemon.py` (Pillow required). No live Pokémon API is used during play.
+251 Pokémon, 1,004 PNGs and 1,004 animated GIFs covering front/back and normal/shiny. Real evolution, random Gen I/II starters, 11 legendary/mythical bosses, 1% shiny encounters, growth goals, and a home-only Pokédex are implemented. See `assets/pokemon/roster.json`, `asset-manifest.json`, and `source-lock.json`. Rebuild the cache with `python3 scripts/cache-pokemon.py` (Pillow required). No live Pokémon API is used during play.
+
+Version 2 intentionally resets prior fan-game saves without a backup. Original Wordwild storage is untouched.
 
 Code licensing is separate from media: see LICENSE and THIRD_PARTY_NOTICES.md. Free distribution and source availability do not grant Pokémon IP permission.
 

@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "file": "pokemon_species.csv",
+      "url": "https://raw.githubusercontent.com/PokeAPI/pokeapi/5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7/data/v2/csv/pokemon_species.csv",
+      "sha256": "e66e2eeb25fd3836b0ebab6bf87bbf01960aa3c0555e2bac495fa8393c5e0c45"
+    },
+    {
+      "file": "pokemon_species_names.csv",
+      "url": "https://raw.githubusercontent.com/PokeAPI/pokeapi/5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7/data/v2/csv/pokemon_species_names.csv",
+      "sha256": "820cde17074cdb1c2b0595c997fb8f998e773bd5da3bb525dec85703c86c5fd9"
+    },
+    {
+      "file": "types.csv",
+      "url": "https://raw.githubusercontent.com/PokeAPI/pokeapi/5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7/data/v2/csv/types.csv",
+      "sha256": "37f039c8d722f47d51ba1c5c5ecf9b7007235b1a9a1af2827645c777b70307c8"
+    },
+    {
+      "file": "pokemon_types.csv",
+      "url": "https://raw.githubusercontent.com/PokeAPI/pokeapi/5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7/data/v2/csv/pokemon_types.csv",
+      "sha256": "f1fc4bfd657a034ea3bf6972423b10276424aa068577b304a78a08996425ba05"
+    }
+  ],
+  "scope": "National Dex 1–251; original species and forms only",
+  "license": {
+    "name": "BSD-3-Clause",
+    "file": "UPSTREAM-DATA-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/PokeAPI/pokeapi/5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7/LICENSE.md",
+    "sha256": "1c04595dc662981c20956ae4251dfa7b62b475c345eddf98bc9b904cb2373f2c",
+    "copyright": "Copyright (c) © 2013–2023 Paul Hallett and PokéAPI contributors (https://github.com/PokeAPI/pokeapi#contributing). Pokémon and Pokémon character names are trademarks of Nintendo.",
+    "scope": "PokeAPI/pokeapi repository notice retained for imported CSV data; does not grant Pokémon IP rights"
+  }
+}

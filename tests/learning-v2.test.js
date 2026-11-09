@@ -5,7 +5,7 @@ import { QUESTIONS, generateQuestion } from '../src/learning.js';
 import { freshLearning, noteSeen, noteAnswer, loadLearning, saveLearning, LEARNING_KEY, isDue } from '../src/learning-record.js';
 import { LEVEL_TARGETS } from '../src/learning-content.js';
 const rng=()=>.1;
-function battle(){const g=newGame('ember',null,rng);g.enemy.currentHp=g.enemy.maxHp=999;g.enemy.attack=2;g.enemy.currentShield=0;g.party[0].currentShield=0;g.party[0].currentHp=g.party[0].maxHp=100;return g;}
+function battle(){const g=newGame('p004',null,rng);g.enemy.currentHp=g.enemy.maxHp=999;g.enemy.attack=2;g.enemy.currentShield=0;g.party[0].currentShield=0;g.party[0].currentHp=g.party[0].maxHp=100;return g;}
 test('three wrong choices stay locked on the same question; only correct advances',()=>{
  const g=battle(),q=g.question;const wrong=[0,1,2,3].filter(i=>i!==q.correctIndex);
  for(let n=0;n<3;n++){
@@ -18,13 +18,13 @@ test('three wrong choices stay locked on the same question; only correct advance
  assert.equal(g.learning.skills[q.skillId].firstRight,undefined);
 });
 test('replacement preserves question and exclusions; wipe ends the run without a new question',()=>{
- const g=battle(),q=g.question;g.party.push(createMonster('aqua'));g.party[0].currentHp=1;g.party[1].currentShield=0;g.party[1].currentHp=1;
+ const g=battle(),q=g.question;g.party.push(createMonster('p007'));g.party[0].currentHp=1;g.party[1].currentShield=0;g.party[1].currentHp=1;
  const wrong=[0,1,2,3].filter(i=>i!==q.correctIndex);answer(g,wrong[0]);assert.equal(g.feedback.switched,true);continueBattle(g);assert.equal(g.question,q);assert.deepEqual(g.rejected,[wrong[0]]);
  answer(g,wrong[1]);assert.equal(g.pending,'game-over');continueBattle(g);assert.equal(g.phase,'game-over');assert.equal(g.question,q);
 });
 test('third hit uses current HP, preserves lethal base damage, and shields block it once',()=>{
- for(const species of ['ember','boss']){
-  const e=createMonster(species),p=createMonster('aqua');e.attack=20;e.passiveTypes=[];p.maxHp=1000;p.currentHp=100;p.currentShield=0;
+ for(const species of ['p004','p150']){
+  const e=createMonster(species),p=createMonster('p007');e.attack=20;e.passiveTypes=[];p.maxHp=1000;p.currentHp=100;p.currentShield=0;
   assert.equal(bossAttack(e,p,3,10).damage,90);assert.equal(p.currentHp,10);
   p.currentHp=20;assert.equal(bossAttack(e,p,3,10).damage,20);assert.equal(p.currentHp,0);
   p.currentHp=100;p.currentShield=1;assert.equal(bossAttack(e,p,3,10).blocked,true);assert.equal(p.currentHp,100);assert.equal(p.currentShield,0);

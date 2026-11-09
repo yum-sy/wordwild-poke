@@ -2,7 +2,7 @@ import {EFFECTS,levelAt} from './sound-effects.js';
 export const TRACKS={home:['01-home-first-adventure',88],meadow:['02-meadow-little-steps',104],crystal:['03-crystal-hidden-path',90],stars:['04-stars-brave-journey',102],boss:['05-boss-dragon-dance',124],final:['06-final-crown-of-light',116],victory:['07-victory'],caught:['08-caught'],awakening:['09-awakening']};
 export function musicFor(view,game){if(view!=='game'||!game||['clear','game-over'].includes(game.phase))return 'home';if(game.phase==='battle'&&game.stage%10===0)return game.stage===100?'final':'boss';return game.stage<=30?'meadow':game.stage<=60?'crystal':'stars';}
 export function createMusic({host=window,doc=document,storage,onChange=()=>{}}={}){
- let enabled=true;try{enabled=storage?.getItem('wordwild-pokemon-music')!=='off';}catch{}
+ let enabled=true;try{enabled=storage?.getItem('wordwild-pokemon-v2-music')!=='off';}catch{}
  let ctx,master,duck,bg,cueSource,desired='home',generation=0,unlocked=false,previous=null,loading=null;
  const cache=new Map(),effects=new Set();let duckEvents=[],audioEpoch=0;
  function context(){if(!ctx){const AudioContext=host.AudioContext||host.webkitAudioContext;if(!AudioContext)return null;ctx=new AudioContext();master=ctx.createGain();master.gain.value=enabled?.55:0;master.connect(ctx.destination);duck=ctx.createGain();duck.connect(master);}return ctx;}
@@ -36,7 +36,7 @@ export function createMusic({host=window,doc=document,storage,onChange=()=>{}}={
  }
  function sync(view,game){const next=musicFor(view,game),state=game?`${game.party[0].id}:${game.stage}:${game.phase}`:view;const prior=previous;previous={state,phase:game?.phase,view};if(next!==desired){desired=next;generation++;play();}else if(!bg)play();if(prior&&prior.state!==state&&view==='game'){if(game?.phase==='capture'&&prior.phase==='battle')cue(game.stage%10===0?'boss-clear':'victory');if(game?.phase==='evolution')cue('awakening');}}
  async function unlock(){unlocked=true;if(!enabled||doc.hidden)return;try{if(context()){await ctx.resume();play();for(const key of [...Object.keys(EFFECTS),'victory','caught','awakening'])buffer(key).catch(()=>{});}}catch{}}
- function toggle(){enabled=!enabled;generation++;loading=null;try{storage?.setItem('wordwild-pokemon-music',enabled?'on':'off');}catch{}if(!enabled){stop(bg,.15);bg=null;clearEffects();if(master)master.gain.setTargetAtTime(0,ctx.currentTime,.03);}else{if(master)master.gain.setTargetAtTime(.55,ctx.currentTime,.05);unlock();}onChange();}
+ function toggle(){enabled=!enabled;generation++;loading=null;try{storage?.setItem('wordwild-pokemon-v2-music',enabled?'on':'off');}catch{}if(!enabled){stop(bg,.15);bg=null;clearEffects();if(master)master.gain.setTargetAtTime(0,ctx.currentTime,.03);}else{if(master)master.gain.setTargetAtTime(.55,ctx.currentTime,.05);unlock();}onChange();}
  doc.addEventListener('visibilitychange',()=>{generation++;loading=null;if(doc.hidden){clearEffects();ctx?.suspend().catch(()=>{});}else if(enabled&&unlocked){ctx?.resume().then(()=>play()).catch(()=>{});}});
  host.addEventListener('pagehide',()=>{generation++;loading=null;clearEffects();ctx?.suspend().catch(()=>{});});
  host.addEventListener('pageshow',()=>{if(enabled&&unlocked&&!doc.hidden)unlock();});

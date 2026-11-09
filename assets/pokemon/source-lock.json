@@ -1,4 +1,6 @@
 {
   "repository": "https://github.com/PokeAPI/sprites",
-  "revision": "1b3b7c0a538dd2226ae08d0d2f8955125075bbd4"
+  "revision": "1b3b7c0a538dd2226ae08d0d2f8955125075bbd4",
+  "dataRevision": "5cbeb3f3eb55a9b86da52c4869336f9d61fdd6d7",
+  "dataRepository": "https://github.com/PokeAPI/pokeapi"
 }
