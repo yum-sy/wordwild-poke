@@ -15,6 +15,7 @@ view=['home','dex','party','parents','learning','hall'].includes(qaPhase)?qaPhas
 if(qaPhase==='dex')game.phase='battle';
 if(qaPhase==='boss'){game.phase='battle';game.stage=100;game.enemy=createMonster('p250',100);game.enemy.rareForm='shiny';}
 if(qaPhase==='evolution'){game.party[0].speciesId='p002';game.party[0].lastEvolution={fromSpeciesId:'p001',toSpeciesId:'p002',route:'shield',before:{shield:3},after:{shield:4},threshold:12};}
+const qaFeedback=new URLSearchParams(location.search).get('feedback');if(qaFeedback&&game.phase==='battle'){answer(game,qaFeedback==='wrong'?(game.question.correctIndex+1)%4:game.question.correctIndex);turnFrame=new URLSearchParams(location.search).get('turn')||'cue';}
 '''
 s=s.replace('\nrender();\n','\n'+fixture+'\nrender();\n')
 Path('src/qa-device-app.js').write_text(s)
