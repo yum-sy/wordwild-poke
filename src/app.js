@@ -1,4 +1,4 @@
-import {fitLearningLayout} from './learning-layout.js';
+import {installDeviceLayout,scheduleDeviceLayout} from './device-layout.js';
 import {captureBallFor,captureBallLabel} from './capture-balls.js';
 import {powerUpStage} from './monsters.js';
 import {CAPTURE_TIMING,startCaptureAttempt,captureBallArt,captureFrameLabel} from './capture-sequence.js';
@@ -148,7 +148,7 @@ function dexView(){
  const entries=SPECIES.slice(menuPage*6,menuPage*6+6),counts=Object.values(dex);
  return `<section class="dex-heading"><div><h1>Pokédex</h1><small>${counts.filter(d=>d.seen).length} seen · ${counts.filter(d=>d.caught).length} caught · ${counts.filter(d=>d.shiny).length} shiny</small></div>${btn('home','◀ Home','secondary')}</section><section class="dex-grid">${entries.map(s=>{const d=dex[s.id]||{};return `<button class="dex-card ${d.caught?'caught':''}" data-action="dex-detail" data-id="${s.id}"><small>#${String(s.pokemonId).padStart(3,'0')}</small>${monsterArt(s.id,100)}<strong>${s.name}</strong><span>${d.caught?'✓ Caught':d.seen?'Seen':'Not seen'}${d.shiny?' ★':''}</span></button>`;}).join('')}</section>${pager(Math.ceil(SPECIES.length/6))}`;
 }
-function render(){collectRunDex(dex,game);save(DEX_KEY,dex);music.sync(view,game);const merged=mergeCollection(rareCollection,game?.rareFinds);if(merged.length!==rareCollection.length){rareCollection=merged;save('wordwild-pokemon-v2-rare-collection',rareCollection);}if(!saveRun(learningStorage,game))storageAvailable=false;document.body.classList.toggle('playing',view==='game'&&!!game);root.innerHTML=`${header()}${nav()}<main class="view-${view}">${view==='home'?home():view==='game'&&game?gameView():view==='dex'?dexView():view==='parents'?parents():view==='learning'?learning():view==='party'?partyView():hallView()}${game&&view!=='game'&&view!=='home'&&view!=='dex'?`<button class="resume-pill" data-action="resume">▶ BACK TO STAGE ${game.stage}</button>`:''}${!storageAvailable?'<p role="status">Storage is full or off. Saving is off. You can keep playing; new records may not be kept.</p>':''}</main>${modal()}`;animateArt();requestAnimationFrame(()=>fitLearningLayout());if(dialog)root.querySelector('.modal button')?.focus();}
+function render(){collectRunDex(dex,game);save(DEX_KEY,dex);music.sync(view,game);const merged=mergeCollection(rareCollection,game?.rareFinds);if(merged.length!==rareCollection.length){rareCollection=merged;save('wordwild-pokemon-v2-rare-collection',rareCollection);}if(!saveRun(learningStorage,game))storageAvailable=false;document.body.classList.toggle('playing',view==='game'&&!!game);root.innerHTML=`${header()}${nav()}<main class="view-${view}">${view==='home'?home():view==='game'&&game?gameView():view==='dex'?dexView():view==='parents'?parents():view==='learning'?learning():view==='party'?partyView():hallView()}${game&&view!=='game'&&view!=='home'&&view!=='dex'?`<button class="resume-pill" data-action="resume">▶ BACK TO STAGE ${game.stage}</button>`:''}${!storageAvailable?'<p role="status">Storage is full or off. Saving is off. You can keep playing; new records may not be kept.</p>':''}</main>${modal()}`;animateArt();scheduleDeviceLayout();if(dialog)root.querySelector('.modal button')?.focus();}
 function advanceStage(){nextStage(game);persistLearning();if(game.phase==='clear'&&!game.recorded){hall.push({date:new Date().toISOString(),correct:game.correct,total:game.total,firstRight:game.firstRight,firstTotal:game.firstTotal,party:game.party.map(m=>({speciesId:m.speciesId,evolutionStage:m.evolutionStage,powerUpStage:powerUpStage(m),evolutionRoute:m.evolutionRoute,rareForm:m.rareForm||null}))});save('wordwild-pokemon-v2-hall',hall);game.recorded=true;}}
 root.addEventListener('click',event=>{
  const b=event.target.closest('[data-action]');if(!b||b.disabled)return;const a=b.dataset.action,id=b.dataset.id;if(a==='music'){music.toggle();return;}if(turnSequence.running||catchSequence.running)return;music.unlock();music.cue('click');
@@ -178,9 +178,7 @@ root.addEventListener('click',event=>{
 });
 document.addEventListener('visibilitychange',()=>{document.body.classList.toggle('presentation-paused',document.hidden);if(document.hidden){turnSequence.pause();catchSequence.pause();}else{turnSequence.resume();catchSequence.resume();}});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&dialog){dialog=null;render();}if(e.key==='Tab'&&dialog){const items=[...root.querySelectorAll('.modal button, .modal [tabindex="0"]')];if(e.shiftKey&&document.activeElement===items[0]){e.preventDefault();items.at(-1).focus();}else if(!e.shiftKey&&document.activeElement===items.at(-1)){e.preventDefault();items[0].focus();}}});
+installDeviceLayout();
 render();
 
 window.addEventListener('beforeunload',event=>{if(!storageAvailable&&game&&!['clear','game-over'].includes(game.phase)){event.preventDefault();event.returnValue='';}});
-
-window.addEventListener('resize',()=>requestAnimationFrame(()=>fitLearningLayout()));
-document.fonts?.ready.then(()=>fitLearningLayout());
