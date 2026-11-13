@@ -8,10 +8,11 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 test('subpath builds preserve local static/animated URLs, notices and exclude QA files',async()=>{
  await mkdir(path.join(root,'work'),{recursive:true});const temp=await mkdtemp(path.join(root,'work/build-test-'));
  try{
-  const files=['index.html','manifest.webmanifest','LICENSE','THIRD_PARTY_NOTICES.md','package.json','src/monsters.js','src/pokemon-data.js','src/animated-art.js','assets/pokemon/1-front.png','assets/pokemon/1-front.gif','assets/pokemon/1-back-shiny.png','assets/pokemon/1-back-shiny.gif','assets/pokemon/UPSTREAM-LICENCE.txt'];
+  const files=['pictograms.html','docs/pictogram-audit.json','src/pictogram-art.js','src/pictogram-catalog.js','assets/learning-pictograms/arasaac-7114.png','index.html','manifest.webmanifest','LICENSE','THIRD_PARTY_NOTICES.md','package.json','src/monsters.js','src/pokemon-data.js','src/animated-art.js','assets/pokemon/1-front.png','assets/pokemon/1-front.gif','assets/pokemon/1-back-shiny.png','assets/pokemon/1-back-shiny.gif','assets/pokemon/UPSTREAM-LICENCE.txt'];
   for(const file of files){await mkdir(path.dirname(path.join(temp,file)),{recursive:true});await copyFile(path.join(root,file),path.join(temp,file));}
   await copyFile(path.join(root,'src/monsters.js'),path.join(temp,'src/qa-excluded.js'));
   execFileSync(process.execPath,[path.join(root,'scripts/build-pages.js')],{cwd:temp,env:{...process.env,BASE_PATH:'/wordwild-pokemon-fangame/',GITHUB_SHA:'testbuild123'},stdio:'pipe'});
+  const {pictogramPicture}=await import(pathToFileURL(path.join(temp,'dist/src/pictogram-art.js')).href);assert.ok(pictogramPicture('cat').includes('/wordwild-pokemon-fangame/assets/learning-pictograms/arasaac-7114.png'));await access(path.join(temp,'dist/docs/pictogram-audit.json'));
   const {monsterArt}=await import(pathToFileURL(path.join(temp,'dist/src/monsters.js')).href);
   const art=monsterArt({speciesId:'p001',rareForm:'shiny'},160,'back',true);
   for(const attr of ['src','data-static','data-animated'])assert.ok(art.includes(`${attr}="/wordwild-pokemon-fangame/assets/pokemon/1-back-shiny.`),attr);

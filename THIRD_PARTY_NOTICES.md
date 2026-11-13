@@ -26,3 +26,7 @@ Names, current primary types, evolution links and classifications derive from pi
 Install icons `assets/icons/pichu-back-*.png` package the cached PokeAPI Pichu back sprite (`assets/pokemon/172-back.png`) on an opaque background with maskable safe padding. The same Pokémon artwork rights apply. Regenerate with `python3 scripts/build-install-icons.py`.
 
 `assets/icons/pichu-close-*.png` are nearest-neighbor crops of the same cached Pichu back sprite, with an ivory/yellow background. These serve as the app logo, install icons and favicons; Pokémon artwork attribution above applies.
+
+## Learning pictograms
+
+ARASAAC pictograms by Sergio Palao, property of the Government of Aragón, are used under CC BY-NC-SA; see https://arasaac.org/terms-of-use. These pictograms and compositions using them retain that license. Mulberry Symbols by Steve Lee are CC BY-SA 4.0 (https://mulberrysymbols.org/); the extracted single-cloud SVG adaptation retains CC BY-SA 4.0. See `pictograms.html` for in-game credits and `docs/pictogram-audit.json` for individual sources, changes and hashes. These licenses do not replace the separate licenses of the game code or Pokémon assets.
